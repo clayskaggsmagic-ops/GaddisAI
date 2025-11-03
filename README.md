@@ -269,7 +269,7 @@ Use the dossier generation tool to create/update agent personas:
 python src/generate_dossiers.py
 
 # Generate specific role
-python src/generate_dossiers.py --role SecDef --person "Lloyd Austin"
+python src/generate_dossiers.py --role SecDef --person "Pete Hegseth"
 
 # Options
 python src/generate_dossiers.py --help

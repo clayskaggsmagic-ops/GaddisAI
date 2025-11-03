@@ -24,7 +24,7 @@ GaddisAI simulates National Security Council deliberations using multiple AI age
 │                                                              │
 │   ┌──────────────┐    ┌──────────────┐    ┌──────────────┐│
 │   │   SecDef     │    │  SecState    │    │     NSA      ││
-│   │ Lloyd Austin │    │Antony Blinken│    │Jake Sullivan ││
+│   │ Pete Hegseth │    │ Marco Rubio  │    │ Marco Rubio  ││
 │   └──────────────┘    └──────────────┘    └──────────────┘│
 │          ↓                   ↓                   ↓          │
 │   Recommendation      Recommendation      Recommendation    │
@@ -37,7 +37,7 @@ GaddisAI simulates National Security Council deliberations using multiple AI age
 ┌─────────────────────────────────────────────────────────────┐
 │                  PRESIDENTIAL DECISION                       │
 │                                                              │
-│                    Joe Biden (President)                     │
+│                 Donald J. Trump (President)                  │
 │                                                              │
 │   Weights each advisor's recommendation:                    │
 │                                                              │
@@ -116,7 +116,7 @@ Final Weight = (0.6 × Relationship Score) + (0.4 × Interest Alignment)
 Every calculation is visible:
 
 ```
-SecDef (Lloyd Austin):
+SecDef (Pete Hegseth):
 ├─ Relationship Score: 0.60  (from config)
 ├─ Interest Alignment: 0.78  (calculated from weights)
 └─ Final Weight: 0.67        (0.6 × 0.60 + 0.4 × 0.78)
@@ -266,7 +266,7 @@ def calculate_alignment(president_weights, advisor_weights):
 Each advisor has:
 
 **Identity:**
-- Person name (e.g., "Lloyd Austin")
+- Person name (e.g., "Pete Hegseth")
 - Official role (e.g., "Secretary of Defense")
 - Mandate (responsibilities)
 
@@ -296,7 +296,7 @@ alternatives: "Alternative: Enhanced air presence without ground troops"
 The President has:
 
 **Identity:**
-- Person name (e.g., "Joe Biden")
+- Person name (e.g., "Donald J. Trump")
 - Presidential priorities
 
 **Relationships:**

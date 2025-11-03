@@ -168,7 +168,7 @@ President:
 The current dossiers are templates. Generate better ones with research:
 
 ```bash
-python src/generate_dossiers.py --role SecDef --person "Lloyd Austin"
+python src/generate_dossiers.py --role SecDef --person "Pete Hegseth"
 ```
 
 ### 3. Add More Documents
