@@ -1,0 +1,277 @@
+relationships:
+  # This file documents Trump's relationship scores with advisors for the NSC simulation
+  # The system uses these scores (combined with interest alignment) to weight advisor influence
+
+  # CORE PRINCIPLE: Trump weighs advisor recommendations based on:
+  # - Personal relationship/trust (60% of weight)
+  # - Interest alignment with Trump's priorities (40% of weight)
+
+  advisor_relationships:
+    # NSC PRINCIPALS
+    VP_JD_Vance:
+      score: 0.95
+      basis: "Designated heir apparent for 2028; Trump calls him 'fantastic' and 'like gold'; handles Senate tie-breakers"
+      confidence: "very_high"
+      notes: "Vance is Trump's chosen successor - 'most likely' to carry MAGA mantle per Trump. Cast critical 51-50 tie-breaking vote for Hegseth confirmation. Foreign policy restraint philosophy aligns with Trump's instincts. Vance can 'bro out' with Trump discussing politics. Competitive with Rubio for 2028 but Trump maintains both. Very high trust, though Rubio sometimes ranked first when Trump lists successors. Vance's youth (40) and conversion from Never Trump to loyalist proves commitment."
+      relationship_type: "patron-designated_heir"
+
+    SecState_Marco_Rubio:
+      score: 0.95
+      basis: "Trump: 'When I have a problem, he has answers. He can fix things'; named first when asked about successors"
+      confidence: "very_high"
+      notes: "Rubio may have HIGHEST operational trust despite similar score to Vance. Trump named Rubio FIRST when discussing successors: 'You look at Marco, you look at JD Vance, who's fantastic.' Rubio is problem-solver Trump relies on. Can 'bro out' with Trump (UFC, sports talk). Dual role as SecState/Acting NSA gives Rubio unprecedented power (like Kissinger). Trump trusts Rubio's answers, implementation ability, and loyalty. Rubio transformed from 2016 'Little Marco' rival to 2025 indispensable advisor. Personal rapport is strong."
+      relationship_type: "patron-problem_solver"
+
+    SecState_Acting_NSA_Marco_Rubio:
+      score: 0.95
+      basis: "Same person as SecState; Rubio holds dual role as Acting National Security Advisor"
+      confidence: "very_high"
+      notes: "Rubio's dual role means Trump's most trusted problem-solver IS the Acting NSA. This centralizes foreign policy decision-making in person Trump trusts most operationally. Rubio coordinates daily with Vance (offices adjacent) creating Rubio-Vance axis for NSC advice to Trump."
+      relationship_type: "same_as_secstate"
+
+    SecDef_Pete_Hegseth:
+      score: 0.90
+      basis: "Culture warrior SecDef confirmed 51-50 with Vance tie-breaker; part of inner circle Signal chats; shares anti-'woke' military vision"
+      confidence: "high"
+      notes: "Hegseth is trusted culture warrior executing Trump's vision to eliminate DEI/wokeness from military. Trump personally selected Hegseth despite lack of traditional defense credentials - loyalty and ideology matter more. Hegseth defended Trump on Fox News for years. Close relationship though not as personally close as Rubio/Vance. Trump values Hegseth's absolute loyalty and willingness to purge military brass who resist. Part of tight inner circle (Signal chat participant with Vance, Rubio, Miller, Waltz)."
+      relationship_type: "patron-loyal_culture_warrior"
+
+    Deputy_CoS_HSA_Stephen_Miller:
+      score: 1.0
+      basis: "Longest-serving advisor (2016 campaign-present); called 'Trump's brain' and 'the prime minister'; translates Trump's instincts into policy"
+      confidence: "very_high"
+      notes: "Miller has HIGHEST relationship score because he is Trump's ideological soulmate and most trusted policy implementer. 'Accumulated more influence than any other White House official outside Trump.' Miller has been with Trump since 2016 campaign - longest continuous relationship of any advisor. Never leaked, never wavered, absolutely loyal. Miller doesn't just advise - he translates Trump's instincts into executive orders. Trump trusts Miller completely on immigration (Trump's signature issue). Miller drafted Day One executive order blitz. Trump said Miller 'indirectly already has' NSA job, is 'at the top of the totem pole' for permanent appointment. This is Trump's brain trust personified."
+      relationship_type: "patron-ideological_soulmate"
+
+  # WHITE HOUSE STAFF
+  white_house_inner_circle:
+    Chief_of_Staff:
+      score: 0.85
+      basis: "Manages White House operations; must be Trump loyalist but less ideological soulmate than Miller"
+      confidence: "medium-high"
+      notes: "Trump's CoS in second term (name varies by when simulation runs) must be loyalist or wouldn't survive. However, CoS is manager/coordinator role, not ideological driver. Miller (Deputy CoS) often has more Trump access and trust. CoS implements Trump's vision but doesn't shape it like Miller does."
+      relationship_type: "manager-executor"
+
+  # CABINET COORDINATION
+  cabinet_members:
+    DHS_Secretary_Kristi_Noem:
+      score: 0.85
+      basis: "Loyalist implementing Miller's immigration vision; part of 'Trump Green Zone' military housing group"
+      confidence: "high"
+      notes: "Noem is trusted executor of Trump's immigration agenda. She implements Miller's vision with Trump's blessing. Moved to military housing with Miller, Rubio, Hegseth showing tight inner circle. Trump values her loyalty and willingness to deploy federal law enforcement over state/local resistance. Not as personally close as Rubio/Vance but highly trusted on signature issue (immigration)."
+      relationship_type: "trusted_executor"
+
+    AG_Pam_Bondi:
+      score: 0.85
+      basis: "Florida AG who defended Trump; loyalist providing legal cover for Trump agenda"
+      confidence: "high"
+      notes: "Bondi defended Trump during first impeachment and legal troubles. Trump rewards loyalty. As AG, Bondi provides DOJ legal backing for Trump's executive actions and pursues Trump's enemies. Trusted to use Justice Department for Trump's priorities. Not inner circle foreign policy advisor but crucial for domestic legal battles enabling Trump agenda."
+      relationship_type: "loyal_legal_defender"
+
+  # CONGRESS - KEY RELATIONSHIPS
+  congressional_allies:
+    - name: "Senate Republican Leadership"
+      score: 0.70
+      basis: "Republican control (53-47) but some moderates resist Trump on occasions"
+      notes: "Trump needs Senate for confirmations and legislation. Vance's tie-breaking votes show narrow margin. Most Republicans are MAGA loyalists now but a few moderates (Collins, Murkowski) occasionally defect. Trump uses primary threats to enforce loyalty. Relationship is transactional - they need Trump's base, he needs their votes."
+
+    - name: "House Republican Leadership"
+      score: 0.75
+      basis: "Republican majority (slim); Trump dominates party but faces governance challenges"
+      notes: "House Republicans are almost entirely MAGA or MAGA-adjacent. Freedom Caucus most loyal. Trump can enforce discipline through primary threats. However, narrow majority creates governance challenges. Trump's relationship is commanding - he IS the Republican Party."
+
+    - name: "Democratic Leadership"
+      score: 0.05
+      basis: "Complete opposition; Trump views Democrats as enemy; mutual hostility"
+      notes: "No working relationship. Democrats oppose Trump on everything. Trump attacks them constantly. Impeached him twice. Prosecuted him. Mutual contempt. Zero cooperation on foreign policy. Democrats warn allies Trump is unreliable."
+
+  # FOREIGN LEADERS
+  international_relationships:
+    - name: "Benjamin Netanyahu (Israel PM)"
+      score: 0.90
+      basis: "Strong personal relationship; shared interests; Trump moved embassy to Jerusalem; Abraham Accords"
+      notes: "Netanyahu and Trump have warm personal relationship. Trump's pro-Israel policies (Jerusalem embassy, Golan Heights recognition, Abraham Accords) cement bond. Israel trusts Trump completely. Trump sees Israel as key Middle East ally and evangelical base priority. When Trump strikes Iran, it's partly to protect Israel. Mutual admiration and strategic alignment."
+
+    - name: "Xi Jinping (China)"
+      score: 0.50
+      basis: "Complicated - personal rapport but strategic rivalry; trade war but willingness to make deals"
+      notes: "Trump claims personal friendship with Xi ('We had a great relationship'). Loves deal-making with Xi. But also views China as greatest threat and imposes massive tariffs. Relationship is transactional - when deal benefits Trump, he works with Xi (November 2025 framework). When not, he escalates (threatened 100% tariffs). Zero-sum competition with personal courtesy overlay."
+
+    - name: "Vladimir Putin (Russia)"
+      score: 0.65
+      basis: "Trump admires Putin's strength; seeks to make deals; Ukraine policy favors Russia; but relationship is complicated"
+      notes: "Trump has long expressed admiration for Putin as strong leader. Seeks to end Ukraine war on terms favorable to Russia (frozen front lines, Crimea recognition, territorial concessions). Russia investigation shadows relationship. Trump wants deal with Putin but can't appear too accommodating politically. Transactional: if Putin gives Trump 'win' on Ukraine, Trump will reward. Otherwise, relationship is wary."
+
+    - name: "Volodymyr Zelenskyy (Ukraine)"
+      score: 0.25
+      basis: "First impeachment over Ukraine aid; second term: 'not our war,' threatens to abandon; Zelenskyy critical of Trump approach"
+      notes: "Poor relationship. Trump's first impeachment was about withholding Ukraine aid. Second term: Trump views Ukraine war as drain on resources better spent on China. Willing to force Ukraine to accept territorial losses. Zelenskyy recognizes Trump doesn't prioritize Ukraine's interests. NBC reported 'heated clash' when Zelenskyy met Trump at White House. Mutual distrust and incompatible goals."
+
+    - name: "European NATO Leaders"
+      score: 0.40
+      basis: "Trump demands burden-sharing; threatens to let Russia 'do whatever' to delinquent allies; transactional view of NATO"
+      notes: "Trump views European allies as free-riders exploiting US. Constantly criticizes NATO. Threatened to withdraw. Told ally he'd let Russia attack if not paying. European leaders fear Trump will abandon Article 5. Vance's Munich speech damaged relations further. Trump wants Europe to pay more AND handle Ukraine without US. Purely transactional relationship - no values-based solidarity."
+
+    - name: "Kim Jong Un (North Korea)"
+      score: 0.55
+      basis: "Trump claims personal friendship; 'love letters'; summits showed willingness to engage; but no denuclearization"
+      notes: "Trump bizarrely claims to have great personal relationship with Kim - 'We fell in love.' Singapore and Hanoi summits showed Trump's deal-making approach. Walked away from Hanoi when Kim didn't offer enough. No denuclearization achieved but also no new missile tests during engagement. Trump values personal rapport even with dictators if it serves his interests. Transactional: if Kim gives concessions, Trump rewards. If not, threatens fire and fury."
+
+  # MEDIA
+  media_relationships:
+    - name: "Fox News"
+      score: 0.85
+      basis: "Symbiotic relationship; Trump's primary media platform; defends him constantly; influences his decisions"
+      notes: "Fox News is Trump's media arm. He watches constantly, makes decisions based on Fox coverage, promotes Fox hosts (Hegseth to SecDef). Fox defends Trump on everything, amplifies his message, attacks enemies. Trump gives Fox exclusive access. Relationship is mutually beneficial - Fox gets ratings, Trump gets favorable coverage and direct line to base."
+
+    - name: "Mainstream Media (CNN, NYT, WaPo, MSNBC)"
+      score: 0.10
+      basis: "Mutual hostility; Trump calls them 'fake news' and 'enemy of the people'; they cover him critically"
+      notes: "Trump has declared war on mainstream media. Calls them fake news, enemy of the people, liars. They cover him critically and investigate his actions. Relationship is pure combat. Trump uses their criticism to energize base ('witch hunt'). They view him as threat to democracy. Zero trust, maximum conflict."
+
+    - name: "Conservative Media Ecosystem (Breitbart, Daily Wire, Newsmax)"
+      score: 0.90
+      basis: "Absolute loyalty; amplify Trump message; coordinate messaging; Miller fed stories to Breitbart"
+      notes: "Conservative media is MAGA propaganda arm. Breitbart especially - Miller sent 900+ emails to them shaping narratives. They defend Trump absolutely, attack his enemies viciously, spread his message. Trump rewards with access and promotion. Pure loyalty, no criticism."
+
+  # INTEREST GROUPS
+  aligned_interest_groups:
+    - name: "America First Movement / MAGA Base"
+      score: 0.95
+      basis: "Trump's core supporters; unshakable loyalty; define Republican Party now"
+      notes: "Trump's relationship with MAGA base is his power source. 35-40% of electorate absolutely loyal. Will believe anything he says. Defend him against all attacks. Primary weapon against Republican dissenters. Trump feeds them red meat, they give him political power. Symbiotic relationship defining modern GOP."
+
+    - name: "Evangelical Christians"
+      score: 0.90
+      basis: "Three Supreme Court justices; pro-Israel policy; anti-abortion; culture war alignment"
+      notes: "Evangelicals view Trump as God's chosen despite personal behavior. He delivers on abortion, judges, Israel, religious freedom. They provide political cover and electoral muscle. Trump doesn't share their faith but delivers policy wins. Transactional but extremely successful alliance."
+
+    - name: "Business/Corporate America"
+      score: 0.60
+      basis: "Complicated - tax cuts appreciated but tariffs opposed; unpredictable policy creates uncertainty"
+      notes: "Business likes Trump's tax cuts and deregulation. Hates his tariffs and unpredictability. Relationship is wary - they benefit from some policies but fear his impulsiveness. Trump doesn't trust corporate America ('globalists') but uses them when beneficial. Purely transactional."
+
+  opposition_groups:
+    - name: "Never Trump Republicans"
+      score: 0.0
+      basis: "Romney, Cheney, Kinzinger purged from party; Trump views as traitors"
+      notes: "Trump has successfully purged Never Trump Republicans from party. They're politically powerless. Trump views them as worse than Democrats - disloyal traitors. Mutual contempt. Their opposition only strengthens Trump with base."
+
+    - name: "Intelligence Community / 'Deep State'"
+      score: 0.20
+      basis: "Trump distrusts IC; Russia investigation; claims deep state sabotage; IC warns about his approach"
+      notes: "Trump has deep distrust of intelligence community since Russia investigation. Claims 'deep state' tried to overthrow him. IC professionals worry about Trump sharing classified info, trusting adversaries. Relationship is hostile. Trump marginalizes IC assessments that contradict his views. Uses loyalists to control agencies."
+
+    - name: "Federal Courts"
+      score: 0.30
+      basis: "Courts have blocked many Trump policies; Trump attacks judges; but his Supreme Court appointees are loyal"
+      notes: "Federal courts blocked Muslim ban, family separation, many executive actions. Trump attacks judges as activists and politically biased. However, Supreme Court has conservative supermajority (3 Trump appointees) that favors him. Relationship with lower courts is hostile, SCOTUS is friendly. Miller calls court blocking as 'judicial coup.'"
+
+relationship_dynamics:
+  decision_weighting: |
+    Trump weighs advisor recommendations using:
+    FINAL WEIGHT = (0.6 × Relationship Score) + (0.4 × Interest Alignment)
+
+    Example: Iran strike decision
+    - Rubio (0.95 relationship × 0.6) + (0.95 Iran deterrence alignment × 0.4) = 0.95 total weight
+    - Miller (1.0 relationship × 0.6) + (0.85 Iran alignment × 0.4) = 0.94 total weight
+    - Vance (0.95 relationship × 0.6) + (0.75 Iran alignment × 0.4) = 0.87 total weight
+
+    Trump listens most to Rubio and Miller on Iran; less to Vance (who favors restraint).
+
+  inner_circle_hierarchy: |
+    TRUE INNER CIRCLE (highest influence):
+    1. Stephen Miller (1.0) - ideological soulmate, policy translator
+    2. Marco Rubio (0.95) - problem-solver, dual SecState/NSA role
+    3. JD Vance (0.95) - designated heir, foreign policy voice
+
+    SECOND TIER (high influence on specific domains):
+    4. Pete Hegseth (0.90) - military execution, culture war
+    5. Kristi Noem (0.85) - immigration implementation
+
+    Everyone else is outside the core decision-making group for NSC matters.
+
+  competitive_dynamics: |
+    Vance vs Rubio for 2028:
+    - Trump named Rubio FIRST when asked about successors
+    - But Vance is designated VP heir apparent
+    - Trump keeps both close, lets them compete
+    - They maintain friendship (Vance calls Rubio "best friend in administration")
+    - Offices adjacent, consult daily
+    - But both positioning for 2028 MAGA leadership
+    - Trump benefits from their competition (motivated to please him)
+
+  loyalty_enforcement: |
+    Trump's relationship scores can DROP TO ZERO instantly if disloyalty detected:
+    - Public criticism = immediate firing (see: Tillerson, Mattis, Bolton, Esper)
+    - Private dissent tolerated only from highest-trust advisors (Miller, Rubio, Vance)
+    - Leaking = unforgivable sin
+    - Questioning Trump publicly = career death
+
+    Second term difference: Only hired loyalists, so no moderates to purge.
+    First term: Had to fire disloyal moderates (Mattis, Tillerson, McMaster, Bolton)
+    Second term: Pre-screened for loyalty, all are MAGA true believers
+
+  transactional_nature: |
+    Even high-trust relationships are transactional:
+    - Rubio delivers solutions → Trump maintains trust
+    - Vance provides Senate votes → Trump maintains heir status
+    - Miller implements vision → Trump gives him power
+    - Hegseth executes orders → Trump protects him
+
+    If any advisor STOPPED delivering, relationship would deteriorate.
+    Trump values advisors for what they DO, not who they ARE.
+
+  foreign_leader_transactionalism: |
+    Trump's foreign leader relationships are purely transactional:
+    - Netanyahu delivers pro-Israel wins → Trump supports Israel
+    - Xi makes trade deal → Trump reduces tariffs
+    - Putin hypothetically ends Ukraine war on Trump's terms → Trump would reward
+    - Kim gives denuclearization → Trump would normalize (but didn't happen)
+
+    NO relationship is based on values or long-term partnership.
+    Everything is "what have you done for me lately?"
+
+research_metadata:
+  sources_consulted: 15
+  confidence_level: "very_high"
+  key_insights:
+    - "Miller (1.0) has highest relationship score - ideological soulmate, longest tenure, translates Trump's instincts"
+    - "Rubio (0.95) and Vance (0.95) tied for second - both problem-solvers and potential heirs"
+    - "Trump named Rubio FIRST for successor, creating Vance-Rubio competitive dynamic"
+    - "Relationship scores can drop to zero instantly if disloyalty detected"
+    - "Second term: only loyalists hired, no moderates to constrain like first term"
+    - "Transactional worldview: every relationship is deal, must deliver value"
+    - "Foreign leaders: zero values-based relationships, purely transactional (even allies like Israel)"
+    - "Inner circle lives in military housing ('Trump Green Zone') - Miller, Rubio, Hegseth, Noem"
+
+  critical_note_for_simulation: |
+    IMPORTANT FOR GADDISAI NSC SIMULATION:
+
+    Trump's decision-making is NOT deliberative interagency process.
+    It's highly personal, centralized, loyalty-driven.
+
+    The simulation should weight advisor recommendations using:
+    **FINAL WEIGHT = (0.6 × Relationship Score) + (0.4 × Interest Alignment)**
+
+    This means:
+    - Miller's advice weighs VERY heavily (1.0 relationship, usually high alignment)
+    - Rubio's advice weighs VERY heavily (0.95 relationship, problem-solver role)
+    - Vance's advice weighs heavily (0.95 relationship, though sometimes lower alignment)
+    - Hegseth's advice weighs heavily on military matters (0.90 relationship)
+
+    Advisors outside inner circle have much lower influence regardless of expertise.
+
+    Trump makes final decision based on:
+    1. Weighted advisor input
+    2. Personal instincts
+    3. Media coverage / how it will play
+    4. Whether he'll be seen as "winner"
+    5. Transactional cost-benefit
+
+    NOT based on:
+    - Institutional process
+    - Intelligence community assessments
+    - Allied preferences
+    - International law
+    - Traditional diplomatic norms

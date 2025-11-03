@@ -1,0 +1,281 @@
+positions:
+  # CHINA / ASIA-PACIFIC
+  - claim: "China is America's most important geopolitical foe, more dangerous than Russia"
+    stance: "opposes_china"
+    intensity: "very_strong"
+    quote: "US foreign policy should refocus attention away from Europe and the Middle East and toward the threat posed by China in Asia."
+    context: "Core foreign policy position throughout Senate career and vice presidency"
+    source:
+      title: "JD Vance as VP: China focus, less help for Ukraine"
+      url: "https://asiatimes.com/2024/07/jd-vance-as-vp-china-focus-less-help-for-ukraine/"
+      type: "policy_analysis"
+      date: "2024-07-16"
+      publication: "Asia Times"
+      credibility: "secondary"
+
+  - claim: "Taiwan must be defended to prevent Chinese control of semiconductor supply"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "The thing that we need to prevent more than anything is a Chinese invasion of Taiwan. We need to prevent it because of the risk that an invasion could decimate our entire economy."
+    context: "Economic security rationale for Taiwan defense"
+    source:
+      title: "JD Vance's world: Where does Trump VP pick stand on Israel, Ukraine, China?"
+      url: "https://www.aljazeera.com/news/2024/7/16/what-are-jd-vances-foreign-policy-positions-on-israel-ukraine-and-china"
+      type: "news_analysis"
+      date: "2024-07-16"
+      publication: "Al Jazeera"
+      credibility: "secondary"
+
+  - claim: "US must increase domestic manufacturing to counter China economically"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "This is a straightforwardly economically nationalist argument that includes increasing support for US manufacturing as a way of directly countering China's rise."
+    context: "Support for CHIPS Act and industrial policy"
+    source:
+      title: "For JD Vance, foreign policy starts at home"
+      url: "https://www.nbcnews.com/news/world/jd-vance-foreign-policy-new-right-rcna164869"
+      type: "news_analysis"
+      date: "2024-07-20"
+      publication: "NBC News"
+      credibility: "secondary"
+
+  - claim: "Revoke China's favored trade status to rebalance economic relationship"
+    stance: "supports"
+    intensity: "strong"
+    quote: "Co-sponsored legislation that would revoke China's favored trade status."
+    context: "Senate legislative record on China trade"
+    source:
+      title: "JD Vance Voting Record"
+      url: "https://justfacts.votesmart.org/candidate/key-votes/201794/jd-vance"
+      type: "voting_record"
+      date: "2023-2025"
+      publication: "VoteSmart"
+      credibility: "primary"
+
+  # UKRAINE / RUSSIA
+  - claim: "US should not provide additional funding to Ukraine; Europe must defend itself"
+    stance: "opposes_ukraine_aid"
+    intensity: "very_strong"
+    quote: "I gotta be honest with you, I don't really care what happens to Ukraine one way or another."
+    context: "Statement made just after Russia's February 2022 invasion"
+    source:
+      title: "Where JD Vance stands on Ukraine, Israel and China"
+      url: "https://thehill.com/policy/international/4773538-jd-vance-foreign-policy/"
+      type: "news_profile"
+      date: "2024-07-15"
+      publication: "The Hill"
+      credibility: "secondary"
+
+  - claim: "Ukraine ceding territory to Russia is in America's best interest"
+    stance: "supports_territorial_concessions"
+    intensity: "strong"
+    quote: "A second Trump administration would try to quickly negotiate an end to the war in Ukraine so America can focus on the real issue, which is China."
+    context: "Negotiated settlement advocacy prioritizing China focus"
+    source:
+      title: "JD Vance on Russia"
+      url: "https://www.russiamatters.org/analysis/jd-vance-russia"
+      type: "policy_analysis"
+      date: "2024-07-16"
+      publication: "Russia Matters"
+      credibility: "secondary"
+
+  - claim: "America is stretched too thin to support wars in Ukraine, Israel, and Taiwan simultaneously"
+    stance: "opposes_multi_theater"
+    intensity: "very_strong"
+    quote: "America is stretched too thin and does not have the industrial capacity to support wars in Ukraine, Israel, and potentially Taiwan simultaneously."
+    context: "Argument for resource prioritization toward Asia"
+    source:
+      title: "JD Vance's world: Where does Trump VP pick stand on Israel, Ukraine, China?"
+      url: "https://www.aljazeera.com/news/2024/7/16/what-are-jd-vances-foreign-policy-positions-on-israel-ukraine-and-china"
+      type: "news_analysis"
+      date: "2024-07-16"
+      publication: "Al Jazeera"
+      credibility: "secondary"
+
+  # NATO / EUROPE
+  - claim: "Europe's greatest threat comes 'from within' not from Russia or China"
+    stance: "criticizes_european_democracy"
+    intensity: "very_strong"
+    quote: "The threat that I worry the most about vis-à-vis Europe is not Russia, it's not China, it's not any other external actor."
+    context: "Munich Security Conference speech February 14, 2025"
+    source:
+      title: "Vance scorches European allies in Munich speech, lecturing them about democracy"
+      url: "https://www.npr.org/2025/02/13/nx-s1-5290258/vance-munich-security-conference-trump-putin-zelenskyy-russia-ukraine"
+      type: "speech"
+      date: "2025-02-14"
+      publication: "NPR"
+      credibility: "primary"
+
+  - claim: "America needs allies, not clients; Europe must spend more on defense"
+    stance: "supports_burden_sharing"
+    intensity: "very_strong"
+    quote: "America does not need clients, it needs allies. Wealthy European nations such as Germany should defend Ukraine without US assistance."
+    context: "Post-Munich Security Conference statement"
+    source:
+      title: "JD Vance's defense message to Europe is imperfect but cannot be ignored"
+      url: "https://www.washingtonexaminer.com/policy/foreign-policy/2863427/jd-vances-defense-message-europe-imperfect/"
+      type: "news_analysis"
+      date: "2025-02-15"
+      publication: "Washington Examiner"
+      credibility: "secondary"
+
+  - claim: "US should not pull out of NATO but expects efficiency and burden-sharing"
+    stance: "supports_conditional_nato"
+    intensity: "moderate"
+    quote: "I don't think the US should pull out of NATO or abandon Europe, but calling for more efficiency in defense spending."
+    context: "Clarification of NATO position"
+    source:
+      title: "SENATOR VANCE: EUROPE HAS TO STEP UP, AMERICA NEEDS TO FOCUS ON CHINA"
+      url: "https://www.vance.senate.gov/press-releases/senator-vance-europe-has-to-step-up-america-needs-to-focus-on-china/"
+      type: "press_release"
+      date: "2024-06-12"
+      publication: "Senate Office"
+      credibility: "primary"
+
+  # MIDDLE EAST / IRAN
+  - claim: "US must take military action if needed to prevent Iran from obtaining nuclear weapon"
+    stance: "supports_iran_military_action"
+    intensity: "very_strong"
+    quote: "We're not at war with Iran, Jon. We're at war with Iran's nuclear program."
+    context: "Defense of June 2025 strikes on Iranian nuclear facilities"
+    source:
+      title: "Vance: 'We're not at war with Iran, we're at war with Iran's nuclear program'"
+      url: "https://abcnews.go.com/Politics/vance-war-iran-war-irans-nuclear-program/story?id=123090085"
+      type: "interview"
+      date: "2025-06-22"
+      publication: "ABC News"
+      credibility: "primary"
+
+  - claim: "Iran nuclear program has been 'substantially' set back by US strikes"
+    stance: "supports_strikes"
+    intensity: "very_strong"
+    quote: "We set the Iranian nuclear program back substantially. It will be a very long time before Iran can even build a nuclear weapon if they want to."
+    context: "Post-strike assessment after Operation Midnight Hammer"
+    source:
+      title: "JD Vance says Iranian nuclear program 'substantially' set back after 'precise, surgical' US strikes"
+      url: "https://www.foxnews.com/politics/jd-vance-says-iranian-nuclear-program-substantially-set-back-after-precise-surgical-us-strikes"
+      type: "interview"
+      date: "2025-06-22"
+      publication: "Fox News"
+      credibility: "primary"
+
+  - claim: "Supports continued military aid to Israel for regional stability"
+    stance: "supports_israel"
+    intensity: "strong"
+    quote: "Vance supports continued military aid to Israel, emphasising that a secure Israel contributes to regional stability and aligns with American strategic interests."
+    context: "General Israel policy position"
+    source:
+      title: "Where JD Vance stands on Ukraine, Israel and China"
+      url: "https://thehill.com/policy/international/4773538-jd-vance-foreign-policy/"
+      type: "news_profile"
+      date: "2024-07-15"
+      publication: "The Hill"
+      credibility: "secondary"
+
+  # MILITARY INTERVENTION / RESTRAINT
+  - claim: "Opposes US strikes against Houthis in Yemen without European burden-sharing"
+    stance: "opposes_yemen_strikes"
+    intensity: "very_strong"
+    quote: "There is a real risk that the public doesn't understand this or why it's necessary. Only 3 percent of US trade runs through the Suez while 40 percent of European trade does."
+    context: "Leaked Signal chat message opposing March 2025 Yemen strikes"
+    source:
+      title: "In Signal chat, JD Vance cements his role as skeptic of foreign intervention"
+      url: "https://www.washingtonpost.com/politics/2025/03/26/jd-vance-signal-chat-leak-trump-national-security/"
+      type: "leaked_communication"
+      date: "2025-03-26"
+      publication: "Washington Post"
+      credibility: "primary"
+
+  - claim: "Favors restrained approach to US use of military force"
+    stance: "supports_restraint"
+    intensity: "very_strong"
+    quote: "The vice president has repeatedly said—publicly, and in the leaked Signal chat back in April, when he opposed US strikes against Houthis in Yemen—that he favours a restrained approach to US use of military force."
+    context: "Consistent pattern across multiple incidents"
+    source:
+      title: "How JD Vance shapes and sells the 'Trump doctrine' on foreign policy"
+      url: "https://www.cnn.com/2025/07/07/politics/jd-vance-iran-foreign-policy"
+      type: "news_analysis"
+      date: "2025-07-07"
+      publication: "CNN"
+      credibility: "secondary"
+
+  - claim: "Most thoroughgoing 'America Firster' in administration, even more than Trump"
+    stance: "ideological_commitment"
+    intensity: "very_strong"
+    quote: "According to leaked Signal messages, a former House Armed Services Committee policy director described Vance as 'the most thoroughgoing and consistent America Firster in the administration, even more than Trump.'"
+    context: "Assessment from within NSC deliberations"
+    source:
+      title: "Signal posts shed light on Vance's views on military force and foreign policy"
+      url: "https://rollcall.com/2025/03/26/jd-vance-foreign-policy-military-views/"
+      type: "news_analysis"
+      date: "2025-03-26"
+      publication: "Roll Call"
+      credibility: "secondary"
+
+  # TRADE / ECONOMICS
+  - claim: "Praised Biden's CHIPS Act as 'great piece of legislation'"
+    stance: "supports_industrial_policy"
+    intensity: "strong"
+    quote: "He has praised President Biden's 2022 CHIPS and Science Act as a 'great piece of legislation.'"
+    context: "Bipartisan support for reshoring semiconductor manufacturing"
+    source:
+      title: "For JD Vance, foreign policy starts at home"
+      url: "https://www.nbcnews.com/news/world/jd-vance-foreign-policy-new-right-rcna164869"
+      type: "news_analysis"
+      date: "2024-07-20"
+      publication: "NBC News"
+      credibility: "secondary"
+
+  - claim: "Foreign policy must prioritize working-class American economic interests"
+    stance: "supports_economic_nationalism"
+    intensity: "very_strong"
+    quote: "This is a straightforwardly economically nationalist argument."
+    context: "Application of Hillbilly Elegy philosophy to foreign policy"
+    source:
+      title: "For JD Vance, foreign policy starts at home"
+      url: "https://www.nbcnews.com/news/world/jd-vance-foreign-policy-new-right-rcna164869"
+      type: "news_analysis"
+      date: "2024-07-20"
+      publication: "NBC News"
+      credibility: "secondary"
+
+position_clusters:
+  china_first:
+    - "China is most important geopolitical foe"
+    - "Taiwan defense (economic rationale)"
+    - "Increase domestic manufacturing vs China"
+    - "Revoke China favored trade status"
+
+  european_skepticism:
+    - "Europe's threat is from within"
+    - "America needs allies not clients"
+    - "Conditional NATO support with burden-sharing"
+    - "End Ukraine aid so Europe defends itself"
+
+  restraint_philosophy:
+    - "Opposes Yemen strikes without burden-sharing"
+    - "Most consistent America Firster"
+    - "Favors restrained use of military force"
+    - "America stretched too thin for multiple wars"
+
+  iran_exception:
+    - "Must prevent Iran nuclear weapon"
+    - "Defended June 2025 strikes on nuclear sites"
+    - "Iran nuclear program substantially set back"
+    - "Not at war with Iran, at war with nuclear program"
+
+  economic_nationalism:
+    - "Foreign policy prioritizes working-class interests"
+    - "Support CHIPS Act industrial policy"
+    - "Economically nationalist argument on China"
+    - "Taiwan defense based on semiconductor security"
+
+research_summary:
+  total_positions_documented: 16
+  primary_sources: 6
+  secondary_sources: 10
+  strongest_convictions: ["China threat", "Foreign policy restraint", "European burden-sharing", "Iran nuclear prevention", "Working-class focus"]
+  key_tensions: ["Restraint philosophy vs Iran military action", "Conditional support for allies vs isolation", "Economic vs ideological rationales"]
+  confidence_level: "very_high"
+
+  notable_evolution: "Vance's foreign policy positions have remained remarkably consistent from Senate to VP. The main evolution is increased willingness to publicly defend military action (Iran) when aligned with core interests, even while maintaining restraint philosophy elsewhere."

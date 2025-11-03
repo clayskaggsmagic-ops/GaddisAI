@@ -1,0 +1,215 @@
+relationships:
+  # NSC PRINCIPALS
+  within_nsc:
+    President:
+      score: 0.95
+      basis: "Personal selection by Trump for loyalty; ideological alignment; regular Fox News relationship"
+      confidence: "very_high"
+      notes: "Trump chose Hegseth specifically for loyalty and willingness to implement cultural transformation agenda. Hegseth is fierce Trump defender and was selected over establishment candidates. Trump continues support despite controversies."
+      relationship_type: "patron-loyalist"
+
+    NSA:
+      score: 0.70
+      basis: "Both Trump loyalists with military backgrounds; Signal chat collaboration suggests regular coordination"
+      confidence: "medium-high"
+      notes: "Michael Waltz and Hegseth both in inner MAGA circle. Waltz has congressional experience that may complement Hegseth's lack of senior leadership. Signal chat incident shows coordination on operations. Likely aligned on China threat and culture war issues."
+      relationship_type: "allied-collaborators"
+
+    SecState:
+      score: 0.55
+      basis: "Both Trump appointees but Rubio more establishment/traditional hawk; potential friction on alliances"
+      confidence: "medium"
+      notes: "Marco Rubio is traditional Republican hawk who values alliances and institutions. Hegseth more unilateralist and transactional. Both focus on China but Rubio emphasizes diplomacy while Hegseth emphasizes military power. Hegseth's demand for 5% GDP spending may strain Rubio's alliance management. Respectful but not naturally aligned."
+      relationship_type: "professional-colleagues"
+
+    VP:
+      score: 0.85
+      basis: "JD Vance cast tie-breaking vote for confirmation; ideological alignment on culture war"
+      confidence: "high"
+      notes: "Vance critical to Hegseth's confirmation (51-50 vote). Both embrace culture war politics and anti-establishment posture. Vance involved in Signal chats with Hegseth on Yemen attacks. Strong mutual support expected."
+      relationship_type: "allied-mutual-support"
+
+  # MILITARY LEADERSHIP
+  military_establishment:
+    CJCS_Dan_Caine:
+      score: 0.65
+      basis: "Trump's hand-picked replacement for CQ Brown; National Guard background; CIA experience; working relationship with policy disagreements"
+      confidence: "medium-high"
+      notes: "Gen. Dan Caine confirmed April 2025 as 22nd CJCS after Trump fired CQ Brown (whom Hegseth had criticized as 'woke'). Caine is first National Guard officer to be CJCS, came from CIA associate director role. Trump selected him as 'real general.' Caine and Hegseth have 'dueling approaches' - Caine provides measured military advice while Hegseth focuses on political messaging. Caine has raised concerns directly to Hegseth about changing NDS priorities from China to homeland defense. Professional working relationship with joint briefings but underlying policy tensions. Better than predecessor but not fully aligned."
+      relationship_type: "professional-with-tensions"
+
+    CJCS_CQ_Brown_FIRED:
+      score: 0.15
+      basis: "Hegseth called for Brown's firing; Trump ultimately fired him February 2025"
+      confidence: "very_high"
+      notes: "HISTORICAL - Gen. Charles Q. Brown was fired February 2025 after Hegseth said 'you've got to fire the Chairman Joint Chiefs' due to DEI support. Hegseth lambasted Brown in 'War on Warriors' book. Initially softened position on first day ('standing with him') but Brown ultimately on list of officers to be removed. Fired and replaced by Dan Caine."
+      relationship_type: "adversarial-fired"
+
+    Combat_Commanders:
+      score: 0.50
+      basis: "Mixed - operational commanders focused on warfighting may align, but resistance to cultural purges"
+      confidence: "medium"
+      notes: "Combatant commanders (INDOPACOM, EUCOM, etc.) may appreciate focus on readiness and China deterrence but wary of politicization and officer purges. Hegseth's combat experience gives credibility but lack of senior leadership raises doubts. Relationship will depend on individual commanders and how disruptive cultural changes prove."
+      relationship_type: "wary-conditional"
+
+    Service_Chiefs:
+      score: 0.40
+      basis: "Institutional leaders likely resistant to rapid cultural transformation and officer removals"
+      confidence: "medium-high"
+      notes: "Army, Navy, Air Force, Marine Corps chiefs responsible for training and readiness. Concerned about Hegseth's plans to overhaul promotion system, fire DEI-supporting officers, and impose cultural litmus tests. May slow-roll implementation while publicly complying. Pentagon bureaucracy typically resistant to political interference."
+      relationship_type: "institutional-resistance"
+
+  # CONGRESSIONAL
+  congressional_allies:
+    - name: "Tom Cotton"
+      chamber: "Senate"
+      score: 0.90
+      basis: "Conservative alignment, defense hawk, Army veteran, strong Trump supporter"
+      relationship: "Cotton defended Hegseth during confirmation. Both Army combat veterans with similar views on military culture and China threat. Cotton will provide Senate cover for controversial policies."
+
+    - name: "Joni Ernst"
+      chamber: "Senate"
+      score: 0.60
+      basis: "Initially skeptical due to misconduct allegations but ultimately supported confirmation"
+      relationship: "Ernst (Army National Guard veteran, sexual assault survivor) had serious concerns about Hegseth's allegations and qualifications. Hegseth met privately with her and secured support. Relationship is conditional - Ernst will hold him accountable but won't oppose unless major failures."
+
+    - name: "Jim Jordan"
+      chamber: "House"
+      score: 0.85
+      basis: "MAGA caucus leader, culture warrior, anti-establishment"
+      relationship: "Jordan chairs House Judiciary Committee and is fierce Trump ally. Will support Hegseth's cultural transformation and defend against Democratic investigations. Shared enemy of 'deep state' and 'woke' policies."
+
+    - name: "Mike Rogers"
+      chamber: "House"
+      score: 0.75
+      basis: "House Armed Services Committee Chair, traditional Republican hawk"
+      relationship: "Rogers (HASC Chair) has oversight responsibility. More establishment than Hegseth but will generally support. May push back on budget priorities or alliance issues but won't undermine publicly."
+
+  congressional_opponents:
+    - name: "Adam Smith"
+      chamber: "House"
+      score: 0.10
+      basis: "HASC Ranking Member, progressive defense views, vocal critic"
+      relationship: "Smith (D-WA) strongly opposed confirmation. Will aggressively investigate controversies, challenge DEI elimination, and oppose China hawk policies. Represents institutional Democratic opposition."
+
+    - name: "Jack Reed"
+      chamber: "Senate"
+      score: 0.15
+      basis: "SASC Ranking Member, institutionalist, opposed confirmation"
+      relationship: "Reed (D-RI, Army veteran) questioned Hegseth's qualifications and judgment. Will use SASC platform to scrutinize decisions and demand accountability. Respectful but fundamentally opposed to approach."
+
+    - name: "Elizabeth Warren"
+      chamber: "Senate"
+      score: 0.05
+      basis: "Progressive leader, fierce Pentagon critic, opposed confirmation"
+      relationship: "Warren (D-MA) will be most aggressive Democratic critic. Focus on financial management questions, alliance relationships, and civil-military relations. Will demand investigations and hold hearings."
+
+  # INTEREST GROUPS / EXTERNAL
+  interest_groups:
+    - name: "Traditional Veterans Organizations (VFW, American Legion)"
+      score: 0.60
+      basis: "Appreciate veteran focus but concerned about lack of experience and controversies"
+      relationship: "Mixed reception. Hegseth is combat veteran and advocate but his Fox News persona and controversies create unease. Organizations will support veteran-focused policies but remain cautious about politicization."
+
+    - name: "Conservative Veterans Groups (Concerned Veterans for America)"
+      score: 0.85
+      basis: "Hegseth's former organization; ideological alignment"
+      relationship: "Strong support from conservative veteran activists. Share belief in VA reform, skepticism of government bureaucracy, and cultural conservatism. Will amplify Hegseth's messages."
+
+    - name: "Women's Advocacy Groups (SWAN, DACOWITS)"
+      score: 0.05
+      basis: "Fierce opposition to views on women in combat and sexual misconduct allegations"
+      relationship: "Deep hostility. Service Women's Action Network and Defense Advisory Committee on Women in the Services see Hegseth as threat to women's military integration. Will monitor policies closely and challenge in court if needed."
+
+    - name: "Defense Contractors (Lockheed Martin, Raytheon, etc.)"
+      score: 0.70
+      basis: "Support increased defense spending but uncertain about priorities and process"
+      relationship: "Contractors appreciate China focus and modernization emphasis. Concerned about Hegseth's lack of acquisition experience and potential disruption to programs. Will work to align products with 'lethality' rhetoric. Relationship transactional."
+
+    - name: "Think Tanks - Conservative (Heritage, AEI)"
+      score: 0.85
+      basis: "Ideological alignment, shared personnel networks"
+      relationship: "Heritage Foundation and AEI provide intellectual support for Hegseth's policies. Personnel pipeline between conservative think tanks and Trump administration. Will produce research justifying cultural changes and China focus."
+
+    - name: "Think Tanks - Centrist/Liberal (CSIS, Brookings, CNAS)"
+      score: 0.30
+      basis: "Professional respect but concern about experience and politicization"
+      relationship: "Establishment think tanks skeptical of Hegseth's qualifications and approach. Will be cautiously critical in publications. May offer constructive engagement on China strategy but oppose cultural warfare policies."
+
+    - name: "International Allies - NATO"
+      score: 0.40
+      basis: "Concerned about burden-sharing demands and transactional approach"
+      relationship: "European allies wary of Hegseth's demand for 5% GDP spending (well above current 2% NATO target). Fear US may condition defense commitments on spending. Relationship will be tense as Hegseth pressures allies while they resist."
+
+    - name: "International Allies - Indo-Pacific (Japan, South Korea, Australia)"
+      score: 0.65
+      basis: "Appreciate China focus but concerned about demands and reliability"
+      relationship: "Asian allies welcome Pentagon prioritization of China threat but nervous about Hegseth's demand for 5% GDP spending and transactional approach. Japan and Australia will try to maintain relationship through compliance. South Korea may resist given domestic politics."
+
+  # MEDIA
+  media_relationships:
+    - name: "Fox News"
+      score: 0.95
+      basis: "Former employee for 10 years; friendly coverage expected"
+      relationship: "Hegseth's former employer will provide consistently favorable coverage. Fox hosts will defend against criticism and amplify messaging. Symbiotic relationship."
+
+    - name: "Conservative Media (Newsmax, Daily Wire, Breitbart)"
+      score: 0.90
+      basis: "Ideological alignment and shared MAGA audience"
+      relationship: "Enthusiastic support from right-wing media ecosystem. Will frame policies as fighting 'woke' military and standing up to China. Hegseth accessible to these outlets."
+
+    - name: "Mainstream Media (NYT, WaPo, CNN)"
+      score: 0.20
+      basis: "Critical coverage of controversies; skeptical of qualifications"
+      relationship: "Adversarial relationship. Mainstream media will investigate controversies, quote anonymous Pentagon critics, and frame policies as politicization of military. Hegseth will dismiss as 'fake news' and 'deep state' leaks."
+
+    - name: "Defense Trade Press (Defense News, Breaking Defense)"
+      score: 0.50
+      basis: "Professional coverage but concern about experience and disruption"
+      relationship: "Specialized defense media will cover policy substance. Skeptical of Hegseth's lack of acquisition and strategy experience. Will quote anonymous Pentagon officials expressing concern. More substantive criticism than partisan media."
+
+influence_network:
+  inner_circle:
+    - "President Donald Trump (patron)"
+    - "Vice President JD Vance"
+    - "Stephen Miller (White House Deputy Chief of Staff for Policy)"
+    - "Kash Patel (FBI Director) - fellow culture warrior"
+    - "Tucker Carlson (informal advisor)"
+    - "Fox News colleagues"
+
+  regular_consultation:
+    - "NSA Michael Waltz"
+    - "Heritage Foundation defense experts"
+    - "American Enterprise Institute scholars"
+    - "Conservative veteran activists"
+    - "Republican congressional defense hawks"
+
+  potential_opposition:
+    - "Traditional military establishment (Joint Chiefs, service chiefs)"
+    - "Pentagon civil service and career officials"
+    - "NATO allies"
+    - "Democratic congressional oversight"
+    - "Women's advocacy groups"
+    - "Mainstream media"
+    - "Centrist think tanks"
+
+relationship_dynamics:
+  loyalty_based: "Hegseth's relationships prioritize personal loyalty to Trump and ideological alignment over institutional relationships or expertise"
+
+  polarization: "Highly polarized network - strong support from MAGA ecosystem, fierce opposition from establishment/left; little middle ground"
+
+  institutional_friction: "Deep tension between political appointee Hegseth and military/civilian professionals who see cultural purges as politicization"
+
+  alliance_strain: "Transactional approach and spending demands will test relationships with traditional allies; may strengthen ties with fellow populist leaders"
+
+  vulnerability: "Narrow confirmation vote and controversies mean relationship capital is limited; political errors could erode support quickly"
+
+research_metadata:
+  sources_consulted: 23
+  confidence_level: "high"
+  key_insights:
+    - "Hegseth's relationships defined by loyalty to Trump above all else"
+    - "Expects rapid culture change; officers who resist expected to resign"
+    - "Will face institutional resistance from military brass"
+    - "Alliance relationships strained by demands but China focus appreciated"
+    - "Limited political capital due to narrow confirmation"

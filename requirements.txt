@@ -1,0 +1,17 @@
+# Core LLM and orchestration
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Data handling
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Utilities
+tiktoken>=0.7.0
+
+# Development dependencies
+pytest>=8.0.0

@@ -1,0 +1,298 @@
+relationships:
+  # NSC/WHITE HOUSE PRINCIPALS
+  within_administration:
+    President:
+      score: 1.0
+      basis: "Closest advisor to Trump; called 'Trump's brain' and 'the prime minister'; longest-serving advisor since 2016 campaign"
+      confidence: "very_high"
+      notes: "Miller has 'accumulated more influence than any other White House official outside Trump.' He is Trump's ideological enforcer and policy translator - has 'canny ability to translate Trump's policy ideas into action.' Miller has direct access to Trump, bypassing normal White House channels. Trump stated Miller 'indirectly already has' the NSA job and is 'at the top of the totem pole' for permanent appointment. Relationship is patron-loyalist: Trump trusts Miller's ideology and implementation skills; Miller is absolutely loyal and never wavers."
+      relationship_type: "patron-closest_advisor"
+
+    VP_JD_Vance:
+      score: 0.70
+      basis: "Miller can override Vance on policy decisions; Miller has more day-to-day influence despite Vance being VP"
+      confidence: "high"
+      notes: "Miller 'basically overrode Vance and others during a debate about strikes against the Houthis in Yemen.' This shows Miller has more operational authority than VP on issues he prioritizes. Both are culture warriors and ideologically aligned on America First, but Miller is Trump's implementer while Vance is heir apparent. Miller focuses on domestic/immigration policy; Vance on foreign policy. Respectful relationship but Miller is senior in influence hierarchy. Vance was involved in Miller's selection (confirmed appointment in Nov 2024)."
+      relationship_type: "ideological_allies-miller_dominant"
+
+    SecState_Marco_Rubio:
+      score: 0.85
+      basis: "Close collaboration on counter-drug operations and immigration; 'Marco and Stephen have worked really closely on immigration'"
+      confidence: "very_high"
+      notes: "Miller and Rubio have developed surprisingly close working relationship given Rubio was Gang of Eight (amnesty) sponsor in 2013 and Miller killed that bill. Both have moved to hardline Trump position. They co-lead counter-drug mission with lethal strikes in Caribbean. White House source: 'Marco and Stephen have worked really closely on immigration and it might be a perfect match.' Both live in military housing ('Trump Green Zone'). Rubio provides foreign policy expertise; Miller provides Trump access and domestic implementation. Mutual benefit relationship."
+      relationship_type: "close_collaborators"
+
+    NSA_Acting_Marco_Rubio:
+      score: 0.85
+      basis: "Same person as SecState; Rubio holds dual role"
+      confidence: "very_high"
+      notes: "Rubio's dual role means Miller's immigration/homeland security focus directly interfaces with NSC. Miller leads HSC which 'convenes on topics agreed to in advance by the National Security Advisor and the Homeland Security Advisor.' Miller and Rubio coordinate on issues spanning foreign-domestic nexus (cartels, migration, border)."
+      relationship_type: "same_as_secstate"
+
+    SecDef_Pete_Hegseth:
+      score: 0.75
+      basis: "Miller coordinates regularly with Hegseth but Miller leads on military use for counter-drug operations"
+      confidence: "high"
+      notes: "Miller 'regularly coordinates' with Defense Secretary Hegseth. However, 'it was Miller, not Hegseth, who led the internal push to use the military to target drug cartels.' Miller and Rubio are 'far more involved than Hegseth in deciding how the military is used' for counter-drug operations. Both are culture warriors (DEI elimination, 'woke' military concerns). Hegseth respects Miller's Trump access and ideological purity. Both live in military housing. Miller directs, Hegseth implements on drug/immigration operations."
+      relationship_type: "coordinator-implementer"
+
+  cabinet_coordination:
+    DHS_Secretary_Kristi_Noem:
+      score: 0.90
+      basis: "Miller's primary implementation partner; dual role as Homeland Security Advisor gives him authority over DHS portfolio"
+      confidence: "very_high"
+      notes: "As Homeland Security Advisor, Miller has direct coordination authority over DHS. 'Miller regularly coordinates with Homeland Security Secretary Kristi Noem' per multiple sources. Miller and Noem jointly pressured ICE to triple arrest numbers for mass deportations. Both live in military housing ('Trump Green Zone'). Noem implements Miller's immigration vision. Miller drafted executive orders, Noem executes. Very close working relationship with clear hierarchy - Miller sets policy, Noem implements."
+      relationship_type: "policy_director-implementer"
+
+    AG_Pam_Bondi:
+      score: 0.85
+      basis: "Miller coordinates regularly with Attorney General on immigration enforcement and legal strategy"
+      confidence: "high"
+      notes: "Miller 'regularly coordinates' with Attorney General Pam Bondi. DOJ is critical for immigration enforcement (prosecutions, detention, litigation). Bondi's DOJ provides legal cover for Miller's executive orders. Both focused on federal power assertion over resistant states. Miller's America First Legal Foundation (which he founded) coordinate with DOJ on legal strategy. Bondi is Trump loyalist like Miller."
+      relationship_type: "policy_legal_partnership"
+
+  white_house_staff:
+    Chief_of_Staff:
+      score: 0.80
+      basis: "Miller reports to CoS as Deputy CoS for Policy but has direct Trump access that can bypass CoS"
+      confidence: "high"
+      notes: "Miller's formal reporting line is to Chief of Staff, but in practice he has independent Trump access. As 'the prime minister,' Miller operates with autonomy. CoS must manage Miller's aggressive tactics while recognizing his closeness to Trump. Miller's dual role (Deputy CoS for Policy + HSA) gives him portfolio broader than typical deputy. Cooperative but Miller is semi-independent power center."
+      relationship_type: "formal_subordinate-practical_peer"
+
+    Katie_Waldman_Miller:
+      score: 1.0
+      basis: "Wife; DHS spokesperson; met during first Trump administration"
+      confidence: "very_high"
+      notes: "Katie Waldman was Mike Pence's press secretary during first Trump term. She and Miller married (2020). She is now DHS spokesperson under Kristi Noem. Personal and professional partnership - she defends publicly what he designs privately. Moved together to military housing. Shares his ideological commitment."
+      relationship_type: "spouse-professional_partner"
+
+  # LEGISLATIVE BRANCH
+  congressional_relationships:
+    - name: "Jeff Sessions"
+      chamber: "Former Senator (R-AL)"
+      score: 0.95
+      basis: "Mentor who taught Miller immigration restrictionism; Sessions introduced Miller to anti-immigration infrastructure"
+      relationship: "Miller worked for Sessions 2009-2016 as Communications Director. Sessions was Miller's political mentor who introduced him to anti-immigration think tanks (FAIR, NumbersUSA, CIS) and taught him legislative tactics. Together they killed Gang of Eight immigration bill (2013). Sessions later became Trump's first Attorney General (2017-2018) before being fired. Miller remained loyal to Sessions' vision even after Sessions left. This is Miller's most formative professional relationship."
+
+    - name: "Tom Cotton"
+      chamber: "Senate (R-AR)"
+      score: 0.85
+      basis: "Immigration hardliner; RAISE Act co-sponsor; shares Miller's restrictionist vision"
+      relationship: "Cotton is Senate's leading immigration restrictionist, following Sessions' model. Cotton co-sponsored RAISE Act (cutting legal immigration 50%) that Miller championed. Both favor skills-based immigration over family reunification. Cotton provides Senate vehicle for Miller's policies. Close ideological alignment."
+
+    - name: "Stephen Miller Working Group"
+      chamber: "House Republican hardliners"
+      score: 0.90
+      basis: "Informal coalition of immigration hardliners who coordinate with Miller"
+      relationship: "Group of House Republicans (Freedom Caucus members) who share Miller's immigration vision and coordinate with White House on legislation. Includes members who opposed Gang of Eight, support border wall funding, favor mass deportations."
+
+    - name: "Democratic Leadership"
+      chamber: "Both chambers"
+      score: 0.05
+      basis: "Miller views Democrats as placing 'foreign interests above American citizens'"
+      relationship: "Miller has openly stated Democrats' 'motto is: for foreigners, everything; for Americans, nothing.' Sees Democratic Party as existential enemy on immigration. No working relationship; pure opposition. Democrats have called for Miller's resignation repeatedly."
+
+  # INTEREST GROUPS / EXTERNAL ALLIES
+  allied_organizations:
+    - name: "America First Legal Foundation"
+      score: 1.0
+      basis: "Founded by Miller in 2021; litigation arm of MAGA movement"
+      relationship: "Miller founded AFL in April 2021 as legal warfare organization. Executive Director is Matthew Whitaker (Trump's acting AG). AFL files lawsuits defending Trump policies, attacking Biden administration, challenging DEI programs. Miller's personal project that continues his work even out of government. Direct extension of Miller's ideology into legal arena."
+
+    - name: "Federation for American Immigration Reform (FAIR)"
+      score: 0.90
+      basis: "Anti-immigration think tank that shaped Miller's views via Sessions mentorship"
+      relationship: "FAIR is oldest and most influential immigration restrictionist organization. Sessions introduced Miller to FAIR in Senate years. FAIR provides intellectual ammunition, policy proposals, and grassroots mobilization for Miller's agenda. Miller cites FAIR research, adopts FAIR policies, coordinates with FAIR on strategy."
+
+    - name: "NumbersUSA"
+      score: 0.85
+      basis: "Grassroots immigration restriction organization; mobilizes opposition to immigration bills"
+      relationship: "NumbersUSA runs grassroots campaigns against immigration bills. They killed Gang of Eight via fax/email campaigns to House Republicans. Miller coordinates with NumbersUSA on legislative strategy. They mobilize base; Miller provides White House platform."
+
+    - name: "Center for Immigration Studies (CIS)"
+      score: 0.85
+      basis: "Immigration restriction research organization; provides policy justifications"
+      relationship: "CIS produces reports arguing for immigration restriction on economic, security, and cultural grounds. Miller cites CIS research in policy documents and media appearances. CIS fellows defend Miller policies publicly. Intellectual partnership."
+
+    - name: "Heritage Foundation"
+      score: 0.85
+      basis: "Conservative think tank; personnel pipeline; policy coordination"
+      relationship: "Heritage is mainstream conservative institution that has embraced immigration restriction in Trump era. Provides personnel for administration, policy proposals, and public advocacy. Miller coordinates with Heritage on policy rollout. Heritage's Project 2025 incorporated Miller's vision."
+
+    - name: "David Horowitz Freedom Center"
+      score: 0.80
+      basis: "Miller's college mentor; anti-left activism organization"
+      relationship: "David Horowitz was Miller's political mentor at Duke via Students for Academic Freedom. Horowitz's anti-left, anti-Muslim, anti-immigration views shaped Miller's worldview. Horowitz provides ideological foundation for Miller's culture war approach. Miller stays connected to Horowitz network."
+
+  opposition_groups:
+    - name: "American Civil Liberties Union (ACLU)"
+      score: 0.0
+      basis: "Primary litigation opponent; has sued Miller-drafted policies dozens of times"
+      relationship: "ACLU is Miller's main legal adversary. ACLU sued over Muslim ban, family separation, asylum restrictions, DEI elimination. ACLU has won many cases blocking Miller policies. Miller views ACLU as 'activist lawyers' undermining sovereignty. Pure legal warfare, no cooperation."
+
+    - name: "Southern Poverty Law Center (SPLC)"
+      score: 0.0
+      basis: "Lists Miller as extremist; leaked his emails to Breitbart showing white nationalist content"
+      relationship: "SPLC obtained 900+ Miller emails (2015-2016) to Breitbart showing he shared white nationalist content. SPLC designated Miller as extremist based on emails. Miller dismisses SPLC as 'discredited organization.' SPLC continues to track and expose Miller's activities. Hostile relationship."
+
+    - name: "National Immigration Law Center (NILC)"
+      score: 0.0
+      basis: "Immigrant rights litigation organization opposing Miller policies"
+      relationship: "NILC sues Miller policies to protect immigrant rights. Focus on challenging deportations, defending asylum seekers, blocking anti-immigrant executive orders. Miller views as obstructionist. No relationship beyond litigation."
+
+  # MEDIA
+  media_relationships:
+    - name: "Breitbart News"
+      score: 0.90
+      basis: "Miller fed stories during campaign; coordinated messaging; shared platform"
+      relationship: "Leaked emails show Miller sent 900+ emails to Breitbart (2015-2016) sharing story ideas, white nationalist content, immigration restrictionist material. Breitbart was Miller's media vehicle for shaping immigration narrative. Relationship continues - Breitbart defends Miller policies, amplifies his message. Symbiotic relationship."
+
+    - name: "Fox News"
+      score: 0.85
+      basis: "Favorable coverage; Miller makes regular appearances; defends administration"
+      relationship: "Fox News provides platform for Miller to defend Trump policies. Hosts (Tucker Carlson, Laura Ingraham, Sean Hannity) are ideologically aligned on immigration. Miller appears regularly to sell administration agenda. Fox covers Miller favorably, frames opponents as radical. Mutual benefit."
+
+    - name: "Conservative Talk Radio"
+      score: 0.85
+      basis: "Miller appeared on conservative radio since high school; shares base audience"
+      relationship: "Rush Limbaugh, Mark Levin, Laura Ingraham mobilized against Gang of Eight at Miller's urging (2013). Conservative radio amplifies Miller's message to grassroots. Miller makes regular appearances. Direct line to MAGA base."
+
+    - name: "Mainstream Media (NYT, WaPo, CNN)"
+      score: 0.15
+      basis: "Critical coverage; Miller views as 'fake news' and enemy; minimal cooperation"
+      relationship: "Mainstream media coverage of Miller is consistently critical - family separation, extremist designation, controversial policies. Miller rarely cooperates with mainstream press, attacks them publicly, dismisses as biased. Hostile relationship. Miller uses their criticism to energize base."
+
+  # INTERNATIONAL
+  international_relationships:
+    - name: "European Leaders"
+      score: 0.10
+      basis: "Miller removed NATO Article 5 language; opposes multilateral migration coordination; damages transatlantic ties"
+      relationship: "European leaders view Miller as hostile force. His removal of NATO Article 5 from Trump speech (2017) shocked allies. His blocking of G-7 migration coordination angered Italy and others. His WHO withdrawal and Paris accord exit damaged relationships. Europeans see Miller as nationalist threat to liberal international order."
+
+    - name: "Mexico"
+      score: 0.15
+      basis: "Border wall, family separation, mass deportations, 'Remain in Mexico' policy strain relationship"
+      relationship: "Miller's policies directly affect Mexico - deportations, asylum restrictions, border militarization. Mexico has protested family separation and other measures. Miller views Mexico as source of problem, not partner. Transactional relationship at best, hostile at worst."
+
+    - name: "Central American Countries"
+      score: 0.10
+      basis: "Miller policies target their citizens; aid cutoffs; forced agreements on asylum"
+      relationship: "Guatemala, El Salvador, Honduras are targets of Miller's immigration crackdown. Miller pushed aid cutoffs, forced 'safe third country' agreements, blamed them for migration crisis. No positive relationship."
+
+influence_network:
+  inner_circle:
+    - "President Donald Trump (patron and closest advisor)"
+    - "Katie Waldman Miller (wife and DHS spokesperson)"
+    - "Jeff Sessions (mentor, formative influence)"
+    - "America First Legal team (personal organization)"
+
+  regular_coordination:
+    - "Marco Rubio (SecState/Acting NSA, counter-drug partner)"
+    - "Kristi Noem (DHS Secretary, primary implementer)"
+    - "Pam Bondi (Attorney General, legal strategy)"
+    - "Pete Hegseth (SecDef, military coordination)"
+    - "Chief of Staff (formal reporting)"
+
+  ideological_allies:
+    - "Anti-immigration think tanks (FAIR, NumbersUSA, CIS)"
+    - "Heritage Foundation (policy coordination)"
+    - "David Horowitz network (ideological foundation)"
+    - "Conservative media (Breitbart, Fox News, talk radio)"
+    - "Senate/House immigration hardliners"
+
+  opposition:
+    - "ACLU (primary litigation opponent)"
+    - "SPLC (designated Miller as extremist)"
+    - "Immigrant rights organizations"
+    - "Democratic Party leadership"
+    - "Mainstream media"
+    - "Federal courts blocking policies"
+    - "Resistant state/local governments"
+    - "European allies"
+
+relationship_dynamics:
+  trump_dependency: |
+    All of Miller's power flows from Trump relationship. Miller has no independent political
+    base, no public constituency, no elected position. He is pure Trump loyalist and policy
+    implementer. If Trump turned on Miller (unlikely), Miller would lose all influence instantly.
+
+    But Trump won't turn on Miller because Miller is:
+    1. Absolutely loyal (never leaked, never wavered)
+    2. Ideologically pure (truest America First believer)
+    3. Effective implementer (turns Trump's instincts into executive orders)
+    4. Longest-serving advisor (2016 campaign to present)
+
+    Miller has made himself indispensable.
+
+  cabinet_coordinator_not_member: |
+    Miller is not Cabinet member but coordinates Cabinet on his priorities. As Deputy CoS
+    for Policy + HSA, he has formal coordination authority. Cabinet secretaries (Noem,
+    Bondi, Hegseth, Rubio) must work with Miller on policy implementation.
+
+    This gives Miller more influence than many Cabinet members because he controls White
+    House policy process and has Trump's ear.
+
+  override_authority: |
+    Miller can "override" even the Vice President (Vance) on policy debates. This is
+    extraordinary. Shows Miller's unique position - not formal hierarchy but Trump's
+    trust gives him effective veto on issues he prioritizes.
+
+    Miller's override authority applies when he sees immigration/homeland security connection.
+    He "led the internal push" on counter-drug military operations, not SecDef Hegseth.
+
+  rubio_partnership_irony: |
+    Miller destroyed Marco Rubio's Gang of Eight amnesty bill in 2013. Rubio was then
+    immigration moderate, Miller was hardline restrictionist.
+
+    Now (2025) they are close partners. Both have moved to Trump's position. They co-lead
+    counter-drug operations, both live in military housing, coordinate daily on immigration.
+
+    Shows how Trump has remade Republican Party - Rubio abandoned Gang of Eight position,
+    adopted Miller's vision. Miller forgave Rubio's past because Rubio is loyal MAGA now.
+
+  mentor_to_enforcer: |
+    Jeff Sessions (mentor) taught Miller immigration restrictionism in Senate (2009-2016).
+    Sessions later became Trump's first Attorney General (2017-2018).
+    Trump fired Sessions (2018) for recusing from Russia investigation.
+
+    Miller remained loyal to Sessions' vision but not to Sessions personally when loyalty
+    to Trump conflicted. Shows Miller prioritizes ideology and Trump, not personal loyalty.
+
+  institutional_opposition: |
+    Miller faces consistent opposition from:
+    - Federal courts (block his executive orders)
+    - State/local governments (resist immigration enforcement)
+    - Civil rights organizations (sue his policies)
+    - Mainstream media (critical coverage)
+    - European allies (oppose his nationalism)
+
+    Miller doesn't try to win over opposition - he attacks them as illegitimate:
+    - Courts are "judicial coup"
+    - Democrats prioritize foreigners
+    - SPLC is discredited
+    - Media is fake news
+
+    Pure combat approach, no consensus-building.
+
+research_metadata:
+  sources_consulted: 22
+  confidence_level: "very_high"
+  key_insights:
+    - "Miller's power is entirely derivative of Trump relationship - but that relationship is unbreakable"
+    - "Miller can override VP Vance on policy, showing extraordinary influence"
+    - "Miller coordinates Cabinet (Noem, Bondi, Hegseth, Rubio) as Deputy CoS"
+    - "Rubio-Miller partnership is ironic given Gang of Eight history, shows GOP transformation"
+    - "Miller faces institutional opposition (courts, states, NGOs) but attacks rather than accommodates"
+    - "America First Legal Foundation is Miller's personal tool for legal warfare"
+    - "Miller's anti-immigration ideology shaped by Sessions mentorship and restrictionist think tanks"
+    - "Living in military housing ('Trump Green Zone') with Rubio, Hegseth, Noem shows bunker mentality"
+
+  relationship_categories:
+    - "Patron: Trump (absolute loyalty, total dependence)"
+    - "Implementers: Noem, Bondi, Hegseth (Miller directs policy, they execute)"
+    - "Partners: Rubio (close collaboration on counter-drug, immigration)"
+    - "Subordinate in title, dominant in practice: Can override Vance despite VP rank"
+    - "Ideological allies: Anti-immigration think tanks, conservative media, hardline legislators"
+    - "Pure opposition: ACLU, SPLC, immigrant rights groups, courts, Democrats"
+    - "Formative mentor: Jeff Sessions (taught Miller immigration restrictionism)"
+    - "Personal/professional: Katie Waldman Miller (wife and DHS spokesperson)"

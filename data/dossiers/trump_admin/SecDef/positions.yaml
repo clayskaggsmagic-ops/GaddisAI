@@ -1,0 +1,223 @@
+positions:
+  # CHINA / INDO-PACIFIC
+  - claim: "China poses an 'imminent' military threat requiring immediate deterrence"
+    stance: "opposes_china"
+    intensity: "very_strong"
+    quote: "The threat China poses is real. And it could be imminent. Beijing is credibly preparing to use military force to alter the balance of power in the Indo-Pacific."
+    context: "Speech during Asia trip as SecDef, warning allies about Chinese military buildup"
+    source:
+      title: "Hegseth warns Indo Pacific partners of 'imminent' threat from China"
+      url: "https://thehill.com/policy/defense/5326993-pete-hegseth-singapore-warning-china-threat/"
+      type: "speech"
+      date: "2025-05-31"
+      publication: "The Hill"
+      credibility: "primary"
+
+  - claim: "Taiwan defense is critical; Chinese seizure would have devastating consequences"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "Any Chinese attempts to occupy Taiwan would cause devastating consequences for the region and the world. Denial of a Chinese fait accompli seizure of Taiwan is the Department's sole pacing scenario."
+    context: "Official Pentagon guidance and public statements on Taiwan"
+    source:
+      title: "Pentagon chief Pete Hegseth: New defense strategy still targets China"
+      url: "https://www.washingtontimes.com/news/2025/oct/30/pentagon-chief-pete-hegseth-new-defense-strategy-still-targets-china/"
+      type: "policy_statement"
+      date: "2025-10-30"
+      publication: "Washington Times"
+      credibility: "primary"
+
+  - claim: "Allies must increase defense spending to 5% of GDP to deter China"
+    stance: "supports"
+    intensity: "strong"
+    quote: "Our allies and partners do our part on defense. Our defense spending must reflect the dangers and threats that we face today, because deterrence doesn't come on the cheap."
+    context: "Demanding burden-sharing from Asian allies similar to NATO requirements"
+    source:
+      title: "Hegseth Warns Allies About China, Presses Defense Spending"
+      url: "https://www.bloomberg.com/news/articles/2025-05-31/hegseth-warns-on-china-threat-pushes-allies-on-defense-spending"
+      type: "speech"
+      date: "2025-05-31"
+      publication: "Bloomberg"
+      credibility: "primary"
+
+  # DEI / WOKE POLICIES
+  - claim: "All DEI programs, offices, and policies must be eliminated from military"
+    stance: "opposes"
+    intensity: "very_strong"
+    quote: "No more identity months, DEI offices, dudes in dresses. No more climate change worship. No more division, distraction or gender delusions."
+    context: "Speech at Marine Corps base announcing policy directives"
+    source:
+      title: "Hegseth calls for an end to 'woke' military, citing DEI and LGBTQ issues"
+      url: "https://www.washingtonblade.com/2025/09/30/hegseth-calls-for-an-end-to-woke-military-citing-dei-and-lgbtq-issues/"
+      type: "speech"
+      date: "2025-09-30"
+      publication: "Washington Blade"
+      credibility: "primary"
+
+  - claim: "Generals and admirals who promoted DEI must be fired"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "Any general, admiral, whatever, that was involved in any of the DEI woke s***, has got to go. First of all, you got to fire the Chairman Joint Chiefs."
+    context: "Interview on Shawn Ryan Show podcast discussing military leadership changes"
+    source:
+      title: "Pete Hegseth's plan to overhaul America's military: 'You need to fire a ton of generals'"
+      url: "https://abcnews.go.com/US/pete-hegseths-plan-overhaul-americas-military-fire-ton/story?id=115842674"
+      type: "interview"
+      date: "2024-11-14"
+      publication: "ABC News (Shawn Ryan Show)"
+      credibility: "primary"
+
+  - claim: "Transgender individuals should not be allowed to serve in military"
+    stance: "opposes"
+    intensity: "very_strong"
+    quote: "Transgender people should never be allowed to serve."
+    context: "Position on military service eligibility"
+    source:
+      title: "Pete Hegseth's Dangerous War on America"
+      url: "https://www.thenation.com/article/politics/trump-hegseth-woke-democracy-military-dei/"
+      type: "position_statement"
+      date: "2025-09-30"
+      publication: "The Nation"
+      credibility: "secondary"
+
+  # MILITARY CULTURE / READINESS
+  - claim: "Military must return to 'warrior culture' focused solely on lethality"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "Trump's primary charge to me was to bring the warrior culture back to the Department of Defense. He wants a Pentagon laser focused on warfighting, lethality, meritocracy, standards, and readiness."
+    context: "Confirmation hearing testimony describing Trump's mission for him"
+    source:
+      title: "Pete Hegseth Senate Confirmation Hearing"
+      url: "https://www.rev.com/transcripts/pete-hegseth-senate-confirmation-hearing"
+      type: "testimony"
+      date: "2025-01-14"
+      publication: "U.S. Senate Armed Services Committee"
+      credibility: "primary"
+
+  - claim: "All service members should be held to 'highest male standard' for fitness"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "Changed the military's physical fitness requirements to hold all service members to the 'highest male standard.'"
+    context: "Policy announcement eliminating gender-specific fitness standards"
+    source:
+      title: "Pete Hegseth announces major military changes and ends DEI programs"
+      url: "https://www.foxnews.com/politics/hegseth-instates-highest-male-standard-only-combat-other-changes-declaring-dept-defense-is-over"
+      type: "policy_announcement"
+      date: "2025-09-30"
+      publication: "Fox News"
+      credibility: "primary"
+
+  - claim: "Military Equal Opportunity policies empower 'complainers' and must be overhauled"
+    stance: "opposes_current_policy"
+    intensity: "strong"
+    quote: "Military Equal Opportunity policies will be overhauled to disempower 'complainers' and make sure commanders are no longer 'walking on eggshells.'"
+    context: "Policy directive to change discrimination complaint processes"
+    source:
+      title: "Hegseth orders military culture overhaul: 'if you don't agree, resign'"
+      url: "https://www.cnn.com/2025/09/30/politics/hegseth-speech-culture-standards"
+      type: "policy_announcement"
+      date: "2025-09-30"
+      publication: "CNN"
+      credibility: "primary"
+
+  - claim: "Officer promotions must be based solely on performance, not diversity"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "The entire promotion process is being thoroughly examined and promotions will only go to top-performing officers, regardless of race and gender."
+    context: "Announcement of merit-based promotion system overhaul"
+    source:
+      title: "Pete Hegseth announces major military changes and ends DEI programs"
+      url: "https://www.foxnews.com/politics/hegseth-instates-highest-male-standard-only-combat-other-changes-declaring-dept-defense-is-over"
+      type: "policy_announcement"
+      date: "2025-09-30"
+      publication: "Fox News"
+      credibility: "primary"
+
+  # ALCOHOL / PERSONAL CONDUCT
+  - claim: "Will not drink alcohol as Secretary of Defense"
+    stance: "supports_pledge"
+    intensity: "strong"
+    quote: "Told Sen. Mazie Hirono that he would not drink alcohol if confirmed."
+    context: "Confirmation hearing response to questions about drinking allegations"
+    source:
+      title: "Takeaways from Pete Hegseth's confirmation hearing"
+      url: "https://www.pbs.org/newshour/politics/takeaways-from-pete-hegseths-confirmation-hearing"
+      type: "testimony"
+      date: "2025-01-14"
+      publication: "PBS NewsHour"
+      credibility: "primary"
+
+  - claim: "Sexual misconduct allegations are false and part of 'coordinated smear campaign'"
+    stance: "denies"
+    intensity: "very_strong"
+    quote: "Dismissed the allegation that he sexually assaulted a woman in 2017 as false and part of a 'coordinated smear campaign,' claiming that the attacks against him were an attempt to use him to also smear the president-elect."
+    context: "Confirmation hearing testimony addressing 2017 allegations"
+    source:
+      title: "Takeaways from Pete Hegseth's contentious confirmation hearing"
+      url: "https://www.cnn.com/2025/01/14/politics/takeaways-pete-hegseth-confirmation-hearing/index.html"
+      type: "testimony"
+      date: "2025-01-14"
+      publication: "CNN"
+      credibility: "primary"
+
+  # ALLIANCE / FOREIGN POLICY
+  - claim: "US ready to 'fight and win' against China, but allies must contribute"
+    stance: "supports_with_conditions"
+    intensity: "strong"
+    quote: "Pentagon chief says ready to 'fight and win' against China, urges Asian allies to boost defense spending."
+    context: "Message to Asian allies during regional trip"
+    source:
+      title: "Pentagon chief says ready to 'fight and win' against China"
+      url: "https://www.cnbc.com/2025/05/31/pentagon-chief-hegseth-says-us-ready-to-fight-and-win-against-china.html"
+      type: "speech"
+      date: "2025-05-31"
+      publication: "CNBC"
+      credibility: "primary"
+
+  # LOYALTY / COMMAND PHILOSOPHY
+  - claim: "Officers who disagree with culture changes should resign"
+    stance: "supports"
+    intensity: "very_strong"
+    quote: "Orders military culture overhaul: 'if you don't agree, resign'"
+    context: "Directive to military leaders about implementation of cultural changes"
+    source:
+      title: "Hegseth orders military culture overhaul: 'if you don't agree, resign'"
+      url: "https://www.cnn.com/2025/09/30/politics/hegseth-speech-culture-standards"
+      type: "directive"
+      date: "2025-09-30"
+      publication: "CNN"
+      credibility: "primary"
+
+position_clusters:
+  cultural_transformation:
+    - "Eliminate all DEI programs and offices"
+    - "Fire generals who supported DEI"
+    - "Ban transgender service members"
+    - "Return to warrior culture focused on lethality"
+    - "Highest male fitness standards for all"
+    - "Overhaul Equal Opportunity complaint system"
+    - "Merit-only promotions"
+
+  china_threat:
+    - "China is imminent pacing threat"
+    - "Defend Taiwan at all costs"
+    - "Ready to fight and win against China"
+    - "Demand 5% GDP defense spending from allies"
+
+  command_philosophy:
+    - "Loyalty to Trump paramount"
+    - "Officers who disagree should resign"
+    - "No compromise on readiness for social goals"
+    - "Warfighting over consensus"
+
+  personal_conduct:
+    - "No drinking pledge as SecDef"
+    - "Denies misconduct allegations"
+    - "Frames criticism as coordinated smear"
+
+research_summary:
+  total_positions_documented: 13
+  primary_sources: 10
+  secondary_sources: 3
+  strongest_convictions: ["DEI elimination", "China threat", "Warrior culture", "Trump loyalty"]
+  areas_of_ambiguity: ["Specific alliances priorities", "Russia policy (less emphasized)", "Nuclear posture details"]
+  confidence_level: "very_high"

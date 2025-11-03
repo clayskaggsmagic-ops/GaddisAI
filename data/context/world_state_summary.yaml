@@ -1,0 +1,333 @@
+# WORLD STATE SUMMARY - NOVEMBER 2025
+# Quick-reference structured data for NSC agent parsing
+# For detailed narrative analysis, see world_state_nov_2025.md
+
+metadata:
+  assessment_date: "2025-11-01"
+  classification: "UNCLASSIFIED"
+  validity_period: "November 2025"
+  last_updated: "2025-11-01"
+  confidence_level: "high"
+
+# GLOBAL OVERVIEW
+global_statistics:
+  active_military_conflicts: 59  # Highest since WWII
+  nuclear_armed_states: 9
+  total_nuclear_warheads: 12241
+  us_military_deployments: 750  # Global bases/locations
+  nato_members: 32
+  major_power_wars: 0  # Direct great power conflict
+  proxy_wars: 7  # Conflicts with great power involvement
+
+# THREAT LEVEL BY REGION (scale: critical/high/elevated/moderate/low)
+regional_threat_levels:
+  middle_east: "high"  # Post-Iran strikes, Israel-Gaza, Yemen/Houthis
+  indo_pacific: "high"  # China-Taiwan tensions, North Korea provocations
+  eastern_europe: "elevated"  # Russia-Ukraine ceasefire talks fragile
+  latin_america: "elevated"  # Venezuela crisis, US military deployment
+  africa_sahel: "high"  # 51% of global terrorism deaths
+  south_china_sea: "high"  # China militarization, freedom of navigation
+  korean_peninsula: "elevated"  # North Korea hypersonic/ICBM tests
+  persian_gulf: "elevated"  # Post-ceasefire instability
+
+# US MILITARY OPERATIONS (Active as of November 2025)
+active_us_military_operations:
+  - operation: "Counter-drug mission in Caribbean"
+    region: "Latin America"
+    scale: "10,000 troops, 10 warships"
+    command: "Stephen Miller & Marco Rubio leading"
+    status: "active_escalation"
+
+  - operation: "Freedom of Navigation Operations (FONOPS)"
+    region: "South China Sea"
+    scale: "Naval task forces"
+    frequency: "Regular patrols"
+    status: "ongoing"
+
+  - operation: "Operation Inherent Resolve"
+    region: "Iraq/Syria"
+    scale: "2,500 troops Syria, 2,500 Iraq"
+    mission: "Counter-ISIS"
+    status: "ongoing"
+
+  - operation: "NATO Enhanced Forward Presence"
+    region: "Eastern Europe"
+    scale: "Battle groups in Baltic states, Poland"
+    mission: "Deterrence against Russia"
+    status: "ongoing"
+
+  - operation: "Iran nuclear facility monitoring"
+    region: "Middle East"
+    scale: "Intelligence/reconnaissance"
+    context: "Post-June 2025 strikes"
+    status: "ongoing"
+
+# NUCLEAR PROLIFERATION STATUS
+nuclear_landscape:
+  arms_control_status: "collapsed"
+  new_start_expiration: "2026-02-05"
+  replacement_treaty_prospects: "none"
+
+  arsenals:
+    russia: 5580
+    united_states: 5044
+    china: 500
+    france: 290
+    united_kingdom: 225
+    pakistan: 170
+    india: 164
+    israel: 90  # Estimated, undeclared
+    north_korea: 50  # Assembled warheads
+
+  proliferation_concerns:
+    - country: "Iran"
+      status: "Nuclear facilities damaged June 2025; program set back 2-3 years"
+      risk_level: "medium_term"
+
+    - country: "North Korea"
+      status: "Expanding arsenal; hypersonic delivery systems"
+      risk_level: "high"
+
+    - country: "Saudi Arabia"
+      status: "Interest in nuclear weapons if Iran restarts program"
+      risk_level: "contingent"
+
+# MAJOR FLASHPOINTS (Potential crisis escalation points)
+flashpoints:
+  - location: "Taiwan Strait"
+    risk_level: "critical"
+    trigger_potential: "Chinese military action, US response"
+    timeframe: "immediate"
+
+  - location: "Iran-Israel tensions"
+    risk_level: "high"
+    trigger_potential: "Ceasefire violation, proxy attacks"
+    timeframe: "immediate"
+
+  - location: "Russia-Ukraine border"
+    risk_level: "high"
+    trigger_potential: "Ceasefire talks collapse, renewed offensive"
+    timeframe: "weeks"
+
+  - location: "Korean Peninsula"
+    risk_level: "elevated"
+    trigger_potential: "North Korea nuclear/ICBM test"
+    timeframe: "immediate"
+
+  - location: "Venezuela-Guyana border"
+    risk_level: "elevated"
+    trigger_potential: "Venezuelan invasion for Essequibo oil"
+    timeframe: "months"
+
+  - location: "West Bank"
+    risk_level: "elevated"
+    trigger_potential: "Israeli annexation, Palestinian uprising"
+    timeframe: "weeks"
+
+  - location: "South China Sea"
+    risk_level: "elevated"
+    trigger_potential: "China-Philippines clash, US treaty obligation"
+    timeframe: "immediate"
+
+# ALLIANCE STATUS
+alliances:
+  nato:
+    status: "strengthened"
+    members: 32
+    defense_spending_target: "5% GDP by 2035"
+    unity_level: "high"
+    us_commitment: "conditional on burden-sharing"
+
+  five_eyes:
+    status: "robust"
+    members: ["US", "UK", "Canada", "Australia", "New Zealand"]
+    focus: "Intelligence sharing, China containment"
+
+  aukus:
+    status: "operational"
+    members: ["Australia", "UK", "US"]
+    focus: "Nuclear submarines, advanced tech sharing"
+
+  quad:
+    status: "active"
+    members: ["US", "India", "Japan", "Australia"]
+    focus: "Indo-Pacific security, China deterrence"
+
+  japan_rok_us_trilateral:
+    status: "functional"
+    focus: "North Korea deterrence, regional coordination"
+    challenges: "Japan-ROK historical tensions"
+
+  middle_east_partnerships:
+    status: "fragmented"
+    abraham_accords: "strained by Gaza war"
+    saudi_relations: "strong, defense cooperation"
+    israel_relations: "very strong, military support"
+
+# CRISIS TIMELINE (Recent major events affecting November 2025 environment)
+recent_major_events:
+  - date: "2025-06-21"
+    event: "Operation Midnight Hammer - US/Israeli strikes on Iranian nuclear facilities"
+    impact: "12-day Iran-Israel war; ceasefire now holding but fragile"
+
+  - date: "2025-05-28"
+    event: "Trump threatens to 'move on' from Ukraine negotiations"
+    impact: "Stalled peace talks; Russia/Ukraine frozen conflict risk"
+
+  - date: "2025-04-15"
+    event: "NATO agrees to 5% GDP defense spending by 2035"
+    impact: "Revolutionary increase; reshapes alliance burden-sharing"
+
+  - date: "2025-03-10"
+    event: "China-Philippines confrontation in Second Thomas Shoal"
+    impact: "US reaffirmed mutual defense treaty; tensions remain high"
+
+  - date: "2025-02-20"
+    event: "North Korea tests hypersonic glide vehicle (4th generation)"
+    impact: "Advances missile defense evasion capability"
+
+  - date: "2025-01-20"
+    event: "Trump inaugurated for second term"
+    impact: "Major foreign policy shifts: transactional alliances, America First 2.0"
+
+# ECONOMIC/TRADE ENVIRONMENT
+economic_factors:
+  us_china_trade_war:
+    status: "active"
+    tariff_framework: "Reciprocal tariffs structure (March 2025)"
+    decoupling: "accelerating in semiconductors, AI, biotech"
+    impact: "global supply chain disruption"
+
+  global_growth:
+    forecast: "2.9% (2025)"
+    risks: ["trade fragmentation", "geopolitical instability", "energy prices"]
+
+  energy_markets:
+    oil_price_range: "$75-85/barrel"
+    volatility_drivers: ["Middle East tensions", "Russia sanctions", "OPEC+ coordination"]
+
+  sanctions_regimes:
+    russia: "comprehensive sanctions continue"
+    iran: "sanctions maintained post-strikes"
+    north_korea: "sanctions enforcement weak (China/Russia)"
+    venezuela: "targeted sanctions on individuals/sectors"
+
+# KEY INDICATORS TO MONITOR (For NSC decision-making)
+monitoring_priorities:
+  immediate_indicators:
+    - "Taiwan Strait military activity (PLA exercises, US transits)"
+    - "Iran nuclear program reconstruction efforts"
+    - "North Korea missile/nuclear test preparations"
+    - "Russia-Ukraine ceasefire negotiations status"
+    - "South China Sea incidents (China coast guard, naval encounters)"
+    - "Israel-Gaza ceasefire prospects"
+    - "Houthi attacks on Red Sea shipping"
+
+  medium_term_indicators:
+    - "Chinese economic stability (real estate, banking sector)"
+    - "Russian military reconstitution timeline"
+    - "Venezuela regime stability/invasion plans"
+    - "Sahel terrorism expansion (JNIM, Islamic State affiliates)"
+    - "NATO 5% spending implementation"
+    - "New START expiration planning (Feb 2026)"
+    - "Iranian centrifuge replacement progress"
+
+  strategic_indicators:
+    - "China-Russia axis deepening (military cooperation, joint exercises)"
+    - "BRICS expansion and de-dollarization efforts"
+    - "Global South alignment (UN voting patterns)"
+    - "US alliance cohesion (NATO, Indo-Pacific partnerships)"
+    - "Emerging technology competition (AI, quantum, hypersonics)"
+    - "Climate-driven migration and instability"
+
+# REGIONAL DEEP-DIVE SUMMARIES
+
+middle_east:
+  dominant_issue: "Post-Iran strike environment; Israel-Gaza war aftermath"
+  us_posture: "Strong Israel support; Iran containment"
+  key_actors:
+    iran: "Nuclear program damaged; 2-3 year setback; proxy network active"
+    israel: "Security cooperation with US at peak; Gaza occupation continues"
+    saudi_arabia: "Balancing US partnership with China economic ties"
+    yemen_houthis: "Red Sea attacks continue despite US strikes"
+  stability_assessment: "fragile post-conflict equilibrium"
+
+indo_pacific:
+  dominant_issue: "China-Taiwan tensions; US-China great power competition"
+  us_posture: "Forward deployed; alliance strengthening; Taiwan support"
+  key_actors:
+    china: "Military buildup continues; 'reunification' timeline unknown"
+    taiwan: "Election stability; defense modernization; US security guarantees"
+    north_korea: "Provocations resumed; Russia/China backing"
+    japan: "Defense spending increase to 2% GDP; constitutional reinterpretation"
+    south_korea: "North Korea deterrence; US alliance critical"
+  stability_assessment: "high tension, managed competition"
+
+europe:
+  dominant_issue: "Russia-Ukraine frozen conflict; NATO burden-sharing revolution"
+  us_posture: "Conditional NATO commitment; pressure for 5% spending"
+  key_actors:
+    russia: "Seeking ceasefire to reconstitute military; isolated but not collapsed"
+    ukraine: "Negotiations stalled; dependent on Western support"
+    nato: "Unified on 5% target; Eastern members most threatened"
+    eu: "Defense industrial base expansion; strategic autonomy debate"
+  stability_assessment: "frozen conflict with long-term instability"
+
+latin_america:
+  dominant_issue: "Venezuela crisis; US counter-drug military escalation"
+  us_posture: "10,000 troops deployed; naval blockade operations"
+  key_actors:
+    venezuela: "Maduro regime under pressure; Essequibo invasion threat"
+    mexico: "Cartel violence; US military strikes controversial"
+    colombia: "Partner in counter-drug operations"
+    cuba: "Economic crisis; migration pressure"
+  stability_assessment: "active US military engagement; high volatility"
+
+africa:
+  dominant_issue: "Sahel terrorism epicenter (51% of global deaths)"
+  us_posture: "Light footprint; drone strikes; partner training"
+  key_actors:
+    burkina_faso_mali_niger: "Anti-Western juntas; Russian Wagner presence"
+    nigeria: "Boko Haram/ISWAP insurgency"
+    somalia: "Al-Shabaab resurgence"
+    sudan: "Civil war between SAF and RSF; humanitarian catastrophe"
+  stability_assessment: "severe instability; terrorism safe havens expanding"
+
+# CONFIDENCE LEVELS FOR EACH SECTION
+confidence_assessment:
+  nuclear_arsenals: "high"  # Well-documented public data
+  china_taiwan_tensions: "high"  # Multiple credible sources
+  iran_strike_aftermath: "medium"  # Based on dossier sources
+  russia_ukraine_status: "high"  # Extensive reporting
+  north_korea_capabilities: "medium"  # Limited transparency
+  latin_america_deployment: "medium"  # Based on dossier sources
+  nato_spending_commitment: "high"  # Official alliance statements
+  middle_east_stability: "medium"  # Rapidly evolving situation
+  africa_sahel_terrorism: "high"  # UN/NGO data sources
+  alliance_relationships: "high"  # Observable diplomatic activity
+
+# NOTES FOR NSC AGENTS
+agent_guidance:
+  context_usage: |
+    This summary provides baseline geopolitical context for NSC deliberations.
+    All advisors should reference this when evaluating policy options.
+
+  timeline_note: |
+    Assessment valid for November 2025 simulation timeline.
+    Incorporates past events (e.g., Iran strikes June 2025) and their ongoing effects.
+
+  scenario_integration: |
+    When presented with NSC scenarios, cross-reference with:
+    - Active flashpoints
+    - Regional threat levels
+    - US military operations
+    - Alliance commitments
+    - Key monitoring indicators
+
+  decision_factors: |
+    Consider how proposed actions interact with:
+    - Existing military commitments (stretched resources?)
+    - Alliance relationships (burden-sharing expectations?)
+    - Regional stability (escalation risks?)
+    - Strategic competition with China/Russia
+    - Domestic political constraints (Miller immigration focus, etc.)

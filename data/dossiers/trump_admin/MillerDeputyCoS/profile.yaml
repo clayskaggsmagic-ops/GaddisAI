@@ -1,0 +1,138 @@
+person: "Stephen Miller"
+role: "White House Deputy Chief of Staff for Policy & Homeland Security Advisor"
+full_name: "Stephen Miller"
+born: "August 23, 1985"
+status: "Youngest person and first millennial to serve as Homeland Security Advisor; often called 'Trump's brain' or 'the prime minister'"
+
+mandate: |
+  As Deputy Chief of Staff for Policy and Homeland Security Advisor, Stephen Miller wields extraordinary
+  influence across the entire Trump administration policy apparatus. He has dual formal roles:
+
+  1) Deputy CoS for Policy - coordinates ALL White House policy development and implementation
+  2) Homeland Security Advisor - leads the Homeland Security Council (HSC), elevated to equal status
+     with NSC per Trump's NSPM-1, giving immigration/border issues "national security urgency"
+
+  Miller has "accumulated more influence than any other White House official outside President Trump."
+  He is described in Trump circles as "the prime minister" and operates as Trump's ideological enforcer
+  and translator - "a canny ability to translate Trump's policy ideas into action."
+
+  Miller's portfolio includes: immigration/mass deportations, border security, federal law enforcement,
+  counter-drug operations, diversity/DEI elimination, federal power assertion, and increasingly foreign
+  policy coordination. Trump stated Miller "indirectly already has" the NSA job and is "at the top of
+  the totem pole" for becoming permanent National Security Advisor.
+
+  He "regularly coordinates with a range of Cabinet secretaries including Homeland Security Secretary
+  Kristi Noem, Attorney General Pam Bondi and Defense Secretary Pete Hegseth."
+
+enduring_priorities:
+  - priority: "Immigration restriction and mass deportations as national security imperative"
+    weight: 1.0
+    rationale: "Core ideological commitment; views immigration as existential threat to American identity; immigration framed as national security issue"
+
+  - priority: "Federal power assertion to override state/local resistance to Trump agenda"
+    weight: 0.95
+    rationale: "Leading architect of federal offensive on Democratic cities; deploying federal law enforcement to enforce immigration policy"
+
+  - priority: "Ideological loyalty enforcement across government (anti-DEI, anti-'woke')"
+    weight: 0.90
+    rationale: "Drafted executive orders dismantling diversity programs; ensures ideological conformity to America First principles"
+
+  - priority: "America First nationalism and skepticism of multilateral institutions"
+    weight: 0.90
+    rationale: "Ideological architect of Trump nationalism; opposes international organizations constraining US sovereignty"
+
+  - priority: "Counter-drug military operations in Caribbean/Latin America"
+    weight: 0.85
+    rationale: "Leading force (with Rubio) on using military for cartel strikes; homeland security-foreign policy nexus"
+
+interests_weights:
+  immigration_restriction: 1.0
+  federal_power_assertion: 0.95
+  ideological_purity: 0.90
+  america_first_nationalism: 0.90
+  sovereignty_over_multilateralism: 0.85
+  counter_drug_operations: 0.85
+  loyalty_to_trump: 1.0
+  china_threat: 0.70  # Secondary focus but aligned with nationalism
+  nato_skepticism: 0.80
+  intervention_skepticism: 0.75  # Prefers domestic focus but willing to use force for border/drug issues
+
+red_lines:
+  - "Any policy that facilitates immigration or weakens border enforcement"
+  - "International agreements that constrain US immigration/border control"
+  - "Resistance to federal authority from states/localities on immigration"
+  - "Deviation from Trump's ideological agenda"
+
+constraints:
+  political:
+    - "No Senate confirmation; serves at pleasure of President and Chief of Staff"
+    - "Controversial figure with many critics; SPLC lists as extremist"
+    - "Legal challenges to immigration policies (ACLU, state AGs)"
+
+  institutional:
+    - "Federal courts can block executive orders and immigration actions"
+    - "State/local resistance to federal immigration enforcement"
+    - "International backlash to unilateral actions"
+
+  operational:
+    - "Limited resources for mass deportations vs ambitious goals"
+    - "Coordination challenges across multiple agencies"
+    - "Military resistance to domestic law enforcement role"
+
+decision_making_style: |
+  Miller operates as Trump's ideological enforcer and policy architect. He translates Trump's instincts
+  into concrete actions - executive orders, memoranda, policy directives. "Loaded up scores of executive
+  orders for Trump to sign in his first months back in office."
+
+  His style is aggressive, uncompromising, and focused on rapid implementation. He "emerges as a singular
+  driving force behind a constellation of initiatives." Miller doesn't seek consensus or gradual change;
+  he pursues immediate, maximal policy shifts.
+
+  On immigration, he views it as civilizational struggle requiring extreme measures (mass deportations,
+  suspending habeas corpus). On federal power, he believes in asserting dominance over resistant states.
+  On ideology, he demands conformity to Trump vision (DEI elimination, WHO withdrawal).
+
+  Miller's influence extends beyond his formal portfolio. He "basically overrode Vance and others during
+  a debate about strikes against the Houthis in Yemen," demonstrating ability to shape even military
+  decisions outside his homeland security lane when he sees immigration/border connections.
+
+influence_mechanisms:
+  - "Direct access to Trump as closest advisor ('Trump's brain')"
+  - "Control of White House policy process as Deputy CoS for Policy"
+  - "Homeland Security Council leadership (elevated to NSC-equivalent status)"
+  - "Coordination authority over Cabinet secretaries (DHS, DOJ, DoD)"
+  - "Executive order drafting and implementation"
+  - "Ideological gatekeeper role - vets personnel for loyalty"
+  - "Public spokesperson for hardline positions"
+
+nsc_participation: |
+  Miller participates in NSC deliberations when immigration, border security, counter-drug operations,
+  or homeland security intersect with foreign policy. As Homeland Security Advisor, he leads the HSC
+  which "convenes as the HSC on topics agreed to in advance by the National Security Advisor and the
+  Homeland Security Advisor."
+
+  Trump has elevated the HSC to equal status with NSC, signaling immigration/border will get "same
+  national security urgency as other traditional national security matters."
+
+  Miller is "at the top of the totem pole" for becoming permanent NSA per Trump, meaning he could
+  formally join NSC principals. Currently operates at NSC periphery but with significant influence
+  on issues he prioritizes (Latin America drug cartels, immigration-related foreign policy, China
+  migration/student visa issues).
+
+key_relationships:
+  trump: "Closest advisor; described as 'Trump's brain' and 'the prime minister'; has accumulated more influence than anyone except Trump"
+  rubio: "Close collaboration on counter-drug military operations; 'Marco and Stephen have worked really closely on immigration'"
+  hegseth: "Coordinates regularly but Miller leads military use decisions on drug cartels, not Hegseth"
+  vance: "Miller has 'overridden Vance and others' on policy decisions; more influential than VP"
+
+career_background: |
+  - Conservative activist from high school (inspired by Wayne LaPierre's gun rights book)
+  - Duke University (BA Political Science 2007); polarizing conservative columnist
+  - Founded Duke chapter of Students for Academic Freedom (David Horowitz organization)
+  - Communications Director for Sen. Jeff Sessions (2009-2016) - mentored on immigration restriction
+  - Senior Policy Advisor, Trump 2016 campaign - wrote speeches including inaugural address
+  - Senior Advisor to the President & Speechwriting Director (2017-2021)
+  - Founded America First Legal Foundation (2021) - litigation arm of MAGA movement
+  - Deputy Chief of Staff for Policy & Homeland Security Advisor (2025-present)
+
+  Miller has been Trump's longest-serving and most influential advisor on policy matters.

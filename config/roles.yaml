@@ -1,0 +1,60 @@
+# Role configurations for NSC simulator
+# Hub-and-spoke model: Advisors meet directly with President
+
+President:
+  weights:
+    deterrence: 0.55
+    escalation: 0.65
+    alliances: 0.55
+    budget: 0.40
+  red_lines:
+    - "Avoid steps that fracture alliances"
+    - "No major force moves without clear justification"
+
+  # Presidential relationships with advisors (favor/trust: 0.0 to 1.0)
+  # Higher scores = more influence on President's decision
+  # These are calibrated by researcher bots for each President
+  advisor_relationships:
+    SecDef: 0.6
+    SecState: 0.5
+    VP: 0.7
+    # Note: NSA role currently filled by SecState Marco Rubio (acting dual role)
+
+SecDef:
+  weights:
+    deterrence: 0.8
+    readiness: 0.7
+    alliances: 0.5
+    budget: 0.3
+  red_lines:
+    - "Maintain critical readiness thresholds"
+
+SecState:
+  weights:
+    alliances: 0.8
+    escalation: 0.7
+    deterrence: 0.4
+    budget: 0.3
+  red_lines:
+    - "Preserve allied cohesion"
+
+VP:
+  weights:
+    process: 0.7
+    consensus: 0.8
+    alliances: 0.6
+  red_lines:
+    - "Maintain constitutional process"
+
+# Advisor-to-advisor relationships (awareness only, not decision weight)
+# Advisors can see each other's recommendations
+advisor_relationships:
+  SecDef:
+    SecState: 0.1
+    VP: 0.5
+  SecState:
+    SecDef: 0.1
+    VP: 0.4
+  VP:
+    SecDef: 0.6
+    SecState: 0.5

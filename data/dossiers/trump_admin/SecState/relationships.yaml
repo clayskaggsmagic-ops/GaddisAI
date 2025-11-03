@@ -1,0 +1,144 @@
+relationships:
+  within_nsc:
+    President:
+      score: 0.85
+      basis: "Evolved from 2016 rival to trusted ally; unanimous confirmation shows Trump confidence; dual NSA role demonstrates high trust"
+      confidence: "very_high"
+      notes: "Rubio transformed from 'Little Marco' critic calling Trump 'con artist' in 2016 to loyal SecState. Trump trusts him as 'respectable face' of foreign policy. Rubio more establishment/traditional than inner circle but fully aligned on policy. Dual SecState/NSA role (like Kissinger) shows deep confidence. Relationship is professional-political rather than personal friendship."
+      relationship_type: "patron-reformed_critic"
+
+    SecDef_Hegseth:
+      score: 0.55
+      basis: "Professional cooperation but different styles; Rubio traditional diplomat, Hegseth culture warrior; potential friction on alliances"
+      confidence: "medium-high"
+      notes: "Rubio more establishment Republican, values alliances and diplomacy. Hegseth anti-establishment, prioritizes military culture wars. Both hawk on China but Rubio emphasizes State Department tools while Hegseth focuses on military readiness. Rubio's demand for NATO 5% GDP aligns with Hegseth but Rubio more diplomatic in approach. Respectful but not natural allies. Rubio's dual NSA role may create turf issues."
+      relationship_type: "professional-different_approaches"
+
+    NSA_Position_Rubio_Holds:
+      score: 1.0
+      basis: "Rubio IS the Acting NSA since May 2025 while remaining SecState"
+      confidence: "very_high"
+      notes: "Unprecedented dual role. Rubio holds both SecState and Acting NSA positions simultaneously (like Kissinger 1973-75). Centralizes foreign policy decision-making. Rubio coordinates NSC process, manages interagency, and executes diplomacy. Massive workload but eliminates State-NSC friction."
+      relationship_type: "same_person"
+
+    VP_Vance:
+      score: 0.75
+      basis: "Vance swore Rubio in; both align on China threat and America First; generational peers"
+      confidence: "high"
+      notes: "Vance administered oath of office to Rubio. Both represent younger generation of MAGA-aligned Republicans. Share China hawk views and skepticism of endless wars. Rubio more experienced/establishment but ideologically aligned. Good working relationship expected."
+      relationship_type: "allied-generational_peers"
+
+  military_establishment:
+    CJCS_Dan_Caine:
+      score: 0.70
+      basis: "Professional military-civilian relationship; Caine's CIA background aligns with Rubio's intelligence committee experience"
+      confidence: "medium"
+      notes: "Rubio was Vice Chair of Senate Intelligence Committee; Caine came from CIA. Shared intelligence community background. Both focus on China threat. Rubio values military input more than pure Trumpists. Professional respect expected though no prior close relationship."
+      relationship_type: "professional-cooperative"
+
+  congressional:
+    senate_republicans:
+      score: 0.85
+      basis: "14 years as colleague; unanimous 99-0 confirmation; respected by caucus"
+      confidence: "very_high"
+      notes: "Rubio served with many current senators. Unanimous confirmation shows broad support. Respected for foreign policy expertise and communication skills. Can work with Senate on treaties and confirmations."
+      relationship_type: "former_colleague"
+
+    senate_democrats:
+      score: 0.60
+      basis: "Bipartisan PPP work; unanimous confirmation; but partisan on many issues"
+      confidence: "high"
+      notes: "Democrats supported Rubio 99-0 for confirmation - rare in polarized era. PPP during COVID showed bipartisan capacity. However, hawk positions on Cuba, Venezuela, Iran create friction with progressives. Respected but not aligned."
+      relationship_type: "bipartisan_respect"
+
+  international_allies:
+    nato_europe:
+      score: 0.65
+      basis: "Values alliances more than Trump/Hegseth but demands burden-sharing; traditional Republican approach"
+      confidence: "high"
+      notes: "European allies more comfortable with Rubio than Hegseth. Rubio understands alliance value and speaks their language. But demands 5% GDP spending and burden-sharing. More diplomatic than Hegseth but still transactional. Will maintain relationships while pressuring."
+      relationship_type: "traditional_but_demanding"
+
+    israel:
+      score: 0.95
+      basis: "Strongest Israel supporter; no daylight policy; consistent Senate record"
+      confidence: "very_high"
+      notes: "Rubio extremely pro-Israel throughout Senate career. Supports all Israeli positions. No criticism of settlements or military actions. Abraham Accords champion. Israeli government views Rubio as ideal SecState. Relationship is ideological alliance, not just strategic."
+      relationship_type: "ideological_alignment"
+
+    latin_america_democracies:
+      score: 0.80
+      basis: "Personal heritage connection; Spanish speaker; democracy promotion focus"
+      confidence: "high"
+      notes: "Rubio's Cuban-American background creates genuine connection. Fluent Spanish. Champions democratic leaders against authoritarians. Strong relationships with Colombia, Chile, Argentina. Will prioritize Latin America more than predecessors."
+      relationship_type: "personal-heritage_based"
+
+    china:
+      score: 0.10
+      basis: "Rubio sees China as most dangerous adversary; extensive sanctions record; Uyghur Act author"
+      confidence: "very_high"
+      notes: "China views Rubio as major threat. He's on Chinese sanctions list. Authored Uyghur Forced Labor Act. Consistent China hawk for decade+. Relationship is adversarial competition. Will engage on narrow issues (climate) but fundamentally hostile."
+      relationship_type: "adversarial-systematic_competitor"
+
+  interest_groups:
+    cuban_american_community:
+      score: 0.95
+      basis: "First Cuban-American SecState; hero in Miami Cuban community; personal heritage"
+      confidence: "very_high"
+      notes: "Rubio is iconic figure in Cuban-American politics. Community expects maximum pressure on Cuba regime. Any softening would be personally/politically devastating. This constituency drives his Cuba policy red lines."
+      relationship_type: "personal_community"
+
+    foreign_policy_establishment:
+      score: 0.75
+      basis: "Respected for expertise but seen as Trump loyalist; 99-0 confirmation shows establishment acceptance"
+      confidence: "high"
+      notes: "Think tanks (CFR, CSIS, Atlantic Council) view Rubio as serious, knowledgeable official. Prefer him to pure Trumpists. But concerned about Ukraine flip-flop and Trump alignment. Will engage constructively while noting concerns."
+      relationship_type: "establishment_with_reservations"
+
+    progressive_activists:
+      score: 0.20
+      basis: "Opposition to Cuba/Venezuela policy, selective human rights, climate skepticism"
+      confidence: "high"
+      notes: "Human rights groups oppose maximum pressure on Cuba/Venezuela. Climate activists critical of fossil fuel ties. Anti-war groups oppose Iran hawkishness. However, Uyghur Act gives him some credibility on human rights. Selective engagement possible."
+      relationship_type: "oppositional"
+
+influence_network:
+  inner_circle:
+    - "President Trump (patron)"
+    - "VP JD Vance"
+    - "Sen. Rick Scott (FL colleague, ally)"
+    - "Cuban-American political network"
+
+  regular_consultation:
+    - "SecDef Hegseth (NSC colleague)"
+    - "Republican Senate Foreign Relations members"
+    - "Think tank experts (CFR, AEI, Atlantic Council)"
+    - "Israeli government officials"
+    - "Latin American democratic leaders"
+
+  potential_opposition:
+    - "Career State Department diplomats (if over-politicized)"
+    - "Progressive Democrats on Latin America policy"
+    - "European allies frustrated by demands"
+    - "Anti-war activists on Iran policy"
+
+relationship_dynamics:
+  loyalty_evolution: "Rubio's transformation from Trump critic to loyalist reflects broader GOP evolution; now fully trusted"
+
+  dual_role_power: "Holding both SecState and NSA gives Rubio enormous influence over foreign policy; centralized decision-making"
+
+  alliance_balancer: "More pro-alliance than Hegseth but more transactional than traditional Republicans; middle ground"
+
+  latin_america_passion: "Personal heritage creates genuine commitment to region; may over-prioritize vs other threats"
+
+  establishment_bridge: "Serves as liaison between Trump MAGA world and traditional foreign policy community; rare translator role"
+
+research_metadata:
+  sources_consulted: 18
+  confidence_level: "very_high"
+  key_insights:
+    - "Dual SecState/NSA role unprecedented and concentrates power"
+    - "Bridge between Trump populism and Republican establishment"
+    - "Personal heritage drives Latin America focus"
+    - "Unanimous 99-0 confirmation shows bipartisan acceptability"
+    - "More diplomatic than Hegseth but aligned on core Trump agenda"

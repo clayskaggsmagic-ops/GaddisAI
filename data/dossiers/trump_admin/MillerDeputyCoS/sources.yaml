@@ -1,0 +1,442 @@
+sources:
+  # PRIMARY SOURCES - OFFICIAL GOVERNMENT
+  - id: "whitehouse_eo_14151_dei_2025"
+    title: "Ending Radical And Wasteful Government DEI Programs And Preferencing"
+    type: "executive_order"
+    url: "https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/"
+    date: "2025-01-20"
+    publication: "White House"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Executive Order 14151 drafted by Miller terminating all federal DEI programs; Miller's signature policy achievement"
+
+  - id: "whitehouse_video_miller_subservience_2017"
+    title: "Stephen Miller: President Trump Is Ending America's Subservience to Foreign Nations"
+    type: "white_house_video"
+    url: "https://www.whitehouse.gov/videos/stephen-miller-president-trump-is-ending-americas-subservience-to-foreign-nations/"
+    date: "2017-06-15"
+    publication: "White House"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Miller's framing of Trump foreign policy as ending US 'subservience' to other nations"
+
+  # NEWS REPORTING - MAJOR OUTLETS
+  - id: "cnn_miller_offensive_cities_2025"
+    title: "Stephen Miller emerges as key architect of Trump's offensive on Democratic cities"
+    type: "news_analysis"
+    url: "https://www.cnn.com/2025/10/11/politics/stephen-miller-role-trump-crime-military-crackdown"
+    date: "2025-10-11"
+    publication: "CNN Politics"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Comprehensive analysis of Miller's role leading federal offensive on Democratic cities, counter-drug operations, and expanding influence"
+    key_findings:
+      - "Miller works alongside Rubio as leader of counter-drug mission with lethal strikes in Caribbean"
+      - "Miller, not Hegseth, led internal push to use military to target drug cartels"
+      - "Miller has emerged as singular driving force behind constellation of initiatives to assert federal power"
+
+  - id: "nbc_miller_untouchable_force_2025"
+    title: "Stephen Miller re-emerges as an 'untouchable' force in Trump's White House"
+    type: "news_analysis"
+    url: "https://www.nbcnews.com/politics/trump-administration/stephen-miller-untouchable-force-trump-white-house-rcna206180"
+    date: "2025-03-15"
+    publication: "NBC News"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Miller's unprecedented influence as Deputy CoS for Policy and HSA"
+    key_quotes:
+      - "Outside of President Donald Trump, no White House official has accumulated more influence than Stephen Miller"
+      - "Often referred to in Trump circles simply as 'the prime minister'"
+      - "Loaded up scores of executive orders for Trump to sign in his first months back in office"
+
+  - id: "npr_miller_deputy_cos_announcement_2024"
+    title: "Trump names immigration hardliner Stephen Miller deputy chief of staff"
+    type: "news_article"
+    url: "https://www.npr.org/2024/11/11/g-s1-33741/trump-stephen-miller-deputy-chief-of-staff-immigration-policy-deportations"
+    date: "2024-11-11"
+    publication: "NPR"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Announcement of Miller's dual appointment as Deputy CoS for Policy and Homeland Security Advisor"
+
+  - id: "cnn_miller_white_house_power_2025"
+    title: "From immigration to DOGE, Stephen Miller is more powerful in the White House than ever"
+    type: "news_analysis"
+    url: "https://www.cnn.com/2025/02/10/politics/stephen-miller-white-house/index.html"
+    date: "2025-02-10"
+    publication: "CNN Politics"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Miller's expanding power across multiple policy domains beyond immigration"
+
+  - id: "axios_miller_nsa_contender_2025"
+    title: "Scoop: Stephen Miller emerges as top contender for Trump's next national security adviser"
+    type: "news_scoop"
+    url: "https://www.axios.com/2025/05/02/stephen-miller-national-security-adviser-candidate"
+    date: "2025-05-02"
+    publication: "Axios"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Reporting on Trump considering Miller for permanent National Security Advisor role"
+    key_quote: "Trump: 'Stephen Miller is at the top of the totem pole. I think he sort of indirectly already has that job'"
+
+  - id: "axios_miller_ice_arrests_2025"
+    title: "Scoop: Stephen Miller, Noem tell ICE to supercharge immigrant arrests"
+    type: "news_scoop"
+    url: "https://www.axios.com/2025/05/28/immigration-ice-deportations-stephen-miller"
+    date: "2025-05-28"
+    publication: "Axios"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Miller and Noem demanding ICE triple arrest rates to meet 1 million deportation target"
+
+  - id: "france24_miller_immigration_crusade_2025"
+    title: "Stephen Miller: how an anti-immigrant crusade is remaking US policy"
+    type: "international_analysis"
+    url: "https://www.france24.com/en/americas/20250619-stephen-miller-how-an-anti-immigrant-crusade-is-remaking-us-policy"
+    date: "2025-06-19"
+    publication: "France 24"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "International perspective on Miller as 'anti-immigration crusader' and architect of family separation, Muslim ban, mass deportations"
+
+  - id: "wapo_miller_dc_takeover_2025"
+    title: "How White House adviser Stephen Miller is running Trump's D.C. takeover"
+    type: "investigative_reporting"
+    url: "https://www.washingtonpost.com/politics/2025/09/05/trump-dc-takeover-stephen-miller-white-house/"
+    date: "2025-09-05"
+    publication: "Washington Post"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Investigation into Miller's federal offensive on Washington D.C. and Democratic cities"
+
+  - id: "daily_beast_miller_military_housing_2025"
+    title: "Stephen Miller Scores Free Military House in 'Trump Green Zone'"
+    type: "news_article"
+    url: "https://www.thedailybeast.com/stephen-miller-scores-free-military-house-in-trump-green-zone/"
+    date: "2025-10-30"
+    publication: "The Daily Beast"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Miller, Rubio, Hegseth, Noem moving to military housing; 'bunker mentality'"
+
+  # NSC / FOREIGN POLICY
+  - id: "npr_trump_nsc_shakeup_2025"
+    title: "Trump shrinks National Security Council in major foreign policy shakeup"
+    type: "news_article"
+    url: "https://www.npr.org/2025/05/23/nx-s1-5409610/trump-national-security-council"
+    date: "2025-05-23"
+    publication: "NPR"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Miller's HSA role elevated to NSC-equivalent status; HSC convenes on topics agreed by NSA and HSA"
+
+  - id: "akin_trump_nsc_priorities_2025"
+    title: "President Trump Changes National Security Council to Align with New Priorities"
+    type: "legal_analysis"
+    url: "https://www.akingump.com/en/insights/alerts/president-trump-changes-national-security-council-to-align-with-new-priorities"
+    date: "2025-01-25"
+    publication: "Akin Gump (Law Firm)"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of NSPM-1 elevating HSC (Miller's domain) to NSC-equivalent status"
+
+  - id: "foreign_policy_miller_blocked_g7_2017"
+    title: "Trump Advisor Stephen Miller Blocked G-7 Migration Proposal"
+    type: "news_article"
+    url: "https://foreignpolicy.com/2017/05/25/trump-advisor-stephen-miller-blocked-g7-migration-proposal/"
+    date: "2017-05-25"
+    publication: "Foreign Policy"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Miller led White House efforts to undercut Italy's G-7 migration initiative"
+
+  # IMMIGRATION POLICY ANALYSIS
+  - id: "american_oversight_miller_influence"
+    title: "Stephen Miller's Influence on Immigration Policy — and Throughout the Administration"
+    type: "investigative_organization"
+    url: "https://americanoversight.org/investigation/stephen-millers-influence-on-immigration-policy-and-throughout-the-administration/"
+    date: "2025-03-10"
+    publication: "American Oversight"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Comprehensive investigation into Miller's immigration policy influence using FOIA documents"
+
+  - id: "msnbc_miller_darkest_visions_2024"
+    title: "How Stephen Miller is poised to carry out Trump's darkest visions"
+    type: "opinion_analysis"
+    url: "https://www.msnbc.com/opinion/msnbc-opinion/trump-immigration-mass-deportation-rcna179816"
+    date: "2024-11-13"
+    publication: "MSNBC Opinion"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Miller's preparation for mass deportation implementation"
+
+  - id: "democracy_now_miller_hatemonger_2024"
+    title: "\"Hatemonger\": Stephen Miller to Hold Key Post as Trump Pushes Mass Detention & Deportation"
+    type: "interview"
+    url: "https://www.democracynow.org/2024/11/12/stephen_miller_second_trump_admin_immigration"
+    date: "2024-11-12"
+    publication: "Democracy Now"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Interview with Jean Guerrero (Miller biographer) on his second-term plans"
+
+  # DEI EXECUTIVE ORDERS
+  - id: "congress_dei_executive_orders_2025"
+    title: "Recent Executive Actions on Diversity, Equity, and Inclusion (DEI)"
+    type: "congressional_research"
+    url: "https://www.congress.gov/crs-product/IN12497"
+    date: "2025-01-25"
+    publication: "Congressional Research Service"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Official CRS analysis of Miller-drafted DEI executive orders"
+
+  - id: "holland_knight_dei_eo_analysis_2025"
+    title: "Executive Order: Ending Radical and Wasteful Government DEI Programs and Preferencing"
+    type: "legal_analysis"
+    url: "https://www.hklaw.com/en/insights/publications/2025/01/executive-order-ending-radical-and-wasteful-government-dei-programs"
+    date: "2025-01-21"
+    publication: "Holland & Knight"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Law firm analysis of EO 14151's scope and implementation"
+
+  # BIOGRAPHICAL / REFERENCE
+  - id: "britannica_stephen_miller"
+    title: "Stephen Miller | Trump, Wife, Immigration, & Facts"
+    type: "reference"
+    url: "https://www.britannica.com/biography/Stephen-Miller"
+    date: "2025-10-20"
+    publication: "Britannica"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Comprehensive biographical reference"
+
+  - id: "wikipedia_stephen_miller"
+    title: "Stephen Miller (political advisor)"
+    type: "reference"
+    url: "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)"
+    date: "2025-11-01"
+    publication: "Wikipedia"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Detailed Wikipedia article with extensive citations"
+
+  - id: "duke_chronicle_miller_analysis_2025"
+    title: "Stephen Miller: Understanding the man who became 'Trump's brain'"
+    type: "biographical_analysis"
+    url: "https://www.dukechronicle.com/article/2025/02/duke-university-stephen-miller-chronicle-opinion-column-miller-time-conservative-controversial-trump-administration-deputy-chief-of-staff-for-policy-trumps-brain"
+    date: "2025-02-15"
+    publication: "Duke Chronicle"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis by Miller's college newspaper about his Duke years and 'Miller Time' column"
+
+  # SPLC / EXTREMISM
+  - id: "splc_stephen_miller_extremist_file"
+    title: "Stephen Miller"
+    type: "extremist_documentation"
+    url: "https://www.splcenter.org/resources/extremist-files/stephen-miller/"
+    date: "2025-09-15"
+    publication: "Southern Poverty Law Center"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "SPLC's designation of Miller as extremist based on leaked emails showing white nationalist content sharing"
+
+  - id: "common_cause_miller_profile_2025"
+    title: "Top 5 Most Awful Things You Need to Know About Stephen Miller"
+    type: "critical_profile"
+    url: "https://www.commoncause.org/articles/top-5-most-awful-things-you-need-to-know-about-stephen-miller/"
+    date: "2025-01-15"
+    publication: "Common Cause"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Critical assessment of Miller's controversial policies and positions"
+
+  # AMERICA FIRST LEGAL
+  - id: "wikipedia_america_first_legal"
+    title: "America First Legal"
+    type: "reference"
+    url: "https://en.wikipedia.org/wiki/America_First_Legal"
+    date: "2025-10-28"
+    publication: "Wikipedia"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Overview of Miller's legal foundation founded 2021; Executive Director Matthew Whitaker"
+
+  # MEDIA / INTERVIEWS
+  - id: "laura_ingraham_miller_interview_2020"
+    title: "Stephen Miller: Trump Defends U.S., Elites Defend Foreign Interests"
+    type: "interview"
+    url: "https://lauraingraham.com/stephen-miller-trump-defends-us-elites-defend-foreign-interests/"
+    date: "2020-08-15"
+    publication: "Laura Ingraham Show"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Miller stating Democrats' 'motto is: for foreigners, everything; for Americans, nothing'"
+
+  # ADDITIONAL SOURCES
+  - id: "npr_miller_closest_aide_2025"
+    title: "Why Stephen Miller has become one of Trump's closest aides on some of his signature issues"
+    type: "news_analysis"
+    url: "https://www.npr.org/2025/03/29/nx-s1-5334722/why-stephen-miller-has-become-one-of-trumps-closest-aides-on-some-of-his-signature-issues"
+    date: "2025-03-29"
+    publication: "NPR"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Miller's closeness to Trump and influence mechanisms"
+
+  - id: "londonnews_miller_rubio_military_housing_2025"
+    title: "Top Trump officials Miller, Noem and Rubio adopt bunker mentality with housing reserved for military officers"
+    type: "news_article"
+    url: "https://londonnewsnetwork.com/2025/10/30/top-trump-officials-miller-noem-and-rubio-adopt-bunker-mentality-with-housing-reserved-for-military-officers-report/"
+    date: "2025-10-30"
+    publication: "London News Network"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Reporting on Trump officials moving to military bases for security"
+
+research_provenance:
+  search_queries_used:
+    - "Stephen Miller Deputy Chief of Staff Policy Trump 2025 immigration national security influence"
+    - "Stephen Miller Trump administration 2025 NSC National Security Council role foreign policy"
+    - "Stephen Miller biography Trump advisor immigration policy positions 2025"
+    - "Stephen Miller China foreign policy positions alliances NATO Trump administration 2025"
+    - "Stephen Miller relationship Hegseth Rubio Vance Trump White House 2025"
+    - "Stephen Miller America First Legal Foundation Jeff Sessions Duke University conservative activist"
+    - "Stephen Miller immigration policy positions 2025 mass deportations habeas corpus Muslim ban family separation"
+    - "Stephen Miller foreign policy sovereignty WHO withdrawal international organizations"
+    - "Stephen Miller DEI diversity equity inclusion executive orders federal government 2025"
+
+  source_breakdown:
+    primary_sources: 3
+    secondary_sources: 25
+    total: 28
+
+  source_types:
+    official_government: 3
+    news_reporting: 13
+    policy_analysis: 4
+    legal_analysis: 3
+    reference: 3
+    investigative_organizations: 1
+    extremist_documentation: 1
+
+  credibility_distribution:
+    primary: 3
+    secondary: 25
+
+  political_spectrum:
+    government_official: 3
+    mainstream_news: 10
+    conservative_media: 2
+    progressive_critics: 5
+    legal_analysis: 3
+    reference: 3
+    watchdog: 2
+
+  confidence_assessment:
+    overall_confidence: "very_high"
+    rationale: |
+      Extensive public record from Duke University (2003) through second Trump administration
+      (2025). Miller is one of most well-documented Trump advisors due to:
+
+      1. Long public career (Duke activism → Sessions staffer → Trump campaign → two WH terms)
+      2. Controversial policies generating extensive coverage (Muslim ban, family separation, DEI elimination)
+      3. SPLC extremist designation with 900+ leaked emails
+      4. Multiple investigative reports on his influence
+      5. Official government documents (executive orders he drafted)
+      6. Contemporary reporting on his expanding power in 2025
+
+      Primary sources include executive orders Miller drafted and official White House materials.
+      Secondary sources are numerous and converge on consistent portrait: most influential
+      advisor after Trump, immigration hardliner, ideological enforcer, expanding into foreign
+      policy via counter-drug operations.
+
+      Only uncertainty is future role (will he become permanent NSA?), but current influence
+      is extremely well-documented.
+
+  key_findings:
+    most_important_sources:
+      - "CNN's comprehensive analysis of Miller's offensive on Democratic cities and counter-drug operations"
+      - "NBC's analysis calling Miller 'untouchable force' and 'the prime minister'"
+      - "Axios scoops on Miller as NSA contender and ICE pressure"
+      - "Executive Order 14151 (Miller's DEI termination order)"
+      - "SPLC extremist file with leaked email evidence"
+      - "NPR on Miller's HSA role and NSC elevation"
+
+    source_gaps:
+      - "Limited primary sources (Miller rarely gives interviews to non-conservative media)"
+      - "No access to internal White House deliberations beyond leaks"
+      - "Miller's personal views on China policy not extensively documented"
+      - "Details of Miller-Trump private conversations are inferred not documented"
+
+  areas_of_strength:
+    - "Immigration policy positions exhaustively documented"
+    - "DEI executive orders are primary source material"
+    - "Influence mechanisms well-analyzed by multiple independent sources"
+    - "Duke University activism documented by Duke Chronicle"
+    - "Jeff Sessions mentorship confirmed by multiple sources"
+    - "Gang of Eight killing (2013) well-documented legislative battle"
+    - "Family separation and Muslim ban extensively covered"
+    - "SPLC emails provide rare window into ideological formation"
+    - "Counter-drug operations with Rubio confirmed by multiple sources"
+    - "Override authority over Vance documented"
+
+  areas_of_weakness:
+    - "Miller's specific China policy positions less documented than immigration"
+    - "Details of America First Legal Foundation activities (2021-2024) incomplete"
+    - "Miller's views on specific foreign policy beyond sovereignty rhetoric not fully developed"
+    - "Personal life largely private (wife Katie Waldman but children details scarce)"
+    - "Future political ambitions unclear (no evidence he wants elected office)"
+
+  update_recommendations:
+    - "Monitor if Miller becomes permanent NSA (major development)"
+    - "Track mass deportation numbers vs 1 million goal (quarterly)"
+    - "Document additional executive orders Miller drafts (ongoing)"
+    - "Follow counter-drug operations he leads with Rubio (as occur)"
+    - "Track legal challenges to Miller policies (ACLU, others)"
+    - "Update relationships if Cabinet changes occur"
+
+  critical_assessment: |
+    IMPORTANCE FOR NSC SIMULATION:
+
+    Stephen Miller is arguably the SECOND most important person in Trump administration
+    after Trump himself. He is:
+
+    1. "Trump's brain" - translates Trump's instincts into policy
+    2. "The prime minister" - most influential White House official
+    3. Deputy CoS for Policy - controls White House policy process
+    4. Homeland Security Advisor - leads HSC (elevated to NSC-equivalent)
+    5. Potential future NSA - Trump said he "indirectly already has" the job
+
+    For GaddisAI NSC simulation, Miller is critical because:
+
+    - He can OVERRIDE VP Vance on policy decisions
+    - He LEADS counter-drug military operations (not SecDef Hegseth)
+    - He COORDINATES Cabinet (Noem, Bondi, Hegseth, Rubio)
+    - He has DIRECT Trump access (closest advisor)
+    - Immigration/homeland security is now NATIONAL SECURITY priority (HSC = NSC)
+
+    Miller's immigration focus affects NSC matters:
+    - Border/Mexico policy
+    - Central America relations
+    - Military use for counter-drug (Caribbean strikes)
+    - Alliance relationships (damaged by nationalism)
+    - International organization participation (WHO, G-7)
+
+    ANY NSC scenario involving:
+    - Immigration/border
+    - Latin America
+    - Drug cartels
+    - Sovereignty vs multilateralism
+    - Federal power vs states
+    - DEI in military
+
+    ...Miller will be primary voice, potentially overriding traditional NSC principals.
+
+research_date: "2025-11-03"
+researcher: "Claude (AI Assistant with WebSearch capability)"
+research_method: "Web search + synthesis of primary and secondary sources"

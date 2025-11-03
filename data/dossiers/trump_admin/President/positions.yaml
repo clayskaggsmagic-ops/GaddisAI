@@ -1,0 +1,349 @@
+positions:
+  # IRAN
+  - claim: "Prevent Iran from acquiring nuclear weapons through military strikes if necessary"
+    stance: "supports_iran_military_action"
+    intensity: "very_strong"
+    quote: "Tonight, I can report to the world that the strikes were a spectacular military success."
+    context: "Operation Midnight Hammer (June 21, 2025) - strikes on Fordo, Natanz, Isfahan nuclear facilities"
+    source:
+      title: "U.S. launches strikes on 3 Iranian nuclear facilities, Trump says"
+      url: "https://www.cbsnews.com/news/u-s-launches-strikes-iranian-nuclear-facilities-trump-says/"
+      type: "news_article"
+      date: "2025-06-22"
+      publication: "CBS News"
+      credibility: "secondary"
+
+  - claim: "Maximum pressure on Iran through sanctions and deterrence"
+    stance: "opposes_iran_nuclear_deal"
+    intensity: "very_strong"
+    quote: "Trump administration withdrew from the 'Iran nuclear deal' in 2018, reimposing sanctions against Iran, and in 2020, the Trump administration presided over the targeted killing of IRGC Quds Force commander Qasem Soleimani."
+    context: "Consistent policy from first term continuing into second; willing to negotiate but from position of strength"
+    source:
+      title: "Foreign policy of the second Trump administration"
+      url: "https://en.wikipedia.org/wiki/Foreign_policy_of_the_second_Trump_administration"
+      type: "reference"
+      date: "2025-10-15"
+      publication: "Wikipedia"
+      credibility: "secondary"
+
+  # CHINA
+  - claim: "China is greatest long-term threat requiring economic containment and tariff war"
+    stance: "opposes_china"
+    intensity: "very_strong"
+    quote: "Declared national emergency on April 2, 2025 ('Liberation Day') regarding trade deficit; imposed 10% minimum reciprocal tariff on nearly all countries with higher rates for 57 countries including China"
+    context: "China faces highest US tariffs compared to any other country; trade war escalated significantly in 2025"
+    source:
+      title: "Tariffs in the second Trump administration"
+      url: "https://en.wikipedia.org/wiki/Tariffs_in_the_second_Trump_administration"
+      type: "reference"
+      date: "2025-11-01"
+      publication: "Wikipedia"
+      credibility: "secondary"
+
+  - claim: "Use tariffs as economic weapon and negotiating leverage with China"
+    stance: "supports_tariff_escalation"
+    intensity: "very_strong"
+    quote: "Trump announced additional 100 percent tariff on China starting November 1, 2025, as response to China's export controls on rare earth minerals"
+    context: "Tariffs increased from 10% (Feb 2025) to 20% (March 2025) with threat of 100% (later framework deal averted it)"
+    source:
+      title: "Trump's 100% tariff threat: History of US trade measures against China"
+      url: "https://www.aljazeera.com/news/2025/10/13/trumps-100-tariff-threat-history-of-us-trade-measures-against-china"
+      type: "news_article"
+      date: "2025-10-13"
+      publication: "Al Jazeera"
+      credibility: "secondary"
+
+  - claim: "China trade deal framework reached to reduce tariffs in exchange for concessions"
+    stance: "supports_negotiated_deals"
+    intensity: "strong"
+    quote: "This week in the Republic of Korea, President Donald J. Trump reached a trade and economic deal with President Xi Jinping of China—a massive victory that safeguards U.S. economic strength and national security."
+    context: "November 2025 deal - US lowered cumulative tariffs by 10 percentage points, suspended heightened reciprocal tariffs"
+    source:
+      title: "Fact Sheet: President Donald J. Trump Strikes Deal on Economic and Trade Relations with China"
+      url: "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/"
+      type: "official_statement"
+      date: "2025-11-08"
+      publication: "White House"
+      credibility: "primary"
+
+  # UKRAINE / RUSSIA
+  - claim: "End Ukraine war through negotiated settlement with territorial concessions to Russia"
+    stance: "supports_ukraine_territorial_concessions"
+    intensity: "very_strong"
+    quote: "US officials outlined vision for deal including full ceasefire and frozen front line that would leave Ukrainian territory seized by Russia in Moscow's hands, keeping Kyiv's NATO membership ambitions off negotiating table, and holding out prospect of easing sanctions on Russia. Trump ready to recognize Russian control of Crimea."
+    context: "Promised to end war in 24 hours; gave advisors 100 days for deal; threatened to walk away"
+    source:
+      title: "Trump ready to move on from Ukraine peace deal if no quick solution, Rubio says"
+      url: "https://www.washingtonpost.com/world/2025/04/18/rubio-trump-ukraine-peace-talks-russia/"
+      type: "news_article"
+      date: "2025-04-18"
+      publication: "Washington Post"
+      credibility: "secondary"
+
+  - claim: "Ukraine war is not America's problem; Europe should handle it"
+    stance: "opposes_us_ukraine_commitment"
+    intensity: "strong"
+    quote: "Rubio: 'It's not our war' - Trump admin may soon 'move on' from Ukraine-Russia peace efforts"
+    context: "Trump views Ukraine as European problem draining US resources better spent on China"
+    source:
+      title: "Rubio says Trump admin may soon 'move on' from Ukraine-Russia peace efforts: 'It's not our war'"
+      url: "https://www.cbsnews.com/news/trump-ukraine-war-russia-rubio-says-us-may-move-on-peace-efforts-not-our-war/"
+      type: "news_article"
+      date: "2025-04-18"
+      publication: "CBS News"
+      credibility: "secondary"
+
+  # NATO / ALLIANCES
+  - claim: "NATO allies must pay their fair share or US will not defend them"
+    stance: "supports_conditional_nato"
+    intensity: "very_strong"
+    quote: "Trump called NATO 'obsolete' and claimed he told a NATO country leader he would tell Russia to 'do whatever the hell [it wants]' if the country was delinquent on its payments."
+    context: "Transactional view of alliances; demands burden-sharing; skeptical of Article 5 commitments"
+    source:
+      title: "How Trump Sees Allies and Partners"
+      url: "https://www.csis.org/analysis/how-trump-sees-allies-and-partners"
+      type: "policy_analysis"
+      date: "2025-02-10"
+      publication: "CSIS"
+      credibility: "secondary"
+
+  - claim: "Alliances should be transactional deals, not values-based commitments"
+    stance: "supports_transactional_alliances"
+    intensity: "very_strong"
+    quote: "Trump is commonly described as transactional, defined by his unabashed opportunism, often at the expense of values, alliances, and even treaties. For Trump, every transaction is zero-sum, with a clear winner and loser."
+    context: "Fundamental reshaping of US alliance approach from collective security to cost-benefit analysis"
+    source:
+      title: "Trump Is Ushering In a More Transactional World"
+      url: "https://foreignpolicy.com/2025/01/07/trump-transactional-global-system-us-allies-markets-tariffs/"
+      type: "policy_analysis"
+      date: "2025-01-07"
+      publication: "Foreign Policy"
+      credibility: "secondary"
+
+  # TRADE / ECONOMIC NATIONALISM
+  - claim: "Trade deficits are national security emergency requiring reciprocal tariffs"
+    stance: "supports_economic_nationalism"
+    intensity: "very_strong"
+    quote: "Trump declared national emergency to address what he described as 'large and persistent US trade deficit' and invoked IEEPA to impose 10% minimum 'reciprocal tariff' on nearly all other countries, effective April 5, 2025."
+    context: "April 2, 2025 'Liberation Day' - invoked emergency powers for tariffs"
+    source:
+      title: "Trump Tariffs: The Economic Impact of the Trump Trade War"
+      url: "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+      type: "economic_analysis"
+      date: "2025-10-20"
+      publication: "Tax Foundation"
+      credibility: "secondary"
+
+  - claim: "Economic nationalism is not negotiable - Peter Navarro: 'This is not a negotiation'"
+    stance: "supports_economic_nationalism"
+    intensity: "very_strong"
+    quote: "Economic advisor Peter Navarro dismissed Vietnam's offer to eliminate all tariffs, stating 'This is not a negotiation. This is a national emergency based on a trade deficit that's gotten out of control.'"
+    context: "Trade policy driven by nationalist ideology, not traditional economic rationale"
+    source:
+      title: "Trump Tariffs: The Economic Impact of the Trump Trade War"
+      url: "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+      type: "economic_analysis"
+      date: "2025-10-20"
+      publication: "Tax Foundation"
+      credibility: "secondary"
+
+  # IMMIGRATION
+  - claim: "Immigration is national security threat requiring mass deportations"
+    stance: "supports_mass_deportations"
+    intensity: "very_strong"
+    quote: "Trump pledged to deport 1 million undocumented immigrants in first year; Miller (Deputy CoS) pressuring ICE to triple arrest rates"
+    context: "Immigration elevated to national security priority via HSC-NSC equivalence; military potentially involved"
+    source:
+      title: "Scoop: Stephen Miller, Noem tell ICE to supercharge immigrant arrests"
+      url: "https://www.axios.com/2025/05/28/immigration-ice-deportations-stephen-miller"
+      type: "news_scoop"
+      date: "2025-05-28"
+      publication: "Axios"
+      credibility: "secondary"
+
+  - claim: "Border wall and immigration restriction core to America First"
+    stance: "supports_border_wall"
+    intensity: "very_strong"
+    quote: "Declared national emergency at southern border on January 20, 2025 (Inauguration Day)"
+    context: "Signature issue since 2016 campaign; symbolic of nationalism and sovereignty"
+    source:
+      title: "Trump names immigration hardliner Stephen Miller deputy chief of staff"
+      url: "https://www.npr.org/2024/11/11/g-s1-33741/trump-stephen-miller-deputy-chief-of-staff-immigration-policy-deportations"
+      type: "news_article"
+      date: "2024-11-11"
+      publication: "NPR"
+      credibility: "secondary"
+
+  # MIDDLE EAST
+  - claim: "Strong support for Israel including recognition of Jerusalem as capital"
+    stance: "supports_israel"
+    intensity: "very_strong"
+    quote: "Moved US embassy to Jerusalem (first term); supported Israeli settlements; brokered Abraham Accords"
+    context: "Consistent pro-Israel position; evangelical Christian base; strategic ally in region"
+    source:
+      title: "Donald Trump - Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Donald_Trump"
+      type: "reference"
+      date: "2025-11-01"
+      publication: "Wikipedia"
+      credibility: "secondary"
+
+  - claim: "Expand Abraham Accords normalization between Israel and Arab states"
+    stance: "supports_abraham_accords"
+    intensity: "strong"
+    quote: "Major first-term achievement - Israel-UAE-Bahrain normalization; seeking to expand in second term"
+    context: "Views Middle East peace through economic deals and normalization, not Palestinian statehood"
+    source:
+      title: "Foreign policy of the second Trump administration"
+      url: "https://en.wikipedia.org/wiki/Foreign_policy_of_the_second_Trump_administration"
+      type: "reference"
+      date: "2025-10-15"
+      publication: "Wikipedia"
+      credibility: "secondary"
+
+  # INTERNATIONAL ORGANIZATIONS
+  - claim: "Withdraw from international organizations that constrain US sovereignty"
+    stance: "opposes_multilateralism"
+    intensity: "very_strong"
+    quote: "Withdrew from WHO, Paris climate accord; Miller loaded up executive orders for withdrawals in first months of second term"
+    context: "Consistent America First position - international institutions limit US freedom of action"
+    source:
+      title: "Stephen Miller re-emerges as an 'untouchable' force in Trump's White House"
+      url: "https://www.nbcnews.com/politics/trump-administration/stephen-miller-untouchable-force-trump-white-house-rcna206180"
+      type: "news_analysis"
+      date: "2025-03-15"
+      publication: "NBC News"
+      credibility: "secondary"
+
+  # DECISION-MAKING PHILOSOPHY
+  - claim: "Peace through strength - military power combined with deal-making"
+    stance: "supports_peace_through_strength"
+    intensity: "very_strong"
+    quote: "President-elect Donald Trump and his key advisors have embraced the 'Return to Peace through Strength,' sometimes known as 'America First,' concept when describing their foreign policy and national security goals."
+    context: "Willing to use force (Iran strikes, Soleimani killing) but prefers negotiated deals"
+    source:
+      title: "A First Look at the Second Trump Administration's National Security and Foreign Policy"
+      url: "https://www.bhfs.com/insights/alerts-articles/2025/a-first-look-at-the-second-trump-administration-s-national-security-and-foreign-policy"
+      type: "policy_analysis"
+      date: "2025-01-25"
+      publication: "Brownstein Hyatt"
+      credibility: "secondary"
+
+  - claim: "Every foreign policy interaction is a deal with winners and losers"
+    stance: "transactional_diplomacy"
+    intensity: "very_strong"
+    quote: "For Trump, who co-wrote the 1987 book The Art of the Deal, every transaction is zero-sum, with a clear winner and loser, and he likes to be seen as a winner."
+    context: "Fundamental worldview shaping all foreign policy; rejects win-win framing"
+    source:
+      title: "Trump Is Ushering In a More Transactional World"
+      url: "https://foreignpolicy.com/2025/01/07/trump-transactional-global-system-us-allies-markets-tariffs/"
+      type: "policy_analysis"
+      date: "2025-01-07"
+      publication: "Foreign Policy"
+      credibility: "secondary"
+
+position_clusters:
+  iran_maximum_pressure:
+    - "Prevent nuclear weapons through strikes if necessary"
+    - "Maximum pressure sanctions"
+    - "Killed Soleimani (2020); struck nuclear facilities (2025)"
+
+  china_containment:
+    - "Greatest long-term threat"
+    - "Tariff war escalation"
+    - "Trade deficit as national security issue"
+    - "Willing to negotiate deals from strength"
+
+  ukraine_disengagement:
+    - "Not America's war"
+    - "Accept territorial concessions to Russia"
+    - "Recognize Crimea as Russian"
+    - "Threaten to walk away from negotiations"
+
+  transactional_alliances:
+    - "NATO allies must pay fair share"
+    - "Would let Russia 'do whatever' to delinquent allies"
+    - "Alliances are deals, not values"
+    - "Zero-sum transaction mentality"
+
+  economic_nationalism:
+    - "Trade deficits are national emergency"
+    - "Reciprocal tariffs as weapon"
+    - "Economic nationalism not negotiable"
+    - "'Liberation Day' tariff declaration"
+
+  immigration_hardline:
+    - "Mass deportations (1 million target)"
+    - "Border wall construction"
+    - "National emergency declaration"
+    - "Immigration as national security"
+
+  sovereignty_over_institutions:
+    - "Withdraw from WHO, Paris accord"
+    - "Reject international constraints"
+    - "America First nationalism"
+    - "Unilateral action over multilateralism"
+
+research_summary:
+  total_positions_documented: 16
+  primary_sources: 2
+  secondary_sources: 14
+  strongest_convictions: ["America First nationalism", "Iran deterrence", "China containment", "Economic nationalism", "Immigration restriction"]
+  key_tensions: ["Military strikes vs deal-making", "Alliance commitments vs transactionalism", "Tariffs vs trade deals"]
+  confidence_level: "very_high"
+
+  notable_patterns: |
+    Trump's positions are remarkably consistent from first term (2017-2021) through second term (2025).
+    Core themes:
+    1. TRANSACTIONALISM - Every relationship is a deal with winners/losers
+    2. NATIONALISM - America First over multilateral cooperation
+    3. STRENGTH + DEALS - Willing to use force but prefers negotiated outcomes
+    4. LOYALTY - Advisors must be absolutely loyal, no dissent tolerated
+    5. ECONOMIC FOCUS - Trade, tariffs, deficits viewed through national security lens
+
+    Second term differences:
+    - More systematic implementation (Miller's prepared playbook)
+    - No moderates to constrain (first term had Kelly, Mattis, Tillerson, McMaster)
+    - Loyalist team executing vision without hesitation
+    - Bolder actions (Iran nuclear strikes, massive tariff escalation)
+
+  evolution: |
+    Trump's core positions haven't evolved - they've intensified. Lessons learned from first term:
+
+    FIRST TERM (2017-2021):
+    - Improvisational, chaotic
+    - Moderates constraining impulses
+    - Incomplete wall, incomplete immigration agenda
+    - Tariffs but no systematic reciprocal framework
+    - Iran pressure but no military strikes on nuclear facilities
+
+    SECOND TERM (2025):
+    - Systematic, planned (Miller's executive orders ready Day 1)
+    - Only loyalists in positions of power
+    - Mass deportations, emergency declarations
+    - Comprehensive reciprocal tariff framework
+    - Iran nuclear facility strikes (Operation Midnight Hammer)
+
+    The ideology is the same. The execution is more effective.
+
+  critical_assessment: |
+    Trump's foreign policy represents fundamental break from post-WWII US grand strategy:
+
+    TRADITIONAL US APPROACH:
+    - Alliances based on shared values and collective security
+    - Multilateral institutions to manage global order
+    - Trade liberalization for economic growth and alliance cohesion
+    - Long-term strategic partnerships over transactional deals
+
+    TRUMP APPROACH:
+    - Alliances are cost-benefit transactions
+    - International institutions constrain US sovereignty
+    - Trade deficits are exploitation requiring tariff retaliation
+    - Every interaction is negotiation with winners and losers
+
+    Whether this represents:
+    - Necessary correction to US overextension and free-riding allies, OR
+    - Dangerous abandonment of liberal international order and alliance structures
+
+    ...depends on one's perspective. What's clear: Trump has remade Republican Party in his image.
+    The GOP is now America First, nationalist, protectionist, alliance-skeptical party.

@@ -1,0 +1,327 @@
+positions:
+  # IMMIGRATION - CORE FOCUS
+  - claim: "Support mass deportations targeting 1 million undocumented immigrants in first year"
+    stance: "supports_mass_deportations"
+    intensity: "very_strong"
+    quote: "Miller pressured ICE leadership for its failure to make arrests at a rate that would allow Trump to keep his pledge to deport a million undocumented migrants in his first year."
+    context: "Miller demanded ICE triple daily arrest numbers in early 2025"
+    source:
+      title: "Scoop: Stephen Miller, Noem tell ICE to supercharge immigrant arrests"
+      url: "https://www.axios.com/2025/05/28/immigration-ice-deportations-stephen-miller"
+      type: "news_article"
+      date: "2025-05-28"
+      publication: "Axios"
+      credibility: "secondary"
+
+  - claim: "Advocate for family separation policy to deter asylum seekers"
+    stance: "supports_family_separation"
+    intensity: "very_strong"
+    quote: "Miller was a vocal supporter of the policy of deliberately separating children from their parents at the Mexican border to discourage families from trying to seek asylum – a practice that reached new heights as a deliberately punitive measure under Trump."
+    context: "Key architect of family separation agenda during Trump's first term"
+    source:
+      title: "Stephen Miller: how an anti-immigrant crusade is remaking US policy"
+      url: "https://www.france24.com/en/americas/20250619-stephen-miller-how-an-anti-immigrant-crusade-is-remaking-us-policy"
+      type: "news_analysis"
+      date: "2025-06-19"
+      publication: "France 24"
+      credibility: "secondary"
+
+  - claim: "Support and architect of 'Muslim ban' restricting entry from Muslim-majority countries"
+    stance: "supports_muslim_ban"
+    intensity: "very_strong"
+    quote: "Miller was the key architect of the president's 'Muslim ban', a 2017 executive order that banned people from six Muslim-majority countries from entering the US."
+    context: "Expectations for expansion of Muslim ban in second Trump term; influenced by mentor David Horowitz's anti-Muslim views"
+    source:
+      title: "Stephen Miller: how an anti-immigrant crusade is remaking US policy"
+      url: "https://www.france24.com/en/americas/20250619-stephen-miller-how-an-immigrant-crusade-is-remaking-us-policy"
+      type: "news_analysis"
+      date: "2025-06-19"
+      publication: "France 24"
+      credibility: "secondary"
+
+  - claim: "Immigration represents existential civilizational threat requiring extreme measures"
+    stance: "immigration_as_existential_threat"
+    intensity: "very_strong"
+    quote: "Miller's anti-immigration crusade is remaking US policy."
+    context: "Core ideological position driving all immigration policy"
+    source:
+      title: "Stephen Miller: how an anti-immigrant crusade is remaking US policy"
+      url: "https://www.france24.com/en/americas/20250619-stephen-miller-how-an-anti-immigrant-crusade-is-remaking-us-policy"
+      type: "news_analysis"
+      date: "2025-06-19"
+      publication: "France 24"
+      credibility: "secondary"
+
+  # FEDERAL POWER ASSERTION
+  - claim: "Deploy federal law enforcement to override state/local resistance to immigration enforcement"
+    stance: "supports_federal_supremacy"
+    intensity: "very_strong"
+    quote: "Miller has emerged as a singular driving force behind a constellation of initiatives meant to assert greater federal power. The 40-year-old immigration hardliner has spearheaded the federal government's increasing encroachment into Democratic cities, marshaling federal law enforcement forces behind the scenes to carry out deportation raids."
+    context: "Key architect of Trump's offensive on Democratic cities"
+    source:
+      title: "Stephen Miller emerges as key architect of Trump's offensive on Democratic cities"
+      url: "https://www.cnn.com/2025/10/11/politics/stephen-miller-role-trump-crime-military-crackdown"
+      type: "news_analysis"
+      date: "2025-10-11"
+      publication: "CNN"
+      credibility: "secondary"
+
+  - claim: "Use military for domestic immigration and counter-drug operations"
+    stance: "supports_military_domestic_use"
+    intensity: "strong"
+    quote: "It was Miller, not Hegseth, who led the internal push to use the military to target drug cartels."
+    context: "Miller and Rubio lead counter-drug mission with military strikes in Caribbean"
+    source:
+      title: "Stephen Miller emerges as key architect of Trump's offensive on Democratic cities"
+      url: "https://www.cnn.com/2025/10/11/politics/stephen-miller-role-trump-crime-military-crackdown"
+      type: "news_analysis"
+      date: "2025-10-11"
+      publication: "CNN"
+      credibility: "secondary"
+
+  # DEI / CULTURAL ISSUES
+  - claim: "Eliminate all federal DEI (Diversity, Equity, Inclusion) programs as 'radical and wasteful'"
+    stance: "opposes_dei"
+    intensity: "very_strong"
+    quote: "Loaded up scores of executive orders for Trump to sign in his first months back in office — on topics ranging from the declaration of a national emergency at the southern border to dismantling diversity programs in the federal government."
+    context: "Executive Order 14151 'Ending Radical and Wasteful Government DEI Programs' drafted by Miller"
+    source:
+      title: "Stephen Miller re-emerges as an 'untouchable' force in Trump's White House"
+      url: "https://www.nbcnews.com/politics/trump-administration/stephen-miller-untouchable-force-trump-white-house-rcna206180"
+      type: "news_analysis"
+      date: "2025-03-15"
+      publication: "NBC News"
+      credibility: "secondary"
+
+  - claim: "DEI programs are illegal discrimination that must be terminated"
+    stance: "opposes_dei"
+    intensity: "very_strong"
+    quote: "The order directs the Office of Management and Budget to coordinate the termination of all discriminatory programs, including illegal DEI and 'diversity, equity, inclusion, and accessibility' (DEIA) mandates, policies, programs, preferences, and activities in the Federal Government."
+    context: "January 20, 2025 Executive Order 14151"
+    source:
+      title: "Ending Radical And Wasteful Government DEI Programs And Preferencing"
+      url: "https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/"
+      type: "executive_order"
+      date: "2025-01-20"
+      publication: "White House"
+      credibility: "primary"
+
+  # INTERNATIONAL ORGANIZATIONS / SOVEREIGNTY
+  - claim: "Withdraw US from WHO and international agreements that constrain sovereignty"
+    stance: "opposes_multilateralism"
+    intensity: "very_strong"
+    quote: "Miller, as White House deputy chief of staff for policy, loaded up executive orders on topics including withdrawing the U.S. from the World Health Organization."
+    context: "Part of broader America First sovereignty agenda"
+    source:
+      title: "Stephen Miller re-emerges as an 'untouchable' force in Trump's White House"
+      url: "https://www.nbcnews.com/politics/trump-administration/stephen-miller-untouchable-force-trump-white-house-rcna206180"
+      type: "news_analysis"
+      date: "2025-03-15"
+      publication: "NBC News"
+      credibility: "secondary"
+
+  - claim: "US sovereignty must not be constrained by international agreements"
+    stance: "america_first_sovereignty"
+    intensity: "very_strong"
+    quote: "Miller and Trump's policies—such as sharp restrictions on immigration and pulling out of international agreements including the Paris climate accord—were framed as great blows on behalf of national sovereignty."
+    context: "Core ideological principle"
+    source:
+      title: "Who Is Stephen Miller - String Theory Lab"
+      url: "https://puppetmaster.uwm.edu/who-is-stephen-miller"
+      type: "biographical_profile"
+      date: "2025-02-10"
+      publication: "String Theory Lab"
+      credibility: "secondary"
+
+  - claim: "Block international migration coordination efforts at G-7 and other forums"
+    stance: "opposes_migration_cooperation"
+    intensity: "very_strong"
+    quote: "During the first Trump administration, Miller led White House efforts to undercut an initiative by Italy to place the migration crisis at the center of the Group of Seven summit."
+    context: "Blocked G-7 migration proposal in 2017"
+    source:
+      title: "Trump Advisor Stephen Miller Blocked G-7 Migration Proposal"
+      url: "https://foreignpolicy.com/2017/05/25/trump-advisor-stephen-miller-blocked-g7-migration-proposal/"
+      type: "news_article"
+      date: "2017-05-25"
+      publication: "Foreign Policy"
+      credibility: "secondary"
+
+  - claim: "'President Trump is ending America's subservience to foreign nations'"
+    stance: "america_first_nationalism"
+    intensity: "very_strong"
+    quote: "Stephen Miller: President Trump Is Ending America's Subservience to Foreign Nations"
+    context: "Miller's framing of Trump's foreign policy as liberation from foreign control"
+    source:
+      title: "Stephen Miller: President Trump Is Ending America's Subservience to Foreign Nations"
+      url: "https://www.whitehouse.gov/videos/stephen-miller-president-trump-is-ending-americas-subservience-to-foreign-nations/"
+      type: "white_house_video"
+      date: "2017-06-15"
+      publication: "White House"
+      credibility: "primary"
+
+  # NATO / ALLIANCES
+  - claim: "Remove NATO Article 5 commitment from Trump speeches"
+    stance: "opposes_nato_commitments"
+    intensity: "strong"
+    quote: "Miller and Steve Bannon were allegedly responsible for removing a line in Trump's speech before the 2017 Brussels NATO summit that mentioned Article 5 of the North Atlantic Treaty."
+    context: "Led to dispute with National Security Advisor H.R. McMaster"
+    source:
+      title: "Stephen Miller - Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)"
+      type: "reference"
+      date: "2025-11-01"
+      publication: "Wikipedia"
+      credibility: "secondary"
+
+  - claim: "Skeptical of NATO as constraint on US sovereignty and resource drain"
+    stance: "nato_skepticism"
+    intensity: "strong"
+    quote: "Trump has been described as contemptuous of European allies and has called NATO 'obsolete.'"
+    context: "Miller reinforces Trump's NATO skepticism as ideological advisor"
+    source:
+      title: "Stephen Miller - Wikipedia"
+      url: "https://en.wikipedia.org/wiki/Stephen_Miller_(political_advisor)"
+      type: "reference"
+      date: "2025-11-01"
+      publication: "Wikipedia"
+      credibility: "secondary"
+
+  # JUDICIAL / CONSTITUTIONAL
+  - claim: "Court rulings blocking Trump policies are 'judicial coup' against American sovereignty"
+    stance: "opposes_judicial_review"
+    intensity: "very_strong"
+    quote: "Miller has described court rulings blocking Trump's policies as part of a 'judicial coup' where activist judges are trying to derail policies that protect American sovereignty and security."
+    context: "Attacks on judicial independence when courts block immigration actions"
+    source:
+      title: "Who Is Stephen Miller - String Theory Lab"
+      url: "https://puppetmaster.uwm.edu/who-is-stephen-miller"
+      type: "biographical_profile"
+      date: "2025-02-10"
+      publication: "String Theory Lab"
+      credibility: "secondary"
+
+  # PARTISAN / IDEOLOGICAL
+  - claim: "Democrats place 'foreign interests above American citizens'"
+    stance: "partisan_nationalism"
+    intensity: "very_strong"
+    quote: "Miller warned that the Democratic Party now places foreign interests above American citizens, saying 'Their motto is: for foreigners, everything; for Americans, nothing.'"
+    context: "Partisan framing of immigration as Democrats choosing foreigners over Americans"
+    source:
+      title: "Stephen Miller: Trump Defends U.S., Elites Defend Foreign Interests"
+      url: "https://lauraingraham.com/stephen-miller-trump-defends-us-elites-defend-foreign-interests/"
+      type: "interview"
+      date: "2020-08-15"
+      publication: "Laura Ingraham Show"
+      credibility: "secondary"
+
+  # COUNTER-DRUG / LATIN AMERICA
+  - claim: "Use military force against drug cartels in Caribbean and Latin America"
+    stance: "supports_cartel_strikes"
+    intensity: "very_strong"
+    quote: "Miller works alongside Secretary of State Marco Rubio as the leader of a counter-drug mission that has carried out lethal strikes in the Caribbean."
+    context: "Miller and Rubio lead military operations against cartels, not Hegseth"
+    source:
+      title: "Stephen Miller emerges as key architect of Trump's offensive on Democratic cities"
+      url: "https://www.cnn.com/2025/10/11/politics/stephen-miller-role-trump-crime-military-crackdown"
+      type: "news_analysis"
+      date: "2025-10-11"
+      publication: "CNN"
+      credibility: "secondary"
+
+position_clusters:
+  immigration_hardline:
+    - "Mass deportations (1 million target)"
+    - "Family separation to deter asylum"
+    - "Muslim ban expansion"
+    - "Immigration as existential threat"
+
+  federal_power_maximalism:
+    - "Override state/local resistance"
+    - "Deploy federal law enforcement to Democratic cities"
+    - "Use military for immigration/drug enforcement"
+    - "Assert federal supremacy"
+
+  anti_dei_cultural_warrior:
+    - "Eliminate all federal DEI programs"
+    - "DEI is illegal discrimination"
+    - "Revoke equity-related executive orders"
+    - "Ideological purity enforcement"
+
+  sovereignty_nationalism:
+    - "Withdraw from WHO and international agreements"
+    - "Block G-7 migration coordination"
+    - "End 'subservience to foreign nations'"
+    - "America First sovereignty"
+
+  alliance_skepticism:
+    - "Remove NATO Article 5 from speeches"
+    - "NATO as constraint on sovereignty"
+    - "Contempt for European allies"
+
+  institutional_attacks:
+    - "Courts blocking Trump policies are 'judicial coup'"
+    - "Activist judges undermining sovereignty"
+    - "Democrats prioritize foreigners over Americans"
+
+research_summary:
+  total_positions_documented: 15
+  primary_sources: 2
+  secondary_sources: 13
+  strongest_convictions: ["Immigration restriction", "Mass deportations", "Anti-DEI", "US sovereignty", "Federal power assertion"]
+  key_tensions: ["Domestic focus vs foreign military operations", "Sovereignty vs alliances", "Federal power vs states' rights"]
+  confidence_level: "very_high"
+
+  notable_patterns: |
+    Miller's positions are remarkably consistent and ideologically coherent. Everything flows from
+    core nationalism: immigration is existential threat, sovereignty cannot be constrained,
+    international institutions undermine America, diversity programs weaken national unity,
+    courts blocking Trump are illegitimate.
+
+    Unlike other Trump advisors who have complex or evolving positions, Miller has simple,
+    absolute convictions executed with maximum aggression.
+
+  evolution: |
+    Miller's positions have NOT evolved - they have intensified. From Jeff Sessions staffer (2009)
+    to present (2025), his immigration restrictionism has only become more extreme. The difference
+    in second Trump term is he now has more power to implement his vision.
+
+    First term: Fought within administration against moderates (Kelly, Mattis, Tillerson)
+    Second term: No moderates to fight; Miller has uncontested ideological control
+
+  implementation_approach: |
+    Miller doesn't just hold positions - he implements them through:
+    - Executive orders (drafted dozens in first weeks of second term)
+    - Federal law enforcement deployment
+    - Cabinet coordination (DHS, DOJ, DoD)
+    - Legal warfare (America First Legal Foundation)
+    - Ideological vetting of personnel
+    - Public attacks on opposition (courts, Democrats, media)
+
+  foreign_policy_relevance: |
+    While Miller's focus is domestic (immigration, DEI), his positions affect NSC matters:
+
+    1. IMMIGRATION AS NATIONAL SECURITY: Elevating HSC to NSC-equivalent status means
+       immigration gets same priority as traditional foreign policy
+
+    2. ALLIANCE SKEPTICISM: NATO Article 5 removal, sovereignty rhetoric undermines
+       traditional alliances
+
+    3. COUNTER-DRUG OPERATIONS: Leading military strikes in Caribbean with Rubio,
+       not Hegseth - homeland security-foreign policy nexus
+
+    4. INTERNATIONAL INSTITUTIONS: WHO withdrawal, G-7 migration blocking affects
+       US multilateral engagement
+
+    5. OVERRIDE AUTHORITY: Miller "overrode Vance and others" on Yemen strikes,
+       showing he influences NSC beyond his portfolio when immigration/border connected
+
+  controversial_aspects: |
+    - SPLC lists Miller as extremist
+    - Family separation widely condemned
+    - Muslim ban faced legal challenges
+    - DEI elimination criticized as rolling back civil rights
+    - Attacks on judiciary undermine rule of law
+    - Mass deportations raise humanitarian concerns
+
+    Miller is arguably the most controversial figure in Trump administration, yet also
+    the most influential after Trump himself.

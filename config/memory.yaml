@@ -1,0 +1,40 @@
+# Memory System Configuration
+# Based on Generative Agents: Interactive Simulacra of Human Behavior
+
+# Memory storage configuration
+storage:
+  backend: "chromadb"
+  collection_name: "agent_memories"
+  embedding_model: "text-embedding-3-small"  # OpenAI embedding model
+
+# Retrieval parameters (weighted scoring)
+retrieval:
+  top_k: 5  # Number of memories to retrieve per agent
+
+  # Weighting for combined score (should sum to ~1.0)
+  relevance_weight: 0.4   # Vector similarity to query
+  recency_weight: 0.3     # Time-based decay
+  importance_weight: 0.3  # Importance score
+
+# Reflection triggers
+reflection:
+  observation_threshold: 10  # Generate reflection every N observations
+  reflection_importance: 0.95  # Reflections are high importance
+  enabled: true  # Set to false to disable reflection generation
+
+# Time decay configuration
+decay:
+  half_life_days: 7  # Memories decay 50% in importance every N days
+  min_recency_score: 0.1  # Minimum recency score (floor)
+
+# Importance scoring
+importance:
+  use_llm: false  # Use LLM to score importance (set to false to save API costs - uses heuristics instead)
+  default_score: 0.5  # Default importance if scoring fails
+
+  # Heuristic importance scores for known patterns
+  heuristics:
+    presidential_decision: 0.9  # Trump's final decisions
+    advisor_recommendation: 0.7  # Advisor recommendations
+    reflection: 0.95  # Self-generated reflections
+    observation: 0.5  # Generic observations

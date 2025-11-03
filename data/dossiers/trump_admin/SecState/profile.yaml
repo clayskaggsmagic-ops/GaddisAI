@@ -1,0 +1,107 @@
+person: "Marco Rubio"
+role: "Secretary of State"
+short_code: "SecState"
+administration: "trump_2025"
+confirmed_date: "2025-01-20"
+updated_at: "2025-11-03"
+
+# Additional role note
+dual_role: "Acting National Security Advisor (May 1, 2025 - present) while maintaining SecState position"
+historical_significance: "First Latino Secretary of State; highest-ranking Hispanic American official in U.S. history"
+
+# Official mandate and responsibilities
+mandate:
+  - "Principal advisor to President on foreign policy and international relations"
+  - "Directs and coordinates U.S. diplomatic activities worldwide"
+  - "Manages State Department with approximately 13,000 Foreign Service officers and 11,000 Civil Service employees"
+  - "Serves as member of National Security Council"
+  - "Dual role as Acting National Security Advisor (since May 2025) - coordinates NSC process and interagency"
+
+# Top 7 enduring priorities based on statements and actions
+enduring_priorities:
+  - priority: "Counter China as America's most dangerous adversary"
+    weight: 0.95
+    confidence: "very_high"
+    basis: "Called China 'most potent and dangerous near-peer adversary'; '21st century defined by US-China relations'"
+
+  - priority: "Maintain strong U.S.-Israel relationship and counter Iran"
+    weight: 0.90
+    confidence: "very_high"
+    basis: "Consistent hawk on Iran; strong Israel support; Middle East experience"
+
+  - priority: "Maximum pressure on Cuba, Venezuela, Nicaragua dictatorships"
+    weight: 0.90
+    confidence: "very_high"
+    basis: "Cuban-American heritage; lifelong focus on Latin America authoritarianism; restored 'tough Cuba policy'"
+
+  - priority: "Put 'America First' in all diplomatic engagements"
+    weight: 0.85
+    confidence: "very_high"
+    basis: "Confirmation testimony: 'Top priority of State Department will be the United States'; Trump alignment"
+
+  - priority: "Strengthen alliances while demanding burden-sharing"
+    weight: 0.75
+    confidence: "high"
+    basis: "Traditional hawk values alliances more than Trump/Hegseth but still demands contributions"
+
+  - priority: "Pragmatic approach to Ukraine conflict resolution"
+    weight: 0.65
+    confidence: "medium-high"
+    basis: "Voted against Ukraine aid 2024; called for 'ceasefire' and 'conclusion' to war; shifted from earlier hawkishness"
+
+  - priority: "Human rights advocacy (selectively applied)"
+    weight: 0.70
+    confidence: "high"
+    basis: "Uyghur Forced Labor Act author; Hong Kong democracy support; but prioritizes geopolitics over universal application"
+
+# Constraints on actions
+constraints:
+  statutory:
+    - "Senate confirmation required for ambassadors and senior State Department officials"
+    - "Foreign policy power shared with Congress (treaty ratification, war powers)"
+    - "Must implement congressionally-mandated sanctions"
+
+  political:
+    - "Unanimous Senate confirmation (99-0) provides strong political capital"
+    - "Must balance traditional Republican hawk instincts with Trump's America First populism"
+    - "Dual NSA role creates potential turf conflicts with Pentagon"
+    - "Cuban-American community expectations on Latin America policy"
+
+  organizational:
+    - "State Department career diplomats may resist aggressive unilateralism"
+    - "Allies wary of transactional approach to partnerships"
+    - "Limited leverage over authoritarian regimes (China, Russia, Cuba, Venezuela)"
+    - "Balancing NSA process role with SecState substantive portfolio"
+
+# Inferred interest weights for deliberation model
+# Based on statements, Senate record, and policy emphasis
+interests_weights:
+  deterrence: 0.85           # High - China focus, Iran threats
+  escalation: 0.60           # Moderate - more cautious than pure hawks; pragmatic
+  alliances: 0.75            # High - traditional hawk values partnerships more than Trump
+  readiness: 0.65            # Moderate-high - supports strong military but not primary focus
+  budget: 0.50               # Moderate - fiscal conservative but prioritizes national security
+  consensus: 0.55            # Moderate - more process-oriented than Hegseth; traditional diplomat
+  diplomacy: 0.80            # High - values diplomatic tools; traditional statecraft
+  human_rights: 0.70         # High - but selective (strong on China/Latin America, less on allies)
+  loyalty_to_trump: 0.80     # High - evolved from 2016 rival to loyal ally
+  latin_america_focus: 0.90  # Very high - personal heritage and career emphasis
+
+# Non-negotiable constraints (red lines)
+red_lines:
+  - "No softening on Cuba, Venezuela, Nicaragua dictatorships - maximum pressure maintained"
+  - "Israel's security is paramount - no daylight with Israeli government"
+  - "China is adversary, not partner - no illusions about competition"
+  - "U.S. interests come first in all diplomatic decisions"
+  - "No tolerance for human rights abuses by adversaries (China, Iran, Cuba)"
+  - "Taiwan self-defense must be supported"
+
+# Research metadata for transparency
+research_metadata:
+  last_researched: "2025-11-03"
+  primary_sources: 7
+  secondary_sources: 18
+  confidence_level: "very_high"
+  needs_update: false
+  researcher_notes: "Extensive Senate record (2011-2025); detailed confirmation hearing testimony; clear policy positions from legislation and speeches. Dual NSA role since May 2025 adds complexity. Evolution from 2016 Trump critic to loyal ally well-documented. Strong bipartisan support (99-0 confirmation) despite hawkish positions."
+  data_quality: "Very high - 14 years of Senate record, multiple bills authored, extensive speeches and testimony"

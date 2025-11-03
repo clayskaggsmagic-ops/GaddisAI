@@ -1,0 +1,247 @@
+relationships:
+  # NSC PRINCIPALS
+  within_nsc:
+    President:
+      score: 0.95
+      basis: "Personal selection as VP and designated heir apparent; Trump calls him 'most likely' to carry MAGA mantle in 2028"
+      confidence: "very_high"
+      notes: "Extremely close relationship. Trump values Vance's loyalty (complete conversion from 2016 Never Trump critic), youth, working-class appeal, and ideological commitment to America First. Vance has regular Oval Office access and participates in all major NSC decisions. Trump: 'probably favorite at this point' for 2028. Relationship is patron-protégé with mutual benefit: Trump gets loyal executor, Vance gets path to presidency."
+      relationship_type: "patron-heir_apparent"
+
+    SecState_Marco_Rubio:
+      score: 0.90
+      basis: "Closest friend in administration; daily consultation; offices feet apart in West Wing; described as 'incredibly competent and reliable'"
+      confidence: "very_high"
+      notes: "Vance and Rubio have exceptionally close working relationship. They 'talk every day,' serve as each other's 'primary sounding boards,' and Rubio spends more time at White House than State Department specifically to consult with Vance. Both are positioning for MAGA future (Trump floated Vance-Rubio 2028 ticket as 'unstoppable'). Competitive for future but maintain genuine friendship. Collaborated closely on Iran strikes, Yemen deliberations, and most foreign policy decisions. Generational peers (Vance 40, Rubio 54) with shared Senate experience."
+      relationship_type: "close_allies-friendly_rivals"
+
+    SecDef_Pete_Hegseth:
+      score: 0.85
+      basis: "Vance cast tie-breaking vote for Hegseth confirmation; ideological alignment on culture war and America First; regular NSC collaboration"
+      confidence: "high"
+      notes: "Vance was essential to Hegseth's confirmation, casting 51-50 tie-breaking vote. Both are culture warriors committed to America First ideology. Both participated in NSC Signal chats together (Yemen, Iran deliberations). Shared commitment to China focus and skepticism of European commitments. Hegseth grateful for Vance's confirmation support. Working relationship is strong but not as close personally as Vance-Rubio. Vance more intellectually oriented, Hegseth more operationally focused."
+      relationship_type: "aligned-mutual_support"
+
+    NSA_Acting_Marco_Rubio:
+      score: 0.90
+      basis: "Same person as SecState; Rubio holds dual role as Acting NSA since May 2025"
+      confidence: "very_high"
+      notes: "Rubio's dual role means Vance's closest friend IS the Acting National Security Advisor. This gives Vance extraordinary influence over NSC process and information flow. They coordinate daily on national security matters."
+      relationship_type: "same_as_secstate"
+
+  # MILITARY LEADERSHIP
+  military_establishment:
+    CJCS_Dan_Caine:
+      score: 0.70
+      basis: "Professional working relationship; Caine participated in Iran strikes Situation Room meeting with Vance"
+      confidence: "medium"
+      notes: "Gen. Dan Caine (22nd CJCS, confirmed April 2025) works professionally with Vance on NSC matters. Caine was present in Situation Room during Iran strikes alongside Vance, Trump, Hegseth, Rubio. Vance likely appreciates that Caine is Trump's hand-picked replacement for CQ Brown. However, Vance's limited military knowledge (2-year Senate stint with no Armed Services Committee experience) may create expertise gap. Respectful but not close."
+      relationship_type: "professional-respectful"
+
+    Service_Chiefs:
+      score: 0.60
+      basis: "Formal relationship; Vance has veteran credibility as Marine Corps Iraq veteran but limited senior military knowledge"
+      confidence: "medium"
+      notes: "Service chiefs likely appreciate Vance's Marine Corps service (combat correspondent, Iraq 2005-2006) but note his limited exposure to senior defense policy. Vance's foreign policy restraint philosophy and burden-sharing demands may find some support among officers frustrated with endless deployments, but institutional military prefers traditional alliances over Vance's transactionalism."
+      relationship_type: "formal-cordial"
+
+  # INTELLIGENCE COMMUNITY
+  intelligence_leadership:
+    CIA_Director_John_Ratcliffe:
+      score: 0.80
+      basis: "Both Trump loyalists; collaborated in NSC Signal chats and Situation Room during Iran strikes"
+      confidence: "medium-high"
+      notes: "John Ratcliffe (CIA Director) and Vance work together regularly on NSC matters. Ratcliffe was in Situation Room during Iran strikes and participated in Signal chats that included Vance. Both are committed Trump loyalists. Ratcliffe's intelligence assessments inform Vance's policy advice. Professional and aligned relationship."
+      relationship_type: "allied-collaborators"
+
+    DNI_Tulsi_Gabbard:
+      score: 0.75
+      basis: "Both foreign policy restraint advocates; collaborated on NSC decisions; similar skepticism of interventionism"
+      confidence: "medium"
+      notes: "Tulsi Gabbard (Director of National Intelligence) shares Vance's skepticism of foreign intervention. Both opposed endless Middle East wars, though Gabbard's past Syria positions are more controversial. Gabbard participated in Iran strikes Situation Room meeting and Signal chats with Vance. Ideological alignment on restraint but Vance more establishment MAGA than Gabbard's idiosyncratic positions."
+      relationship_type: "ideological_alignment"
+
+  # CONGRESSIONAL
+  congressional_allies:
+    - name: "Josh Hawley"
+      chamber: "Senate"
+      score: 0.85
+      basis: "Ideological soulmate; both economic nationalists and foreign policy restrainers; Senate colleagues"
+      relationship: "Hawley (R-MO) and Vance were Senate colleagues with nearly identical worldviews. Both are young (Hawley 45), Yale Law graduates, economic nationalists, China hawks, and intervention skeptics. Hawley defended Vance during VP campaign. Natural allies on trade, tech, and foreign policy."
+
+    - name: "Marco Rubio"
+      chamber: "Senate"
+      score: 0.90
+      basis: "Former Senate colleague; now closest friend in administration as SecState/Acting NSA"
+      relationship: "Rubio was Vance's Senate colleague (Vance 2023-2025, Rubio since 2011). Rubio mentored Vance on foreign policy. Relationship deepened in Trump administration where they consult daily. Vance looks to Rubio for foreign policy expertise; Rubio values Vance's Trump access."
+
+    - name: "Tom Cotton"
+      chamber: "Senate"
+      score: 0.70
+      basis: "Both military veterans and China hawks; Cotton more interventionist than Vance"
+      relationship: "Cotton (R-AR, Army veteran, SASC member) shares Vance's China hawkishness but is more interventionist overall. Cotton supported Hegseth confirmation (Vance cast tie-breaker). Both military veterans but different foreign policy philosophies - Cotton more traditional hawk, Vance more restraint-oriented. Respectful but not fully aligned."
+
+    - name: "Rand Paul"
+      chamber: "Senate"
+      score: 0.75
+      basis: "Both intervention skeptics and burden-sharing advocates; Paul more libertarian, Vance more nationalist"
+      relationship: "Paul (R-KY) and Vance share skepticism of foreign intervention and NATO burden-sharing. Both opposed Ukraine aid. However, Paul is libertarian while Vance is economic nationalist - different philosophical foundations for similar positions. Tactical allies on restraint, not ideological soulmates."
+
+  congressional_opponents:
+    - name: "Lindsey Graham"
+      chamber: "Senate"
+      score: 0.30
+      basis: "Graham is interventionist hawk; opposes Vance's restraint philosophy and burden-sharing demands"
+      relationship: "Graham (R-SC) represents traditional Republican interventionism that Vance opposes. Graham supports Ukraine aid, NATO expansion, and active Middle East presence - all positions Vance questions. Graham was skeptical of Vance's VP selection. Relationship is tense but cordial for Senate business."
+
+    - name: "Adam Smith"
+      chamber: "House"
+      score: 0.15
+      basis: "HASC Ranking Member; opposes Vance's NATO skepticism and China-only focus"
+      relationship: "Smith (D-WA, HASC Ranking Member) is progressive on defense issues and strongly supports Ukraine aid, NATO, and multilateralism - all positions Vance critiques. Smith views Vance's Munich speech as damaging to alliances. Fundamental policy disagreements."
+
+    - name: "Michael McCaul"
+      chamber: "House"
+      score: 0.40
+      basis: "HFAC Chair supports Ukraine aid and traditional alliances; skeptical of Vance's Europe comments"
+      relationship: "McCaul (R-TX, House Foreign Affairs Committee Chair) is traditional Republican hawk who supports Ukraine and NATO. Concerned about Vance's Munich Security Conference comments damaging alliances. Respectful of VP office but policy disagreements significant."
+
+  # INTERNATIONAL ALLIES
+  international_allies:
+    - name: "European Leaders (NATO)"
+      score: 0.25
+      basis: "Munich speech severely damaged relationships; 'threat from within' comment shocked European allies"
+      confidence: "high"
+      relationship: "European leaders were stunned by Vance's February 14, 2025 Munich Security Conference speech. German Defense Minister Pistorius said comparisons to authoritarianism were 'not acceptable.' Vance's burden-sharing demands and criticism of EU censorship policies created deep rift. European diplomats described 'room full of people with their mouth open.' Relationship is cold and transactional."
+
+    - name: "Japan"
+      score: 0.70
+      basis: "Appreciate China focus but concerned about burden-sharing demands and alliance reliability"
+      confidence: "medium"
+      relationship: "Japanese leaders welcome Vance's China prioritization but worry about his transactional approach to alliances and demands for increased defense spending. Japan already spends significantly and values US commitment. Vance's restraint philosophy raises questions about US reliability in Taiwan scenario."
+
+    - name: "South Korea"
+      score: 0.65
+      basis: "Share China concerns but worried about cost-sharing demands and North Korea policy uncertainty"
+      confidence: "medium"
+      relationship: "South Korea appreciates focus on China and North Korea threats but nervous about Vance's burden-sharing demands. ROK already hosts substantial US forces and pays significant host nation support. Vance's transactional approach and limited Korea experience create uncertainty."
+
+    - name: "Australia"
+      score: 0.80
+      basis: "Strong alignment on China threat; AUKUS partnership; Five Eyes intelligence sharing"
+      confidence: "medium-high"
+      relationship: "Australia is Vance's closest international relationship. AUKUS (Australia-UK-US submarine deal) aligns with Vance's China focus. Australia already pulls weight in alliance (2% GDP+ on defense). Shared Five Eyes intelligence cooperation. Australian leaders appreciate Vance's Indo-Pacific prioritization. Less burden-sharing tension than with Europe."
+
+    - name: "Israel"
+      score: 0.85
+      basis: "Strong support for Israel; defended Iran strikes; shares Iran nuclear threat concerns"
+      confidence: "high"
+      relationship: "Israeli leaders appreciate Vance's strong support for Israel military aid and his willingness to strike Iran nuclear facilities. Vance's presence in Situation Room during Iran strikes signaled commitment. However, Vance's general restraint philosophy and working-class economic focus may limit blank check support long-term."
+
+    - name: "Ukraine (Zelenskyy)"
+      score: 0.10
+      basis: "Vance opposed Ukraine aid; stated 'I don't really care what happens to Ukraine one way or another'"
+      confidence: "very_high"
+      relationship: "Vance has terrible relationship with Ukraine. His opposition to aid, advocacy for territorial concessions to Russia, and focus on China over Europe have made him persona non grata in Kyiv. Zelenskyy views Vance as representing end of US support. No trust or goodwill."
+
+  # MEDIA
+  media_relationships:
+    - name: "Fox News"
+      score: 0.90
+      basis: "Friendly coverage; regular appearances; conservative media ecosystem support"
+      relationship: "Fox News provides consistently favorable coverage of Vance. He appears regularly on Fox programs, especially Sunday shows. Conservative media ecosystem (Fox, Daily Wire, Newsmax) amplifies his message and defends against criticism."
+
+    - name: "Mainstream Media (NYT, WaPo, CNN)"
+      score: 0.25
+      basis: "Critical coverage of Munich speech, flip-flopping on Trump, inexperience"
+      relationship: "Mainstream media skeptical of Vance's rapid conversion from Never Trump to MAGA, critical of Munich Security Conference comments, and questioning of foreign policy inexperience. Coverage focuses on controversies and gaffes. Vance dismisses as biased against MAGA movement."
+
+    - name: "European Media"
+      score: 0.15
+      basis: "Hostile after Munich speech; view Vance as threat to transatlantic relationship"
+      relationship: "European media coverage is highly negative following Munich speech. German, French, UK outlets portray Vance as isolationist and hostile to European democracy. Coverage emphasizes American abandonment of allies and rise of MAGA nationalism."
+
+    - name: "Conservative Intellectuals (National Review, Commentary)"
+      score: 0.60
+      basis: "Appreciate intellect and *Hillbilly Elegy* but skeptical of restraint philosophy and Europe approach"
+      relationship: "Traditional conservative intellectuals have mixed views. Respect Vance's intelligence and working-class insights but worry his restraint goes too far and damages alliances. More sympathetic than mainstream media but not fully aligned."
+
+  # INTEREST GROUPS
+  interest_groups:
+    - name: "Heritage Foundation"
+      score: 0.85
+      basis: "Ideological alignment on America First, burden-sharing, China focus"
+      relationship: "Heritage Foundation strongly supports Vance's foreign policy approach. Provides intellectual backing for burden-sharing demands and restraint philosophy. Personnel pipeline between Heritage and MAGA administration."
+
+    - name: "Quincy Institute (Restraint Advocates)"
+      score: 0.75
+      basis: "Share restraint philosophy and intervention skepticism but different political orientations"
+      relationship: "Quincy Institute (progressive-libertarian restraint think tank) appreciates Vance's opposition to endless wars and NATO expansion but skeptical of his nationalist framing and China hawkishness. Tactical agreement on restraint, different ultimate goals."
+
+    - name: "Defense Contractors"
+      score: 0.65
+      basis: "Appreciate China focus and modernization but uncertain about reduced Europe commitments"
+      relationship: "Defense contractors welcome Vance's China prioritization (drives shipbuilding, missiles, Indo-Pacific posture) but concerned his Europe withdrawal could reduce overall spending. Relationship is transactional - support policies that drive revenue."
+
+    - name: "Working-Class Advocacy Groups"
+      score: 0.90
+      basis: "Vance's core constituency; *Hillbilly Elegy* credibility; economic nationalism appeal"
+      relationship: "Working-class advocacy organizations (especially white working class) strongly support Vance. *Hillbilly Elegy* gives him unique credibility. Economic nationalism and anti-war positions resonate. Vance is their champion in administration."
+
+    - name: "Tech Industry (Silicon Valley)"
+      score: 0.70
+      basis: "Peter Thiel connection; venture capital background; China tech competition focus; but also scrutiny demands"
+      relationship: "Tech industry has mixed relationship with Vance. Peter Thiel backers strongly support him. Venture capital connections provide access. China tech competition aligns with industry interests. However, Vance also supports increased tech regulation and antitrust scrutiny, creating tension."
+
+influence_network:
+  inner_circle:
+    - "President Donald Trump (patron)"
+    - "Marco Rubio (closest friend, daily consultation)"
+    - "Peter Thiel (mentor and financial backer)"
+    - "Usha Vance (wife, closest personal advisor)"
+
+  regular_consultation:
+    - "Pete Hegseth (SecDef, NSC collaboration)"
+    - "John Ratcliffe (CIA Director)"
+    - "Tulsi Gabbard (DNI)"
+    - "Stephen Miller (White House Deputy CoS, culture war ally)"
+    - "Senate Republican leadership"
+
+  ideological_allies:
+    - "Josh Hawley (economic nationalism)"
+    - "Tucker Carlson (media ally, informal advisor)"
+    - "Conservative tech figures (Thiel network)"
+    - "National conservative intellectuals"
+
+  potential_opposition:
+    - "European allies (post-Munich)"
+    - "Traditional Republican hawks (Graham, McCaul)"
+    - "Democratic foreign policy establishment"
+    - "Mainstream media"
+    - "Ukraine and Eastern European allies"
+
+relationship_dynamics:
+  trump_centrality: "All relationships flow through loyalty to Trump; Vance's value is as heir apparent and ideological enforcer"
+
+  rubio_partnership: "Vance-Rubio daily consultation is most important relationship for foreign policy formation; offices adjacent, talk constantly"
+
+  generational_cohort: "Vance (40), Rubio (54), Hegseth (45) represent younger MAGA generation vs older Trump (79)"
+
+  competitive_cooperation: "Vance and Rubio cooperate closely but both positioning for 2028; friendly rivalry for MAGA succession"
+
+  alliance_strain: "Munich speech and burden-sharing demands severely damaged European relationships; will take years to repair if ever"
+
+  military_respect_with_distance: "Military appreciates Marine service but notes limited senior policy experience and ideological rigidity"
+
+  media_polarization: "Stark divide between conservative media (highly favorable) and mainstream/European media (critical to hostile)"
+
+research_metadata:
+  sources_consulted: 18
+  confidence_level: "high"
+  key_insights:
+    - "Vance-Rubio relationship is central to NSC dynamics; they are each other's primary advisors"
+    - "Vance cast tie-breaking vote for Hegseth; this creates mutual obligation and alignment"
+    - "Munich speech fundamentally changed European perception of Vance from unknown to hostile"
+    - "Trump views Vance as heir apparent, giving him extraordinary influence for a VP"
+    - "Military respects veteran status but notes inexperience; relationship is formal not close"
+    - "Vance is 'most thoroughgoing America Firster' per leaked Signal chats - more than Trump"

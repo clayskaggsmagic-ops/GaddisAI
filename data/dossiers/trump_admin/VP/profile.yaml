@@ -1,0 +1,118 @@
+person: "JD Vance"
+role: "Vice President of the United States"
+full_name: "James David Vance"
+born: "August 2, 1984"
+confirmation_date: "2025-01-20"  # Elected, not confirmed
+status: "50th Vice President; youngest VP in modern history"
+
+mandate: |
+  As Vice President, JD Vance serves as President of the Senate with tie-breaking authority
+  and participates in National Security Council deliberations. Trump selected Vance for his
+  "America First" ideology, foreign policy restraint philosophy, and loyalty. Vance has emerged
+  as one of the administration's most influential foreign policy voices, described as "the most
+  thoroughgoing and consistent 'America Firster' in the administration, even more than Trump."
+
+  He casts tie-breaking votes in the closely divided Senate (53-47 Republican majority), having
+  already cast 7 tie-breaking votes including Pete Hegseth's confirmation as SecDef. Vance is
+  shaping up to be "more a Cheney than a Harris or a Pence" in terms of influence.
+
+enduring_priorities:
+  - priority: "China containment and de-coupling from China economically"
+    weight: 0.95
+    rationale: "Views China as America's most important geopolitical foe; advocates ending Ukraine aid to focus on China threat"
+
+  - priority: "Foreign policy restraint and skepticism of military intervention"
+    weight: 0.90
+    rationale: "Consistent skeptic of US military force abroad; opposed Yemen strikes in Signal chat; wants to avoid Middle East entanglements"
+
+  - priority: "European burden-sharing and reduced US commitments to NATO"
+    weight: 0.85
+    rationale: "Demands Europe defend itself; told Munich Security Conference 'threat to Europe comes from within'; wants resource shift to Asia"
+
+  - priority: "Taiwan defense (economic rationale)"
+    weight: 0.85
+    rationale: "Supports Taiwan to prevent Chinese control of semiconductor supply; economic security driver more than ideological"
+
+  - priority: "Working-class economic interests in foreign policy"
+    weight: 0.80
+    rationale: "Applies Hillbilly Elegy lens to foreign policy; opposes conflicts that hurt American workers; skeptical of trade deals"
+
+  - priority: "Iran nuclear threat prevention"
+    weight: 0.75
+    rationale: "Despite restraint philosophy, willing to use force to prevent Iran nuclear weapon; defended June 2025 strikes"
+
+interests_weights:
+  china_threat: 0.95
+  restraint: 0.90
+  burden_sharing: 0.85
+  working_class_focus: 0.80
+  taiwan_defense: 0.85
+  iran_prevention: 0.75
+  ukraine_skepticism: 0.95  # Explicitly OPPOSES Ukraine aid
+  nato_skepticism: 0.70
+  loyalty_to_trump: 0.95
+  america_first: 0.95
+
+red_lines:
+  - "Chinese invasion of Taiwan (threatens US semiconductor supply and economy)"
+  - "Iranian nuclear weapon acquisition"
+  - "Unlimited US commitments to European defense without burden-sharing"
+  - "Trade policies that harm American manufacturing"
+
+constraints:
+  political:
+    - "Must maintain Senate relationships as President of the Senate and tie-breaker"
+    - "Viewed as Trump's heir apparent for 2028; political positioning matters"
+    - "Limited foreign policy experience (2 years in Senate, no committee assignments)"
+
+  institutional:
+    - "VP role is advisory; Trump makes final decisions"
+    - "Must balance restraint philosophy with Trump's more aggressive instincts"
+    - "Senate tie-breaking votes consume significant time and political capital"
+
+  ideological:
+    - "Tension between restraint and Iran red line"
+    - "Must reconcile anti-intervention philosophy with support for Israel"
+    - "Working-class focus may conflict with business interests on China"
+
+decision_making_style: |
+  Vance operates as an ideological enforcer of "America First" principles within the NSC.
+  He is described as providing "honest assessment to Trump when asked" and serves as a
+  consistent skeptic of military intervention. In the Yemen Signal chat leak, he opposed
+  strikes due to concerns about public understanding, oil prices, and European burden-sharing.
+
+  He applies a working-class economic lens to foreign policy: "Does this help or hurt American
+  workers?" He is willing to take hawkish positions (Iran, China) but only when aligned with
+  core American interests as he defines them. He is Trump's "chief problem solver" on Capitol
+  Hill and acts as a bridge between the administration and Senate Republicans.
+
+  Vance is competitive with Rubio for future MAGA leadership but maintains close working
+  relationship. He regularly consults with Rubio (offices "feet apart") and participates
+  in all major NSC decisions including Situation Room presence during Iran strikes.
+
+influence_mechanisms:
+  - "Tie-breaking Senate votes give him veto power over personnel and legislation"
+  - "Close personal relationship with Trump (described as 'heir apparent')"
+  - "Daily consultation with Rubio on foreign policy"
+  - "Regular NSC and Situation Room participation"
+  - "Public messaging and media appearances as administration spokesman"
+  - "Senate relationships built during 2023-2025 tenure"
+
+nsc_participation: "Full participation in NSC principals meetings; present in Situation Room for major operations (Iran, Yemen deliberations)"
+
+key_relationships:
+  trump: "Very close; Trump calls him 'most likely' to carry MAGA mantle in 2028"
+  rubio: "Closest friend in administration; daily consultation partner; offices adjacent"
+  hegseth: "Cast tie-breaking vote for confirmation; ideologically aligned on culture war"
+
+career_background: |
+  - Marine Corps combat correspondent, Iraq War veteran (2003-2007)
+  - Ohio State University (BA), Yale Law School (JD 2013)
+  - Author of "Hillbilly Elegy" (2016 bestselling memoir)
+  - Venture capitalist at Peter Thiel's Mithril Capital
+  - Co-founded Narya Capital (2019)
+  - U.S. Senator from Ohio (2023-2025)
+  - Vice President (2025-present)
+
+  Notable: Only 2 years in Senate; no Armed Services Committee or national security committee
+  experience before becoming VP. Missed 22% of Senate votes during campaign.

@@ -1,0 +1,19 @@
+# RAG retrieval configuration
+
+# Embedding model
+embed_model: "text-embedding-3-small"
+
+# Chunking parameters
+chunk_tokens: 700
+chunk_overlap: 120
+
+# Top-k results per source type
+top_k:
+  memo: 3
+  doctrine: 4
+  dossiers: 3  # Increased from 2 to account for semantic chunking
+  news: 3
+
+# Filters
+filters:
+  news_max_age_days: 7

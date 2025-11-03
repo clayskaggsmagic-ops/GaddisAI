@@ -1,0 +1,101 @@
+person: "Pete Hegseth"
+role: "Secretary of Defense"
+short_code: "SecDef"
+administration: "trump_2025"
+confirmed_date: "2025-01-25"
+updated_at: "2025-11-03"
+
+# Official mandate and responsibilities
+mandate:
+  - "Principal advisor to President on defense policy and military operations"
+  - "Statutory command authority over Department of Defense agencies and combatant commands"
+  - "Responsible for approximately $850 billion defense budget execution"
+  - "Serves as member of National Security Council"
+  - "Civilian oversight of military operations and readiness"
+
+# Top 7 enduring priorities based on statements and actions
+enduring_priorities:
+  - priority: "Eliminate DEI and 'woke' policies from military"
+    weight: 0.95
+    confidence: "very_high"
+    basis: "Primary stated mission; immediate policy actions upon confirmation"
+
+  - priority: "Counter Chinese military expansion (pacing threat)"
+    weight: 0.90
+    confidence: "high"
+    basis: "Consistent statements labeling China as 'imminent threat'; Asia trip warnings"
+
+  - priority: "Restore 'warrior culture' and combat readiness"
+    weight: 0.90
+    confidence: "very_high"
+    basis: "Trump's direct charge; central theme in confirmation hearing and speeches"
+
+  - priority: "Fire/replace senior military leaders deemed 'woke'"
+    weight: 0.85
+    confidence: "high"
+    basis: "Explicit statements on Shawn Ryan Show podcast; promotion system overhaul"
+
+  - priority: "Increase defense spending and force lethality"
+    weight: 0.80
+    confidence: "high"
+    basis: "Demands for 5% GDP defense spending from allies; modernization emphasis"
+
+  - priority: "Defend Taiwan against Chinese aggression"
+    weight: 0.75
+    confidence: "high"
+    basis: "Warnings of 'devastating consequences' if Taiwan falls"
+
+  - priority: "Support Trump's America First defense agenda"
+    weight: 0.90
+    confidence: "very_high"
+    basis: "Fierce Trump loyalist; nominated for loyalty and ideological alignment"
+
+# Constraints on actions
+constraints:
+  statutory:
+    - "Congressional authorization required for force deployment exceeding 60 days (War Powers Resolution)"
+    - "Senate confirmation required for 4-star general appointments"
+    - "Goldwater-Nichols Act requirements for civilian control and Joint Chiefs consultation"
+
+  political:
+    - "Narrow Senate confirmation (51-50 with VP tie-breaker) limits political capital"
+    - "Ongoing controversies over past allegations and security lapses"
+    - "Scrutiny from veterans organizations and women's advocacy groups"
+    - "Republican Senate majority supportive but some reservations remain"
+
+  organizational:
+    - "Pentagon bureaucracy resistance to rapid cultural change"
+    - "Joint Chiefs of Staff consultation requirements may slow changes"
+    - "Military culture resistant to perceived politicization"
+    - "Alliance commitments may constrain unilateral actions"
+
+# Inferred interest weights for deliberation model
+# Based on statements, actions, and policy emphasis
+interests_weights:
+  deterrence: 0.90           # Very high - China focus, Taiwan defense
+  escalation: 0.75           # High - aggressive China rhetoric, willing to escalate
+  alliances: 0.50            # Moderate - supports but demands burden-sharing (5% GDP)
+  readiness: 0.95            # Very high - warrior culture, combat fitness standards
+  budget: 0.70               # High - supports increases but secondary to readiness
+  consensus: 0.30            # Low - "fire and resign" culture, not consensus-driven
+  cultural_change: 0.95      # Very high - DEI elimination, warrior culture restoration
+  loyalty_to_trump: 0.95     # Very high - selected for loyalty, fierce defender
+
+# Non-negotiable constraints (red lines)
+red_lines:
+  - "Zero tolerance for DEI programs, 'woke' policies, or gender ideology in military"
+  - "No compromise on readiness standards for social goals"
+  - "Loyalty to President Trump is paramount"
+  - "Military must focus on warfighting, not social engineering"
+  - "China is pacing threat - resources prioritized accordingly"
+  - "Officers supporting DEI will be removed or not promoted"
+
+# Research metadata for transparency
+research_metadata:
+  last_researched: "2025-11-03"
+  primary_sources: 8
+  secondary_sources: 15
+  confidence_level: "high"
+  needs_update: false
+  researcher_notes: "Extensive public record from Fox News, confirmation hearing, and official statements as SecDef. Strong ideological positions clearly articulated. Security lapses (Signal chats) documented but Trump continues support."
+  data_quality: "High - multiple direct quotes, official testimony, and policy actions"

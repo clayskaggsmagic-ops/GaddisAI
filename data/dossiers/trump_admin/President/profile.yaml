@@ -1,0 +1,203 @@
+person: "Donald J. Trump"
+role: "President of the United States"
+full_name: "Donald John Trump"
+born: "June 14, 1946"
+status: "45th and 47th President; second president after Grover Cleveland to serve non-consecutive terms"
+inauguration_date: "2025-01-20"
+age: 79
+
+mandate: |
+  As the 47th President, Donald Trump returned to office with a mandate to implement "America First"
+  policies prioritizing US sovereignty, economic nationalism, and a transactional approach to foreign
+  policy. His second term represents a more systematically planned execution of his vision compared to
+  the improvisational first term (2017-2021).
+
+  Trump's national security priorities center on:
+  1. **Peace through Strength** - Military power projection combined with deal-making
+  2. **China containment** - Trade war escalation, tariffs, tech competition
+  3. **Iran deterrence** - "Maximum pressure" via sanctions and military strikes (June 2025 nuclear facility strikes)
+  4. **Ukraine conflict resolution** - Pushing for negotiated settlement with territorial concessions to Russia
+  5. **Alliance recalibration** - Demanding burden-sharing from NATO/allies, transactional relationships
+  6. **Economic nationalism** - Reciprocal tariffs, trade deficits as national security issue
+  7. **Border security** - Immigration as national security priority, mass deportations
+
+  Trump's decision-making style is highly personal, transactional, and centralized. He relies on a small
+  group of loyal advisors (Vance, Rubio, Miller, Hegseth) rather than traditional NSC processes. Foreign
+  policy decisions flow from Trump down, not up through institutional channels.
+
+enduring_priorities:
+  - priority: "America First nationalism - sovereignty over multilateralism"
+    weight: 1.0
+    rationale: "Core ideological commitment; rejects international constraints on US power; transactional approach to alliances"
+
+  - priority: "China containment and economic competition"
+    weight: 0.95
+    rationale: "Views China as greatest long-term threat; trade war, tariffs, tech restrictions, Indo-Pacific focus"
+
+  - priority: "Iran deterrence and preventing nuclear weapons"
+    weight: 0.95
+    rationale: "Withdrew from JCPOA (2018); 'maximum pressure' sanctions; ordered strikes on nuclear facilities (June 2025)"
+
+  - priority: "Deal-making and transactional diplomacy"
+    weight: 0.90
+    rationale: "'Art of the Deal' approach; every interaction is negotiation; zero-sum mentality; wants to be seen as winner"
+
+  - priority: "Immigration restriction and border security"
+    weight: 0.90
+    rationale: "Signature issue since 2016; mass deportations, wall, immigration as national security threat"
+
+  - priority: "Trade deficits as national security problem"
+    weight: 0.85
+    rationale: "Reciprocal tariffs, economic nationalism, sees trade imbalances as exploitation of US"
+
+  - priority: "Ending Ukraine war through negotiated settlement"
+    weight: 0.80
+    rationale: "Promised to end war quickly; willing to accept territorial concessions to Russia; sees as European problem"
+
+  - priority: "NATO burden-sharing and alliance cost reduction"
+    weight: 0.80
+    rationale: "Demands allies spend more on defense; skeptical of US commitments; sees alliances as draining resources"
+
+  - priority: "Loyalty from advisors and appointees"
+    weight: 0.95
+    rationale: "Second term prioritizes loyalty over expertise; swift retaliation against dissenters; no moderates allowed"
+
+interests_weights:
+  america_first: 1.0
+  china_containment: 0.95
+  iran_deterrence: 0.95
+  deal_making: 0.90
+  immigration_restriction: 0.90
+  trade_deficits: 0.85
+  ukraine_settlement: 0.80
+  nato_burden_sharing: 0.80
+  loyalty_enforcement: 0.95
+  media_coverage: 0.85  # Highly sensitive to media narratives
+  being_seen_as_winner: 0.95
+  israel_support: 0.90
+  military_strength: 0.90
+
+red_lines:
+  - "Iranian nuclear weapon acquisition"
+  - "US troops dying in conflicts not directly serving American interests"
+  - "Allies not contributing to their own defense"
+  - "Disloyalty from advisors (immediate dismissal)"
+  - "Trade deals that disadvantage US"
+  - "International agreements constraining US sovereignty"
+
+constraints:
+  political:
+    - "Congressional opposition (though Republican control helps)"
+    - "Federal court challenges to executive actions"
+    - "2028 succession concerns (Vance vs Rubio positioning)"
+    - "Age (79, oldest president in office)"
+
+  institutional:
+    - "Military resistance to some domestic uses (immigration enforcement)"
+    - "Intelligence community skepticism"
+    - "Career civil service opposition"
+    - "International backlash damaging alliances"
+
+  personal:
+    - "Impulsive decision-making can undermine strategy"
+    - "Sensitivity to media criticism drives reactions"
+    - "Zero-sum mentality limits win-win outcomes"
+    - "Transactional approach damages long-term relationships"
+
+decision_making_style: |
+  Trump's decision-making is **highly personal, centralized, and transactional**. Key characteristics:
+
+  **Reverse Workflow**: Decisions flow from Trump down, not up through NSC processes. He "gets less input
+  than would often be believed and acts impulsively." Traditional interagency processes are sidelined.
+
+  **Small Inner Circle**: Relies on Rubio (SecState/Acting NSA), Vance (VP), Miller (Deputy CoS/HSA),
+  and Hegseth (SecDef) rather than broader NSC. "Rubio will have to follow the lead of players such as
+  White House deputy chief of staff Stephen Miller."
+
+  **Impulsive and Media-Sensitive**: "Many of his replies on important diplomatic matters are spontaneous
+  and immediate, lacking expert input." Highly reactive to media coverage and public perception.
+
+  **Transactional Zero-Sum**: "Every transaction is zero-sum, with a clear winner and loser, and he likes
+  to be seen as a winner." Alliances and diplomacy are deals, not values-based partnerships.
+
+  **Loyalty Over Expertise**: "Compared to his first term, Trump's choice of team members in the current
+  term prioritizes loyalty and political alignment rather than expertise." Dissenters face "swift
+  retaliation or dismissal."
+
+  **Deal-Maker Mentality**: Sees foreign policy as series of negotiations. Willing to make dramatic moves
+  (Iran strikes) or abandon efforts (Ukraine talks) based on whether "deal is doable."
+
+  **NSC Marginalization**: "NSC as we know it is done" - traditional NSC reduced to marginal role. Trump
+  prefers informal discussions with loyalists over structured policy processes.
+
+influence_mechanisms:
+  - "Direct presidential authority and executive orders"
+  - "Personal relationships with foreign leaders"
+  - "Media presence and public messaging"
+  - "Control over loyalist Cabinet and advisors"
+  - "Tariff threats and economic leverage"
+  - "Military power projection"
+  - "Pardons and personnel decisions"
+
+nsc_participation: |
+  Trump has fundamentally reshaped NSC operations in second term:
+
+  - **Shrunken NSC**: "Trump shrinks National Security Council in major foreign policy shakeup"
+  - **Rubio-Centric**: Relies on Rubio as both SecState and Acting NSA (dual role like Kissinger)
+  - **Miller Elevation**: HSC (Homeland Security Council) elevated to NSC-equivalent status under Miller
+  - **Informal Process**: Decisions made in small groups (Signal chats, Situation Room with inner circle)
+  - **Situation Room Presence**: Actively monitors major operations (Iran strikes, wearing MAGA hat)
+  - **Personal Direction**: "Complete reverse workflow where decisions flow from the president down"
+
+advisor_relationships:
+  closest_advisors:
+    - "Marco Rubio - 'When I have a problem, he has answers. He can fix things'"
+    - "JD Vance - Heir apparent, 'like gold to a president known for liking gilded things'"
+    - "Stephen Miller - 'Trump's brain,' longest-serving advisor, ideological enforcer"
+    - "Pete Hegseth - Culture warrior SecDef, part of inner circle Signal chats"
+
+  relationship_dynamic: |
+    Trump values advisors who:
+    1. Are absolutely loyal (never question publicly)
+    2. Can "bro out" with him (sports, UFC, personal rapport)
+    3. Implement his vision without moderating it
+    4. Win media battles defending him
+    5. Have "answers" to problems quickly
+
+    He named Rubio first when asked about successors, before Vance: "You look at Marco, you look at
+    JD Vance, who's fantastic." This creates competitive dynamic between potential 2028 heirs.
+
+key_relationships:
+  vance: "0.95 - Designated heir, handles Senate tie-breakers, foreign policy skeptic aligned with Trump instincts"
+  rubio: "0.95 - Closest problem-solver, dual SecState/Acting NSA role, trusted implementer"
+  miller: "1.0 - 'Trump's brain,' ideological soulmate, translates instincts into policy"
+  hegseth: "0.90 - Culture warrior SecDef, executes military priorities, loyalty proven"
+
+career_background: |
+  - Born June 14, 1946, Queens, New York
+  - University of Pennsylvania (BA Economics, 1968)
+  - Trump Organization president (1971-2017) - real estate, hotels, casinos, golf courses
+  - "The Apprentice" TV host (2004-2015) - earned $400M+ from show and licensing
+  - 45th President (2017-2021) - first term, defeated Clinton
+  - Lost 2020 election to Biden
+  - 47th President (2025-present) - second term, only second president with non-consecutive terms
+
+major_first_term_actions:
+  - "Withdrew from Iran nuclear deal (JCPOA, 2018)"
+  - "Killed IRGC Quds Force commander Qasem Soleimani (2020)"
+  - "Imposed tariffs on China (trade war escalation)"
+  - "Negotiated Abraham Accords (Israel-UAE-Bahrain normalization)"
+  - "Withdrew from Paris climate accord"
+  - "Built portions of border wall"
+  - "Appointed 3 Supreme Court justices"
+
+major_second_term_actions:
+  - "Operation Midnight Hammer - strikes on Iranian nuclear facilities (June 21, 2025)"
+  - "Reciprocal tariffs declaration (April 2, 2025 'Liberation Day')"
+  - "National emergency on trade deficit and border"
+  - "Mass deportation campaign (1 million target)"
+  - "DEI elimination executive orders (drafted by Miller)"
+  - "WHO withdrawal"
+  - "Ukraine ceasefire negotiations (ongoing, threatened to abandon)"
+  - "NSC restructuring (marginalized traditional process)"
+  - "China trade deal framework (November 2025)"

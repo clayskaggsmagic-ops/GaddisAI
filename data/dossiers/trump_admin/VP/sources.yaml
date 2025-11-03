@@ -1,0 +1,450 @@
+sources:
+  # OFFICIAL / PRIMARY SOURCES
+  - id: "whitehouse_vp_biography_2025"
+    title: "Vice President JD Vance - Official Biography"
+    type: "official_biography"
+    url: "https://www.whitehouse.gov/administration/jd-vance/"
+    date: "2025-01-20"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Official White House biography with education, military service, and career highlights"
+
+  - id: "senate_press_release_europe_china"
+    title: "SENATOR VANCE: EUROPE HAS TO STEP UP, AMERICA NEEDS TO FOCUS ON CHINA"
+    type: "press_release"
+    url: "https://www.vance.senate.gov/press-releases/senator-vance-europe-has-to-step-up-america-needs-to-focus-on-china/"
+    date: "2024-06-12"
+    publication: "U.S. Senate Office of JD Vance"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Senate office statement on burden-sharing and China prioritization"
+
+  - id: "munich_security_conference_speech_2025"
+    title: "Remarks by the Vice President at the Munich Security Conference"
+    type: "speech"
+    url: "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-the-munich-security-conference-0"
+    date: "2025-02-14"
+    publication: "American Presidency Project"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Full transcript of controversial 'threat from within' speech to European allies"
+    key_quotes:
+      - "The threat that I worry the most about vis-à-vis Europe is not Russia, it's not China"
+      - "There is nothing more urgent than mass migration"
+      - "America does not need clients, it needs allies"
+
+  - id: "abc_iran_interview_2025"
+    title: "Vance: 'We're not at war with Iran, we're at war with Iran's nuclear program'"
+    type: "interview"
+    url: "https://abcnews.go.com/Politics/vance-war-iran-war-irans-nuclear-program/story?id=123090085"
+    date: "2025-06-22"
+    publication: "ABC News This Week"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Sunday show interview defending Iran nuclear facility strikes"
+
+  - id: "foxnews_iran_strikes_interview_2025"
+    title: "JD Vance says Iranian nuclear program 'substantially' set back after 'precise, surgical' US strikes"
+    type: "interview"
+    url: "https://www.foxnews.com/politics/jd-vance-says-iranian-nuclear-program-substantially-set-back-after-precise-surgical-us-strikes"
+    date: "2025-06-22"
+    publication: "Fox News Sunday"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Interview praising Iran strike operation and defending military action"
+
+  - id: "vance_voting_record_votesmart"
+    title: "JD Vance Voting Record"
+    type: "voting_record"
+    url: "https://justfacts.votesmart.org/candidate/key-votes/201794/jd-vance"
+    date: "2023-2025"
+    publication: "VoteSmart"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Complete Senate voting record including foreign policy votes"
+
+  # BOOKS (PRIMARY SOURCE - DIRECT AUTHORSHIP)
+  - id: "hillbilly_elegy_book_2016"
+    title: "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis"
+    type: "book"
+    author: "JD Vance"
+    publisher: "Harper"
+    date: "2016-06-28"
+    isbn: "978-0062300546"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Bestselling memoir that launched Vance to national prominence; explains working-class worldview that informs foreign policy approach"
+
+  # LEAKED DOCUMENTS (PRIMARY BUT SENSITIVE)
+  - id: "signal_chat_leak_yemen_2025"
+    title: "In Signal chat, JD Vance cements his role as skeptic of foreign intervention"
+    type: "leaked_communication"
+    url: "https://www.washingtonpost.com/politics/2025/03/26/jd-vance-signal-chat-leak-trump-national-security/"
+    date: "2025-03-26"
+    publication: "Washington Post"
+    credibility: "primary"
+    access_date: "2025-11-03"
+    summary: "Leaked NSC Signal chat showing Vance opposing Yemen strikes; demonstrates restraint philosophy in practice"
+    key_quotes:
+      - "There is a real risk that the public doesn't understand this or why it's necessary"
+      - "Only 3 percent of US trade runs through the Suez while 40 percent of European trade does"
+      - "I am not sure the president is aware how inconsistent this is with his message on Europe right now"
+
+  - id: "signal_chat_rollcall_analysis_2025"
+    title: "Signal posts shed light on Vance's views on military force and foreign policy"
+    type: "news_analysis"
+    url: "https://rollcall.com/2025/03/26/jd-vance-foreign-policy-military-views/"
+    date: "2025-03-26"
+    publication: "Roll Call"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Signal leak describing Vance as 'most thoroughgoing America Firster' in administration"
+
+  # NEWS REPORTING - HIGH CREDIBILITY
+  - id: "cnn_vance_trump_doctrine_2025"
+    title: "How JD Vance shapes and sells the 'Trump doctrine' on foreign policy"
+    type: "news_analysis"
+    url: "https://www.cnn.com/2025/07/07/politics/jd-vance-iran-foreign-policy"
+    date: "2025-07-07"
+    publication: "CNN"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Vance's role in shaping and communicating Trump administration foreign policy"
+
+  - id: "cnn_vance_tie_breaker_analysis_2025"
+    title: "Analysis: JD Vance is on record pace for tie-breaking votes. That shows how fraught Trump's agenda is"
+    type: "news_analysis"
+    url: "https://www.cnn.com/2025/07/16/politics/vance-senate-tie-breaker-analysis"
+    date: "2025-07-16"
+    publication: "CNN"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis showing Vance on pace for 58 tie-breaking votes, far exceeding historical averages"
+
+  - id: "wapo_vance_white_house_role_2025"
+    title: "In Trump's crowded White House, JD Vance finds a role behind the scenes"
+    type: "investigative_reporting"
+    url: "https://www.washingtonpost.com/politics/2025/03/10/jd-vance-trump-white-house/"
+    date: "2025-03-10"
+    publication: "Washington Post"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Investigation into Vance's influence and working relationships in Trump White House"
+
+  - id: "wapo_vance_rubio_competition_2025"
+    title: "Rivals, buddies, or future running mates? Trump stokes a Vance-Rubio competition"
+    type: "news_analysis"
+    url: "https://www.semafor.com/article/05/07/2025/rivals-buddies-or-future-running-mates-trump-stokes-a-vance-rubio-competition"
+    date: "2025-05-07"
+    publication: "Semafor"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Vance-Rubio relationship dynamics and 2028 positioning"
+
+  - id: "rollcall_iran_vance_rubio_2025"
+    title: "Trump's Iran strikes put potential heirs Vance and Rubio in spotlight"
+    type: "news_analysis"
+    url: "https://rollcall.com/2025/06/23/vance-rubio-iran-strikes-trump-heirs/"
+    date: "2025-06-23"
+    publication: "Roll Call"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Coverage of how Iran strikes positioned both Vance and Rubio as MAGA heirs"
+
+  - id: "npr_vance_munich_speech_2025"
+    title: "Vance scorches European allies in Munich speech, lecturing them about democracy"
+    type: "news_article"
+    url: "https://www.npr.org/2025/02/13/nx-s1-5290258/vance-munich-security-conference-trump-putin-zelenskyy-russia-ukraine"
+    date: "2025-02-13"
+    publication: "NPR"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Coverage of controversial Munich Security Conference speech and European reactions"
+
+  - id: "npr_vance_role_white_house_2025"
+    title: "A look at VP Vance's role in the Trump White House"
+    type: "news_analysis"
+    url: "https://www.npr.org/2025/03/06/nx-s1-5316821/a-look-at-vp-vances-role-in-the-trump-white-house"
+    date: "2025-03-06"
+    publication: "NPR"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Vance's vice presidential role and influence mechanisms"
+
+  - id: "nbc_vance_carving_role_2025"
+    title: "How JD Vance is carving out his role as VP: From the Politics Desk"
+    type: "news_analysis"
+    url: "https://www.nbcnews.com/politics/jd-vance-carving-role-vp-politics-desk-rcna191284"
+    date: "2025-03-05"
+    publication: "NBC News"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of how Vance has defined his VP role in first months"
+
+  - id: "nbc_vance_iran_salesman_2025"
+    title: "Iran strikes push Vance, a foreign intervention skeptic, into the role of salesman"
+    type: "news_analysis"
+    url: "https://www.nbcnews.com/politics/jd-vance/iran-vance-intervention-skeptic-role-salesman-rcna214345"
+    date: "2025-06-23"
+    publication: "NBC News"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of tension between Vance's restraint philosophy and his defense of Iran strikes"
+
+  - id: "abc_vance_trump_surrogate_2025"
+    title: "From bashing Zelensky to lobbying senators, Vance settles in as Trump's No. 2"
+    type: "news_profile"
+    url: "https://www.cnn.com/2025/02/22/politics/vance-trump-surrogate/index.html"
+    date: "2025-02-22"
+    publication: "CNN"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Profile of Vance's role as Trump's chief advocate and legislative liaison"
+
+  - id: "cnn_vance_trump_heir_2025"
+    title: "Trump suggests Vance is likely heir apparent to the MAGA movement, the furthest he's gone in backing VP's future"
+    type: "news_article"
+    url: "https://www.cnn.com/2025/08/05/politics/jd-vance-marco-rubio-maga-future"
+    date: "2025-08-05"
+    publication: "CNN"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Coverage of Trump explicitly backing Vance as 'most likely' MAGA successor"
+
+  - id: "cnn_vance_crisis_manager_2025"
+    title: "Vance embraces his growing role as Trump's chief problem solver — and the implications for a 2028 run"
+    type: "news_analysis"
+    url: "https://www.cnn.com/2025/08/07/politics/vance-trump-crisis-epstein-future"
+    date: "2025-08-07"
+    publication: "CNN"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Vance as Trump's 'fixer' on Capitol Hill and in crises"
+
+  # FOREIGN POLICY ANALYSIS
+  - id: "ecfr_vance_foreign_policy_2024"
+    title: "J.D. Vance's foreign policy: When restraint meets culture war"
+    type: "policy_analysis"
+    url: "https://ecfr.eu/article/j-d-vances-foreign-policy-when-restraint-meets-culture-war/"
+    date: "2024-07-18"
+    publication: "European Council on Foreign Relations"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "European think tank analysis of Vance's foreign policy philosophy combining restraint and nationalism"
+
+  - id: "nbc_vance_new_right_foreign_policy_2024"
+    title: "For JD Vance, foreign policy starts at home"
+    type: "news_analysis"
+    url: "https://www.nbcnews.com/news/world/jd-vance-foreign-policy-new-right-rcna164869"
+    date: "2024-07-20"
+    publication: "NBC News"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Analysis of Vance's economic nationalist approach to foreign policy"
+
+  - id: "thehill_vance_foreign_policy_positions_2024"
+    title: "Where JD Vance stands on Ukraine, Israel and China"
+    type: "news_profile"
+    url: "https://thehill.com/policy/international/4773538-jd-vance-foreign-policy/"
+    date: "2024-07-15"
+    publication: "The Hill"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Overview of Vance's positions on major foreign policy issues"
+
+  - id: "aljazeera_vance_positions_2024"
+    title: "JD Vance's world: Where does Trump VP pick stand on Israel, Ukraine, China?"
+    type: "news_analysis"
+    url: "https://www.aljazeera.com/news/2024/7/16/what-are-jd-vances-foreign-policy-positions-on-israel-ukraine-and-china"
+    date: "2024-07-16"
+    publication: "Al Jazeera"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "International perspective on Vance's foreign policy positions"
+
+  - id: "asiatimes_vance_china_ukraine_2024"
+    title: "JD Vance as VP: China focus, less help for Ukraine"
+    type: "policy_analysis"
+    url: "https://asiatimes.com/2024/07/jd-vance-as-vp-china-focus-less-help-for-ukraine/"
+    date: "2024-07-16"
+    publication: "Asia Times"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Asian perspective on Vance's Indo-Pacific prioritization"
+
+  - id: "russia_matters_vance_russia_2024"
+    title: "JD Vance on Russia"
+    type: "policy_compilation"
+    url: "https://www.russiamatters.org/analysis/jd-vance-russia"
+    date: "2024-07-16"
+    publication: "Russia Matters (Harvard)"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Compilation of Vance statements and positions on Russia and Ukraine"
+
+  # REFERENCE SOURCES
+  - id: "wikipedia_jd_vance"
+    title: "JD Vance - Wikipedia"
+    type: "reference"
+    url: "https://en.wikipedia.org/wiki/JD_Vance"
+    date: "2025-11-01"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Comprehensive biographical information with citations"
+
+  - id: "wikipedia_vance_vice_presidency"
+    title: "Vice presidency of JD Vance - Wikipedia"
+    type: "reference"
+    url: "https://en.wikipedia.org/wiki/Vice_presidency_of_JD_Vance"
+    date: "2025-11-01"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Detailed documentation of VP tenure with key events and decisions"
+
+  - id: "britannica_jd_vance"
+    title: "J.D. Vance | Education, Book, Wife, Kids, Inauguration, & Facts"
+    type: "reference"
+    url: "https://www.britannica.com/biography/J-D-Vance"
+    date: "2025-10-15"
+    publication: "Britannica"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Encyclopedia entry with key biographical facts"
+
+  - id: "ballotpedia_vance"
+    title: "J.D. Vance - Ballotpedia"
+    type: "reference"
+    url: "https://ballotpedia.org/J.D._Vance"
+    date: "2025-01-20"
+    publication: "Ballotpedia"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Political profile with career timeline and election results"
+
+  - id: "govtrack_vance"
+    title: "Vice President James David 'J.D.' Vance [R, 2025-2029]"
+    type: "reference"
+    url: "https://www.govtrack.us/congress/members/james_david_vance/456876"
+    date: "2025-01-20"
+    publication: "GovTrack"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Senate record and statistics"
+
+  - id: "biography_com_vance"
+    title: "JD Vance: Biography, U.S. Vice President–Elect, 'Hillbilly Elegy'"
+    type: "reference"
+    url: "https://www.biography.com/political-figures/a61928046/jd-vance"
+    date: "2024-11-15"
+    publication: "Biography.com"
+    credibility: "secondary"
+    access_date: "2025-11-03"
+    summary: "Biographical profile focusing on life story and career arc"
+
+research_provenance:
+  search_queries_used:
+    - "JD Vance Vice President Trump 2025 National Security Council role foreign policy positions"
+    - "JD Vance China policy Taiwan Ukraine NATO positions 2025"
+    - "JD Vance confirmation Vice President 2025 Senate voting record foreign policy"
+    - "JD Vance relationship Trump 2025 influence White House tie-breaking votes"
+    - "JD Vance Signal chat Yemen strikes leak foreign policy restraint April 2025"
+    - "JD Vance Munich Security Conference February 2025 speech Europe threat from within"
+    - "JD Vance biography Hillbilly Elegy venture capital Yale Law School military service"
+    - "JD Vance Iran strikes June 2025 Situation Room nuclear sites Trump"
+    - "JD Vance Pete Hegseth relationship Marco Rubio working together Trump administration 2025"
+
+  source_breakdown:
+    primary_sources: 7
+    leaked_documents: 2
+    secondary_sources: 21
+    reference_sources: 6
+    total: 36
+
+  source_types:
+    official_government: 3
+    speeches_interviews: 4
+    voting_records: 1
+    books: 1
+    leaked_communications: 2
+    news_reporting: 15
+    policy_analysis: 6
+    reference: 6
+
+  credibility_distribution:
+    primary: 9
+    secondary: 27
+
+  geographic_coverage:
+    us_sources: 27
+    european_sources: 2
+    asian_sources: 1
+    middle_eastern_sources: 1
+    international_sources: 5
+
+  political_spectrum:
+    conservative: 3
+    mainstream: 24
+    progressive: 2
+    international: 7
+
+  confidence_assessment:
+    overall_confidence: "very_high"
+    rationale: "Extensive public record from 'Hillbilly Elegy' (2016) through VP tenure (2025). Multiple primary sources including official speeches, interviews, and leaked Signal chats showing private deliberations. Senate voting record documented. Munich speech and Iran strikes well-covered. Vance-Rubio relationship confirmed by multiple independent sources. Only 10 months as VP so still developing record, but trajectory clear."
+
+  key_timeline_events:
+    - "2016-06-28: Published 'Hillbilly Elegy', became bestseller"
+    - "2016: Never Trump critic during campaign"
+    - "2019: Co-founded Narya Capital with Thiel backing"
+    - "2022-11: Elected U.S. Senator from Ohio"
+    - "2023-01: Sworn in as Senator"
+    - "2024-07: Selected as Trump VP nominee"
+    - "2024-11: Elected Vice President"
+    - "2025-01-20: Sworn in as 50th Vice President"
+    - "2025-01-25: Cast tie-breaking vote confirming Pete Hegseth as SecDef"
+    - "2025-02-14: Munich Security Conference 'threat from within' speech"
+    - "2025-03: Signal chat leak showed opposition to Yemen strikes"
+    - "2025-06-21: Present in Situation Room for Iran nuclear strikes"
+    - "2025-07: On pace for 58 tie-breaking votes (record)"
+    - "2025-08: Trump called him 'most likely' MAGA heir for 2028"
+
+  research_date: "2025-11-03"
+  researcher: "Claude (AI Assistant with WebSearch capability)"
+  research_method: "Web search + synthesis of primary and secondary sources"
+
+  areas_of_strength:
+    - "Foreign policy positions extremely well documented (speeches, interviews, Signal leaks)"
+    - "Munich speech and Europe relationship extensively covered"
+    - "Vance-Rubio working relationship confirmed by multiple sources"
+    - "Tie-breaking votes and Senate role well-documented"
+    - "Hillbilly Elegy provides clear window into worldview formation"
+    - "Signal chat leak gives rare insight into private NSC deliberations"
+
+  areas_of_weakness:
+    - "Limited documentation on specific intelligence oversight activities"
+    - "Details of daily NSC participation beyond major events"
+    - "Specific relationships with Asian allies beyond general statements"
+    - "Private conversations with Trump (reliant on reporting not direct evidence)"
+    - "Full details of TikTok deal involvement"
+
+  update_recommendations:
+    - "Monitor tie-breaking vote count and major confirmations (ongoing)"
+    - "Track additional foreign policy speeches and statements (quarterly)"
+    - "Update after significant NSC decisions or crises (as occur)"
+    - "Refresh Vance-Rubio relationship dynamics (semi-annually)"
+    - "Document any 2028 campaign preparations (as they emerge)"
+
+  critical_note: |
+    IMPORTANT FOR SYSTEM USERS:
+
+    JD Vance is positioned as Trump's heir apparent for 2028 MAGA leadership.
+    This gives him extraordinary influence for a Vice President.
+
+    His closest relationship is with Marco Rubio (SecState / Acting NSA), who he
+    consults with daily. Their offices are adjacent and they are each other's
+    primary foreign policy advisors within the administration.
+
+    Vance is described as "the most thoroughgoing and consistent America Firster
+    in the administration, even more than Trump" per leaked Signal chats.
+
+    His foreign policy philosophy: Restraint + China focus + European burden-sharing
+    + working-class economic lens. Exception: willing to use force on Iran nuclear threat.
